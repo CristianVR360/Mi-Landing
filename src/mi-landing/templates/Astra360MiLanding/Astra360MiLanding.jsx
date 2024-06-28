@@ -27,7 +27,7 @@ const Astra360MiLanding = () => {
     carouselLinks: [
       {
         image: carouselImage1,
-        videoUrl: "",
+        videoUrl: carouselVideo1,
         title: 'Audiovisual',
         subtitle: 'Videos promocionales y contenido para RRSS',
         description: 'Producción audiovisual de alta calidad, desde la Conceptualización del Video, Rodaje, Edición y Postproducción. Incluye Reels para multiples plataformas',
