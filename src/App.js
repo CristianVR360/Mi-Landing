@@ -4,8 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Importación dinámica de los componentes de clientes
 const Astra360MiLanding = lazy(() => import('./mi-landing/templates/Astra360MiLanding/Astra360MiLanding'));
-const PuertoMayorMiLanding = lazy(()=> import('./mi-landing/templates/PuertoMayor/PuertoMayorMilanding'));
-// Agrega más importaciones dinámicas para otros clientes
+const PuertoMayorMiLanding = lazy(() => import('./mi-landing/templates/PuertoMayor/PuertoMayorMilanding'));
 
 const App = () => {
   return (
