@@ -1,0 +1,29 @@
+.mi-landing-transition-inicio-enter {
+    opacity: 0;
+  }
+  .mi-landing-transition-inicio-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  .mi-landing-transition-inicio-exit {
+    opacity: 1;
+  }
+  .mi-landing-transition-inicio-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+  .mi-landing-transition-carousel-enter {
+    opacity: 0;
+  }
+  .mi-landing-transition-carousel-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  .mi-landing-transition-carousel-exit {
+    opacity: 1;
+  }
+  .mi-landing-transition-carousel-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }

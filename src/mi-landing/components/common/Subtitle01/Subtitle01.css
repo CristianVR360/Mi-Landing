@@ -1,0 +1,22 @@
+.landing__subtitle {
+    display: inline-block;
+    padding: 4px 9px; /* Ajusta el padding según sea necesario */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: opacity 1s ease-in-out;
+    text-align: center; /* Centrar el texto */
+    
+ 
+    margin-top: 20px;
+
+    overflow: hidden; /* Oculta el desbordamiento */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+  }
+  
+  .fadeIn {
+    opacity: 1;
+  }
+  
+  .fadeOut {
+    opacity: 0;
+  }
+  
