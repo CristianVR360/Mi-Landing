@@ -63,6 +63,9 @@
   padding: 0;
   margin: 0;
   text-align: center;
+  z-index: 1;
+  width: auto; /* Cambia el ancho a "auto" para que se ajuste al contenido */
+  display: inline-block; /* Cambia el display a "inline-block" para que el ancho se ajuste al contenido */
 }
 
 .carrusel .slick-dots li {
@@ -74,7 +77,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #bbb;
+  background-color: #f8f6f6;
   border: none;
   outline: none;
   cursor: pointer;
@@ -83,20 +86,21 @@
 }
 
 .carrusel .slick-dots li.slick-active button {
-  background-color: #555;
+  background-color: #e7dfdf;
 }
+
 
 .carrusel__title {
   margin: 0;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
 }
 
 .carrusel__description {
-  margin: 20px 0 0;
-  font-size: 24px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 15px 0 0;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
 }
 
 .carrusel__content {
@@ -115,7 +119,8 @@
 
 .carrusel__subtitle {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .carrusel__button {
@@ -125,7 +130,9 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  opacity: 0.8;
+  
+  margin-top: 20px;
+  z-index: 9999;
 }
 
 @media screen and (max-width: 768px) {

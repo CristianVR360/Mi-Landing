@@ -3,7 +3,7 @@ import Header from "../../components/Header/Header";
 import Hero from "../../components/Hero/Hero";
 import Carousel from "../../components/Carousel/Carousel";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import "./MiLanding.css"; // Asegúrate de tener estilos para las transiciones
+import "./MiLanding.css";
 
 const MiLanding = ({ landingPageData, opciones }) => {
   const [activeComponent, setActiveComponent] = useState("inicio");
@@ -23,7 +23,7 @@ const MiLanding = ({ landingPageData, opciones }) => {
         colorSecundario={landingPageData.colorSecundario}
         handleNavigation={handleNavigation}
         activeComponent={activeComponent}
-        opciones={opciones} // Pass the opciones prop to Header
+        opciones={opciones}
       />
       <TransitionGroup>
         <CSSTransition
@@ -55,9 +55,9 @@ const MiLanding = ({ landingPageData, opciones }) => {
                 footerAfterStyles={landingPageData.footerAfterStyles}
                 logo={landingPageData.logo}
               />
-            ) : activeComponent === "carousel" ? (
+            ) : (
               <Carousel
-                carouselLinks={landingPageData.carouselLinks} // Ensure the prop name matches
+                carouselLinks={landingPageData.carousels[activeComponent]}
                 colorPrimario={landingPageData.colorPrimario}
                 colorPrimarioTransparente={landingPageData.colorPrimarioTransparente}
                 colorSecundario={landingPageData.colorSecundario}
@@ -69,21 +69,7 @@ const MiLanding = ({ landingPageData, opciones }) => {
                 gpsLink={landingPageData.gpsLink}
                 footerAfterStyles={landingPageData.footerAfterStyles}
               />
-            ) : activeComponent === "newCarousel" ? (
-              <Carousel
-                carouselLinks={landingPageData.newCarouselLinks} // Nueva prop para el nuevo carrusel
-                colorPrimario={landingPageData.colorPrimario}
-                colorPrimarioTransparente={landingPageData.colorPrimarioTransparente}
-                colorSecundario={landingPageData.colorSecundario}
-                colorTerciario={landingPageData.colorTerciario}
-                colorCuaternario={landingPageData.colorCuaternario}
-                telefono={landingPageData.telefono}
-                instagramLink={landingPageData.instagramLink}
-                facebookLink={landingPageData.facebookLink}
-                gpsLink={landingPageData.gpsLink}
-                footerAfterStyles={landingPageData.footerAfterStyles}
-              />
-            ) : null}
+            )}
           </div>
         </CSSTransition>
       </TransitionGroup>

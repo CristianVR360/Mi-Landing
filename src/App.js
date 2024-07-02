@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 const Astra360MiLanding = lazy(() => import('./mi-landing/templates/Astra360MiLanding/Astra360MiLanding'));
 const PuertoMayorMiLanding = lazy(() => import('./mi-landing/templates/PuertoMayor/PuertoMayorMilanding'));
 
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Astra360MiLanding />} />
           <Route path="/Puerto-Mayor" element={<PuertoMayorMiLanding />} />
+          
           {/* Agrega más rutas para otros clientes */}
         </Routes>
       </Suspense>

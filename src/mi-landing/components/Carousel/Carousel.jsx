@@ -49,81 +49,85 @@ const Carousel = ({
   return (
     <div className="carrusel">
       <Slider {...settings}>
-        {carouselLinks.map((link, index) => (
-          <div key={index} className="carrusel__slide">
-            {showIframe && link.buttonConfig && link.buttonConfig.type === 'iframe' && (
-              <iframe
-                src={iframeUrl}
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allowFullScreen
-                title="Contenido Iframe"
-              ></iframe>
-            )}
-            {!showIframe && (
-              <>
-                {link.videoUrl ? (
-                  <div className="carrusel__video-container">
-                    <video
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      webkit-playsinline
-                      poster={link.image}
-                      className="carrusel__video"
-                    >
-                      <source src={link.videoUrl} type="video/mp4" />
-                    </video>
-                  </div>
-                ) : (
-                  <div
-                    className="carrusel__image-container"
-                    style={{ backgroundImage: `url(${link.image})` }}
-                  />
-                )}
-                <div
-                  className="carrusel__content"
-                  style={{ backgroundColor: colorPrimarioTransparente }}
-                >
-                  <div className="carrusel__overlay">
-                    <h2
-                      className="carrusel__title"
-                      style={{ color: colorSecundario }}
-                    >
-                      {link.title}
-                    </h2>
-                    <h3
-                      className="carrusel__subtitle"
-                      style={{ color: colorTerciario }}
-                    >
-                      {link.subtitle}
-                    </h3>
-                    <p
-                      className="carrusel__description"
-                      style={{ color: colorSecundario }}
-                    >
-                      {link.description}
-                    </p>
-                    {link.buttonConfig && (
-                      <button
-                        className="carrusel__button"
-                        style={{
-                          backgroundColor: colorTerciario,
-                          color: colorSecundario,
-                        }}
-                        onClick={() => handleButtonClick(link.buttonConfig)}
+        {carouselLinks && carouselLinks.length > 0 ? (
+          carouselLinks.map((link, index) => (
+            <div key={index} className="carrusel__slide">
+              {showIframe && link.buttonConfig && link.buttonConfig.type === 'iframe' && (
+                <iframe
+                  src={iframeUrl}
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  title="Contenido Iframe"
+                ></iframe>
+              )}
+              {!showIframe && (
+                <>
+                  {link.videoUrl ? (
+                    <div className="carrusel__video-container">
+                      <video
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        webkit-playsinline
+                        poster={link.image}
+                        className="carrusel__video"
                       >
-                        {link.buttonConfig.buttonText}
-                      </button>
-                    )}
+                        <source src={link.videoUrl} type="video/mp4" />
+                      </video>
+                    </div>
+                  ) : (
+                    <div
+                      className="carrusel__image-container"
+                      style={{ backgroundImage: `url(${link.image})` }}
+                    />
+                  )}
+                  <div
+                    className="carrusel__content"
+                    style={{ backgroundColor: colorPrimarioTransparente }}
+                  >
+                    <div className="carrusel__overlay">
+                      <h2
+                        className="carrusel__title"
+                        style={{ color: colorSecundario }}
+                      >
+                        {link.title}
+                      </h2>
+                      <h3
+                        className="carrusel__subtitle"
+                        style={{ color: colorSecundario }}
+                      >
+                        {link.subtitle}
+                      </h3>
+                      <p
+                        className="carrusel__description"
+                        style={{ color: colorSecundario }}
+                      >
+                        {link.description}
+                      </p>
+                      {link.buttonConfig && (
+                        <button
+                          className="carrusel__button"
+                          style={{
+                            backgroundColor: colorTerciario,
+                            color: colorSecundario,
+                          }}
+                          onClick={() => handleButtonClick(link.buttonConfig)}
+                        >
+                          {link.buttonConfig.buttonText}
+                        </button>
+                      )}
+                    </div>
                   </div>
-                </div>
-              </>
-            )}
-          </div>
-        ))}
+                </>
+              )}
+            </div>
+          ))
+        ) : (
+          <p>No hay elementos para mostrar en este carrusel.</p>
+        )}
       </Slider>
       <PopUpIframe
         show={showPopUp}
