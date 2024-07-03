@@ -1,5 +1,10 @@
 import React, { useEffect } from 'react';
 import MiLanding from '../../pages/Preview/MiLanding';
+
+
+
+//importacion de recursos
+import favUrl from './assets/fav.jpg'
 import logo from './assets/logopm_b.png';
 import parqueVicunaBkg from './assets/ParqueVicuna.jpg';
 import foto01 from './assets/PilotoAragon.jpg';
@@ -10,6 +15,7 @@ import catalunaGourmet from './assets/Gourmet.jpg';
 import aragonPiloto from './assets/PilotoAragon.jpg';
 import aragonPortada from './assets/AragonAerea.jpg';
 import catalunaPortada from './assets/CatalunaAerea.jpg';
+import puertoMayorIIPortada from './assets/PuertoMayor.jpg';
 
 
 const Astra360MiLanding = () => {
@@ -147,6 +153,21 @@ const Astra360MiLanding = () => {
           
         },
       ],
+
+      carousel04: [
+        {
+          image: puertoMayorIIPortada,
+          videoUrl: "",
+          title: 'PUERTO MAYOR II',
+          subtitle: 'Bulnes 220, Los Ángeles',
+          description: 'Al costado del Edificio Puerto Mayor I y en un sector residencial a pasos del centro de la ciudad, moderno sistema de oficinas con plantas libres, para que diseñes como necesites',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://s3.sa-east-1.amazonaws.com/tourvirtual.grupomarketing.cl/PuertoMayor/output/index.html',
+            buttonText: 'Ver Master Plan',
+          },
+        },
+      ]
     },
     telefono: '+56998474178',
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
@@ -169,7 +190,7 @@ const Astra360MiLanding = () => {
   useEffect(() => {
     document.title = 'Puerto Mayor';
     const favicon = document.querySelector('link[rel="icon"]');
-    favicon.href = 'astra360_favicon.ico';
+    favicon.href =  favUrl;
 
     return () => {
       document.title = 'MiLanding';

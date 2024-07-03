@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import MiLanding from '../../pages/Preview/MiLanding';
-import logo from './assets/img/logo/logo-astra.png';
+import logo from './assets/img/Logo-astra-Blanco.png';
+import faviconUrl from './assets/img/favicon.png';
 import bkg from './assets/img/astra-fondo.jpg';
-import carouselImage1 from './assets/img/astra-fondo.jpg';
-import carouselImage2 from './assets/img/astra-fondo.jpg';
-import carouselVideo1 from './assets/video/Astra360drone1.mp4';
-import carouselVideo2 from './assets/video/astratv3.mp4';
+//import carouselImage1 from './assets/img/astra-fondo.jpg';
+//import carouselImage2 from './assets/img/astra-fondo.jpg';
+//import carouselVideo1 from './assets/video/Astra360drone1.mp4';
+//import carouselVideo2 from './assets/video/astratv3.mp4';
 
 const Astra360MiLanding = () => {
   const landingPageData = {
@@ -16,7 +17,7 @@ const Astra360MiLanding = () => {
     colorTerciario: '#9b59b6',
     colorCuaternario: '#34495e',
     backgroundImage: bkg,
-    title: 'ASTRA 360',
+  
     description: 'Marketing Inmobiliario Digital',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
@@ -24,49 +25,7 @@ const Astra360MiLanding = () => {
     ctaWhatsappButton: '¡Hablemos!',
     iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingPuertoMayor/output/index.html',
     subtitles: ['Recorridos virtuales y experiencias 360', 'Contenido Audiovisual', 'Desarrollo web'],
-    carouselLinks: [
-      {
-        image: carouselImage1,
-        videoUrl: carouselVideo1,
-        title: 'Audiovisual',
-        subtitle: 'Videos promocionales y contenido para RRSS',
-        description: 'Producción audiovisual de alta calidad, desde la Conceptualización del Video, Rodaje, Edición y Postproducción. Incluye Reels para multiples plataformas',
-        cta: 'Learn More',
-        buttonConfig: {
-          type: 'link',
-          iframeUrl: 'https://s3.sa-east-1.amazonaws.com/cristian.tv360/Nualart/Ponte-Vedra/a%C3%A9rea/output/index.html',
-          buttonText: 'Ver Tour Virtual',
-        },
-      },
-      {
-        image: carouselImage2,
-        videoUrl: carouselVideo2,
-        title: 'Recorridos Virtuales y experiencias 360',
-        subtitle: 'Inmobiliarias, Proyectos de Parcelación',
-        description: 'Master Plan 360 interactivo, incluye tags de informacion, puntos de interes geograficos, ubicacion, deslindes del proyecto, etc',
-        cta: 'Get Started',
-      },
     
-    ],
-    newCarouselLinks: [
-      {
-        image: carouselImage2,
-        videoUrl: carouselVideo2,
-        title: 'Carrusel 2',
-        subtitle: 'Inmobiliarias, Proyectos de Parcelación',
-        description: 'Master Plan 360 interactivo, incluye tags de informacion, puntos de interes geograficos, ubicacion, deslindes del proyecto, etc',
-        cta: 'Get Started',
-      },
-      {
-        image: carouselImage2,
-        videoUrl: carouselVideo2,
-        title: 'Ort probandoooo',
-        subtitle: 'Inmobiliarias, Proyectos de Parcelación',
-        description: 'Master Plan 360 interactivo, incluye tags de informacion, puntos de interes geograficos, ubicacion, deslindes del proyecto, etc',
-        cta: 'Get Started',
-      },
-    ],
-
     telefono: '+56984305751',
     instagramLink: 'https://instagram.com/astra360',
     facebookLink: 'https://facebook.com/astra360',
@@ -79,8 +38,7 @@ const Astra360MiLanding = () => {
 
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
-    { id: 'carousel', texto: 'Servicios' },
-    { id: 'newCarousel', texto: 'Portafolio' }
+    
     // Agrega más opciones según sea necesario
   ];
 
@@ -90,13 +48,13 @@ const Astra360MiLanding = () => {
 
     // Actualizar el favicon
     const favicon = document.querySelector('link[rel="icon"]');
-    favicon.href = 'astra360_favicon.ico';
+    favicon.href = faviconUrl;
 
     // Limpieza (opcional)
     return () => {
       // Restaurar el título y el favicon a su estado original al desmontar el componente
       document.title = 'MiLanding';
-      favicon.href = 'default_favicon.ico';
+      favicon.href = favicon;
     };
   }, []);
 
