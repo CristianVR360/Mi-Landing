@@ -18,7 +18,7 @@ import catalunaPortada from './assets/CatalunaAerea.jpg';
 import puertoMayorIIPortada from './assets/PuertoMayor.jpg';
 
 
-const Astra360MiLanding = () => {
+const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logo,
     colorPrimario: '#3498db',
@@ -34,6 +34,15 @@ const Astra360MiLanding = () => {
     ctaWhatsappButton: '¡Agenda tu visita virtual!',
     iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingPuertoMayor/output/index.html',
     subtitles: ['Sumérgete en nuestros recorridos 360', 'Explora a tu propio ritmo, en cualquier momento y lugar', 'Elije tu futuro hogar desde la comodidad de tu sofá'],
+    telefono: '+56998474178',
+    instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
+    facebookLink: 'https://facebook.com/puertomayor.inmobiliaria',
+    gpsLink: 'https://maps.app.goo.gl/gfHdC1akMjBd6BzN8',
+    footerAfterStyles: {
+      background: "linear-gradient(to bottom, rgba(0, 179, 152, 0) 0%, rgba(0, 179, 152, 0.2) 5%, rgba(0, 179, 152, 0.4) 20%, rgba(0, 179, 152, 0.7) 50%, rgba(0, 179, 152, 0.9) 70%, rgba(0, 179, 152, 1) 100%)",
+      textColor: '#f1f1f1'
+    },
+    
     carousels: {
       carousel01: [
         {
@@ -42,6 +51,7 @@ const Astra360MiLanding = () => {
           title: 'PARQUE VICUÑA',
           subtitle: 'Avenida Ricardo Vicuña 812',
           description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
+          
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
@@ -169,14 +179,7 @@ const Astra360MiLanding = () => {
         },
       ]
     },
-    telefono: '+56998474178',
-    instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
-    facebookLink: 'https://facebook.com/puertomayor.inmobiliaria',
-    gpsLink: 'https://maps.app.goo.gl/gfHdC1akMjBd6BzN8',
-    footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(0, 179, 152, 0) 0%, rgba(0, 179, 152, 0.2) 5%, rgba(0, 179, 152, 0.4) 20%, rgba(0, 179, 152, 0.7) 50%, rgba(0, 179, 152, 0.9) 70%, rgba(0, 179, 152, 1) 100%)",
-      textColor: '#f1f1f1'
-    },
+   
   };
 
   const opciones = [
@@ -185,6 +188,7 @@ const Astra360MiLanding = () => {
     { id: 'carousel02', texto: 'Aragón' },
     { id: 'carousel03', texto: 'Cataluña' },
     { id: 'carousel04', texto: 'Puerto Mayor II' },
+    
   ];
 
   useEffect(() => {
@@ -205,4 +209,4 @@ const Astra360MiLanding = () => {
   );
 };
 
-export default Astra360MiLanding;
+export default TemplateMiLanding;
