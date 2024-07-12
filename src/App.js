@@ -10,7 +10,7 @@ const PuertoMayorCatalunaMiLanding = lazy(() => import('./mi-landing/templates/C
 const PuertoMayorAragonMiLanding = lazy(() => import('./mi-landing/templates/AragonMiLanding/Aragon'));
 const PuertoMayorPuertoMAyorIIMiLanding = lazy(() => import('./mi-landing/templates/PuertoMayorIIMiLanding/PuertoMayorII'));
 const ParqueVicuna = lazy(() => import('./mi-landing/templates/ParqueVicunaMiLanding/ParqueVicunaMiLanding'));
-
+const Ayurbana = lazy(() => import('./mi-landing/templates/AyurbanaMiLanding/AyurbanaMiLanding'));
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/Puerto-Mayor-Aragon" element={<PuertoMayorAragonMiLanding />} />
           <Route path="/Puerto-Mayor-Puerto-Mayor-II" element={<PuertoMayorPuertoMAyorIIMiLanding />} /> 
           <Route path="/Puerto-Mayor-Parque-Vicuña" element={<ParqueVicuna />} />
-          
+          <Route path="/Ayurbana" element={<Ayurbana />} />
           {/* Agrega más rutas para otros clientes */}
         </Routes>
       </Suspense>
