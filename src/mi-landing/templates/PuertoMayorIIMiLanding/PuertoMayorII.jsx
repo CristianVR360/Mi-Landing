@@ -69,7 +69,7 @@ const TemplateMiLanding = () => {
 
   const opciones = [// declaro el boton - nombre del boton
     { id: 'inicio', texto: 'Inicio' },
-    { id: 'carousel01', texto: 'Puerto Mayor II' },
+    { id: 'carousel01', texto: 'Tour Virtual' },
     
     
   ];
