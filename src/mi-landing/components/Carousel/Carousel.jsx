@@ -6,6 +6,7 @@ import "./Carousel.css";
 import PopUpIframe from "../PopUpIframe/PopUpIframe"; // Importa el componente PopUpIframe
 
 const Carousel = ({
+  logo,
   carouselLinks,
   colorPrimario,
   colorPrimarioTransparente,
@@ -130,6 +131,8 @@ const Carousel = ({
         )}
       </Slider>
       <PopUpIframe
+      logo={logo}
+        colorPrimario={colorPrimario}
         show={showPopUp}
         onClose={() => setShowPopUp(false)}
         iframeUrl={iframeUrl}

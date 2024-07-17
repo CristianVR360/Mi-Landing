@@ -7,22 +7,22 @@ import logo from './assets/Aragon-logo.png';
 import mainBkg from './assets/Sala-Ventas.jpg';
 import carouselBkg from './assets/AragonAerea.jpg';
 import aragonPiloto from './assets/PilotoAragon.jpg';
-
+import edificioPortada from './assets/EdificioPortada.jpg';
 
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logo,
     colorPrimario: '#4d9dd2 ',
     colorSecundario: '#fff',
-    colorPrimarioTransparente: 'rgba(52, 152, 219, 0.5)',
-    colorTerciario: '#9b59b6',
+    colorPrimarioTransparente: 'rgba(52, 152, 219, 0.8)',
+    colorTerciario: '#313131',
     colorCuaternario: '#34495e',
     backgroundImage: mainBkg,
     title: 'BIENVENIDO A NUESTRO RECORRIDO VIRTUAL',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
-    ctaWhatsappButton: '¡Asesorate aqui!',
+    ctaWhatsappButton: '¡Contáctate con nosotros!',
     iframeBackground: '',
     subtitles: [
       'Roberto Figueroa, Asesor de ventas',
@@ -30,11 +30,14 @@ const TemplateMiLanding = () => {
       'Asesórate para adquirir el hogar de tus sueños'
     ],
     telefono: '+56954237688',
+    footerText:" ventas@ipuertomayor.cl",
+    linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
     facebookLink: 'https://facebook.com/puertomayor.inmobiliaria',
     gpsLink: 'https://maps.app.goo.gl/QCgv6wFv6Lk6UAuQ9',
     footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(0, 179, 152, 0) 0%, rgba(0, 179, 152, 0.2) 5%, rgba(0, 179, 152, 0.4) 20%, rgba(0, 179, 152, 0.7) 50%, rgba(0, 179, 152, 0.9) 70%, rgba(0, 179, 152, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(52, 152, 219, 0) 0%, rgba(52, 152, 219, 0.2) 5%, rgba(52, 152, 219, 0.4) 20%, rgba(52, 152, 219, 0.7) 50%, rgba(52, 152, 219, 0.9) 70%, rgba(52, 152, 219, 1) 100%)",
+
       textColor: '#f1f1f1'
     },
     carousels: {
@@ -48,7 +51,7 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/Aerea/output/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver ubicación',
           },
         },
         {
@@ -60,16 +63,45 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/CasaPiloto/output-1/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver ubicación',
           },
         },
       ],
+
+
+      carousel02: [
+        {
+          image: edificioPortada,
+          videoUrl: "",
+          title: 'EFIDICIO ARAGON',
+          subtitle: 'PRÓXIMAMENTE',
+          description: 'Edificio de 7 pisos con un total de 56 departamentos, de 1, 2 y 3 dormitorios, con metrajes desde 36 m² hasta 79m²',
+          buttonConfig: {
+            type: '',
+            iframeUrl: '',
+            buttonText: 'Próximamente',
+          },
+        },
+        {
+          image: edificioPortada,
+          videoUrl: "",
+          title: 'EFIDICIO ARAGON',
+          subtitle: 'PRÓXIMAMENTE',
+          description: 'Edificio de 7 pisos con un total de 56 departamentos, de 1, 2 y 3 dormitorios, con metrajes desde 36 m² hasta 79m²',
+          buttonConfig: {
+            type: '',
+            iframeUrl: '',
+            buttonText: 'Próximamente',
+          },
+        },
+    ],
     },
   };
 
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
-    { id: 'carousel01', texto: 'Tour Virtual' },
+    { id: 'carousel01', texto: 'Casas' },
+    { id:"carousel02", texto: "Deptos próximamente"}
    
   ];
 

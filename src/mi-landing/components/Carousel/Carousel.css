@@ -9,7 +9,7 @@
 .carrusel__slide {
   position: relative;
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 80px);
 }
 
 .carrusel__video-container {

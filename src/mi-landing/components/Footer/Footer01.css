@@ -28,19 +28,19 @@
   color: var(--footer-icon-hover-color);
 }
 
-.footer01__telefono {
+.footer01__footerText {
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 20px; /* Añadido margen superior */
 }
 
-.footer01__telefono-link {
+.footer01__footerText{
   color: var(--footer-text-color);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.footer01__telefono-link:hover {
+.footer01__footerText:hover {
   color: var(--footer-text-hover-color);
 }
 
@@ -49,6 +49,9 @@
   height: 5px;
   margin-top: 20px;
   background-color: var(--footer-after-background-color);
+}
+.footer01__phone-link {
+  display: none; /* No Mostrar en dispositivos desk */
 }
 
 @media (max-width: 768px) {
@@ -67,5 +70,8 @@
     font-size: 16px;
     margin-bottom: 15px;
     margin-top: 15px; /* Añadido margen superior */
+  }
+  .footer01__phone-link {
+    display: inline; /* Mostrar en dispositivos móviles */
   }
 }

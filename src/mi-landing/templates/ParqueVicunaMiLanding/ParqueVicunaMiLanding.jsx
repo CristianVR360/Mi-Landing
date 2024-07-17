@@ -17,23 +17,26 @@ const TemplateMiLanding = () => {
     logo: logo,
     colorPrimario: '#4d9dd2 ',
     colorSecundario: '#fff',
-    colorPrimarioTransparente: 'rgba(52, 152, 219, 0.5)',
-    colorTerciario: '#9b59b6',
+    colorPrimarioTransparente: 'rgba(52, 152, 219, 0.8)',
+    colorTerciario: '#313131',
     colorCuaternario: '#34495e',
     backgroundImage: portada,
     title: 'BIENVENIDO A PARQUE VICUÑA',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
-    ctaWhatsappButton: '¡Asesorate aqui!',
+    ctaWhatsappButton: '¡Contáctate con nosotros!',
     iframeBackground: '',
     subtitles: ['Rodolfo Urra, Asesor de Venta', 'Explora el menu a tu ritmo, en cualquier momento y lugar', 'Asesorate para adquirir el hogar de tus sueños'],
     telefono: '+56973356563',
+    footerText:" ventas@ipuertomayor.cl",
+    linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
     facebookLink: 'https://facebook.com/puertomayor.inmobiliaria',
     gpsLink: 'https://maps.app.goo.gl/5CgDsk6rUFtFHQzh8',
     footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(0, 179, 152, 0) 0%, rgba(0, 179, 152, 0.2) 5%, rgba(0, 179, 152, 0.4) 20%, rgba(0, 179, 152, 0.7) 50%, rgba(0, 179, 152, 0.9) 70%, rgba(0, 179, 152, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(52, 152, 219, 0) 0%, rgba(52, 152, 219, 0.2) 5%, rgba(52, 152, 219, 0.4) 20%, rgba(52, 152, 219, 0.7) 50%, rgba(52, 152, 219, 0.9) 70%, rgba(52, 152, 219, 1) 100%)",
+
       textColor: '#f1f1f1'
     },
     
@@ -49,21 +52,22 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
-            buttonText: 'Ver Vista aérea',
+            buttonText: 'Ver ubicación',
           },
         },
-           {
+        {
           image: parqueVicunaBkg,
           videoUrl: "",
-          title: 'RESERVA AHORA',
-          subtitle: 'Y aprovecha descuentos increibles',
-          description: '.',
+          title: 'PARQUE VICUÑA',
+          subtitle: 'Avenida Ricardo Vicuña 812',
+          description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
+          
           buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/56973356563',
-            buttonText: 'Reserva ahora',
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
+            buttonText: 'Ver ubicación',
           },
-        },
+        }, 
       ],
       
 

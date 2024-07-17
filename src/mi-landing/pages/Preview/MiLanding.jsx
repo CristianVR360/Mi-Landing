@@ -49,14 +49,18 @@ const MiLanding = ({ landingPageData, opciones }) => {
                 colorCuaternario={landingPageData.colorCuaternario}
                 subtitles={landingPageData.subtitles}
                 telefono={landingPageData.telefono}
+                linkedinLink={landingPageData.linkedinLink}
                 instagramLink={landingPageData.instagramLink}
                 facebookLink={landingPageData.facebookLink}
                 gpsLink={landingPageData.gpsLink}
                 footerAfterStyles={landingPageData.footerAfterStyles}
                 logo={landingPageData.logo}
+                footerText= {landingPageData.footerText}
+
               />
             ) : (
               <Carousel
+                logo={landingPageData.logo}
                 carouselLinks={landingPageData.carousels[activeComponent]}
                 colorPrimario={landingPageData.colorPrimario}
                 colorPrimarioTransparente={landingPageData.colorPrimarioTransparente}
