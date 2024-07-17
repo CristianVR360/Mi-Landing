@@ -7,7 +7,7 @@ import MiLanding from '../../pages/Preview/MiLanding';
 import favUrl from './assets/fav.jpg'
 import logo from './assets/Recurso 1.png';
 import parqueVicunaBkg from './assets/ParqueVicuna.jpg';
-import foto01 from './assets/PilotoAragon.jpg';
+//import foto01 from './assets/PilotoAragon.jpg';
 import catalunaPiloto from './assets/CasaPilotoCataluna.jpg';
 import catalunaA from './assets/CatalunaA.jpg';
 import catalunaC2 from './assets/Catalunac2.jpg';
@@ -23,23 +23,26 @@ const TemplateMiLanding = () => {
     logo: logo,
     colorPrimario: '#4d9dd2 ',
     colorSecundario: '#fff',
-    colorPrimarioTransparente: 'rgba(52, 152, 219, 0.5)',
-    colorTerciario: '#9b59b6',
+    colorPrimarioTransparente: 'rgba(52, 152, 219, 0.8)',
+    colorTerciario: '#313131',
     colorCuaternario: '#34495e',
     backgroundImage: "",
     title: 'Tour Virtual',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
-    ctaWhatsappButton: '¡Agenda tu visita virtual!',
+    ctaWhatsappButton: '¡Contáctate con nosotros!',
     iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingPuertoMayor/output/index.html',
     subtitles: ['Sumérgete en nuestros recorridos 360', 'Explora a tu propio ritmo, en cualquier momento y lugar', 'Elije tu futuro hogar desde la comodidad de tu sofá'],
     telefono: '+56998474178',
+    footerText:" ventas@ipuertomayor.cl",
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
     facebookLink: 'https://facebook.com/puertomayor.inmobiliaria',
+    linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
     gpsLink: 'https://maps.app.goo.gl/gfHdC1akMjBd6BzN8',
     footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(0, 179, 152, 0) 0%, rgba(0, 179, 152, 0.2) 5%, rgba(0, 179, 152, 0.4) 20%, rgba(0, 179, 152, 0.7) 50%, rgba(0, 179, 152, 0.9) 70%, rgba(0, 179, 152, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(52, 152, 219, 0) 0%, rgba(52, 152, 219, 0.2) 5%, rgba(52, 152, 219, 0.4) 20%, rgba(52, 152, 219, 0.7) 50%, rgba(52, 152, 219, 0.9) 70%, rgba(52, 152, 219, 1) 100%)",
+
       textColor: '#f1f1f1'
     },
     
@@ -55,19 +58,20 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
-            buttonText: 'Ver Vista aérea',
+            buttonText: 'Ver ubicación',
           },
         },
         {
-          image: foto01,
+          image: parqueVicunaBkg,
           videoUrl: "",
-          title: 'RESERVA AHORA',
-          subtitle: 'Y aprovecha descuentos increibles',
-          description: '.',
+          title: 'PARQUE VICUÑA',
+          subtitle: 'Avenida Ricardo Vicuña 812',
+          description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
+          
           buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/15551234567',
-            buttonText: 'Reserva ahora',
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
+            buttonText: 'Ver ubicación',
           },
         },
         
@@ -82,7 +86,7 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/Aerea/output/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver ubicación',
           },
         },
         {
@@ -94,7 +98,7 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/CasaPiloto/output-1/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver Tour Virtual',
           },
         },
       ],
@@ -108,7 +112,7 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Aerea/output/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver ubicación',
           },
         },
         {
@@ -120,7 +124,7 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Casa+Piloto/output/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver Tour Virtual',
           },
           
         },
@@ -133,7 +137,7 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Depto+TIPO+A/output/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver Tour Virtual',
           },
           
         },
@@ -146,7 +150,7 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Depto+C2/output/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver Tour Virtual',
           },
           
         },
@@ -159,7 +163,7 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Sal%C3%B3n+Gourmet/output/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver Tour Virtual',
           },
           
         },
@@ -175,19 +179,20 @@ const TemplateMiLanding = () => {
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/output/index.html',
-            buttonText: 'Ver Master Plan',
+            buttonText: 'Ver ubicación',
           },
         },
+        
         {
           image: puertoMayorIIPortada,
           videoUrl: "",
-          title: 'RESERVA AHORA',
-          subtitle: 'Y aprovecha descuentos increibles',
-          description: '.',
+          title: 'PUERTO MAYOR II',
+          subtitle: 'Bulnes 220, Los Ángeles',
+          description: 'Al costado del Edificio Puerto Mayor I y en un sector residencial a pasos del centro de la ciudad, moderno sistema de oficinas con plantas libres, para que diseñes como necesites',
           buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/56973012365',
-            buttonText: 'Reserva ahora',
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/output/index.html',
+            buttonText: 'Ver ubicación',
           },
         },
       ]

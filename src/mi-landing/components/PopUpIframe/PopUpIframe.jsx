@@ -1,13 +1,14 @@
 import React from 'react';
 import './PopUpIframe.css'; // Asegúrate de tener los estilos necesarios
 
-const PopUpIframe = ({ show, onClose, iframeUrl }) => {
+const PopUpIframe = ({ logo, colorPrimario, show, onClose, iframeUrl }) => {
   if (!show) return null;
 
   return (
     <div className="popup-overlay">
       <div className="popup-content">
-        <button className="close-button" onClick={onClose}>Cerrar</button>
+      <img src={logo} className="logo-button" alt="Logo" onClick={onClose} />
+        <button  style={{backgroundColor:colorPrimario}} className="close-button" onClick={onClose}>Cerrar</button>
         <iframe
           src={iframeUrl}
           width="100%"

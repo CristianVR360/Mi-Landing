@@ -30,7 +30,8 @@
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease, background-color 0.3s ease;
-  padding: 5px 4px;
+  padding: 5px 8px;
+  transform-origin: left; /* Add this line */
 }
 
 .header__nav-button.active {
@@ -61,8 +62,8 @@
     flex: 1;
     text-align: center;
     margin-bottom: 0;
-    padding: 10px;
+    padding: 4px;
     border-radius: 0;
-    
+    transform-origin: center; /* Reset this for mobile */
   }
 }

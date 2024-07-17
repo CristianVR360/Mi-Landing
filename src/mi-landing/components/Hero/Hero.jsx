@@ -18,7 +18,9 @@ const Hero = ({
   subtitles,
   instagramLink,
   facebookLink,
+  linkedinLink,
   gpsLink,
+  footerText,
   footerAfterStyles
 }) => {
   useEffect(() => {
@@ -82,12 +84,14 @@ const Hero = ({
         </div>
       </div>
       <Footer01
+       footerText={ footerText}
         instagramLink={instagramLink}
         facebookLink={facebookLink}
         gpsLink={gpsLink}
         colorSecundario={colorSecundario}
         telefono={telefono}
         footerAfterStyles={footerAfterStyles}
+        linkedinLink={linkedinLink}
       />
     </div>
   );
