@@ -7,27 +7,27 @@ const Footer01 = ({ telefono, linkedinLink, instagramLink, facebookLink, gpsLink
     <footer className="footer01" style={footerAfterStyles}>
       <div className="footer01__social-links">
         {instagramLink && (
-          <a href={instagramLink} className="footer01__social-link" style={{ color: colorSecundario }}>
+          <a href={instagramLink} className="footer01__social-link" style={{ color: colorSecundario }} target="_blank" rel="noopener noreferrer">
             <FaInstagram />
           </a>
         )}
         {facebookLink && (
-          <a href={facebookLink} className="footer01__social-link" style={{ color: colorSecundario }}>
+          <a href={facebookLink} className="footer01__social-link" style={{ color: colorSecundario }} target="_blank" rel="noopener noreferrer">
             <FaFacebook />
           </a>
         )}
         {linkedinLink && (
-          <a href={linkedinLink} className="footer01__social-link" style={{ color: colorSecundario }}>
+          <a href={linkedinLink} className="footer01__social-link" style={{ color: colorSecundario }} target="_blank" rel="noopener noreferrer">
             <FaLinkedin />
           </a>
         )}
         {gpsLink && (
-          <a href={gpsLink} className="footer01__social-link " style={{ color: colorSecundario }}>
+          <a href={gpsLink} className="footer01__social-link" style={{ color: colorSecundario }} target="_blank" rel="noopener noreferrer">
             <FaMapMarkerAlt />
           </a>
         )}
         {telefono && (
-          <a href={`tel:${telefono}`} className="footer01__social-link footer01__phone-link" style={{ color: colorSecundario }}>
+          <a href={`tel:${telefono}`} className="footer01__social-link footer01__phone-link" style={{ color: colorSecundario }} target="_blank" rel="noopener noreferrer">
             <FaPhone />
           </a>
         )}
