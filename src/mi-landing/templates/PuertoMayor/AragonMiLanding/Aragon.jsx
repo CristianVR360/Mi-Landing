@@ -33,6 +33,7 @@ const TemplateMiLanding = () => {
       'Asesórate para adquirir el hogar de tus sueños'
     ],
     telefono: '+56954237688',
+    message:'Necesito más información sobre el proyecto',
     footerText:"ventaslosangeles@ipuertomayor.cl",
     linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',

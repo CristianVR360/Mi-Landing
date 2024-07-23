@@ -28,6 +28,7 @@ const TemplateMiLanding = () => {
     iframeBackground: "",
     subtitles: ['Lorena Almendras, Vendedora', 'Lunes a viernes 9:30 a 14:00 y de 15:30 a 18:30 horas ', 'Sábados: 10:00 a 14:00 y de 15:30 a 18:00 horas.', 'Asesorate para adquirir el hogar de tus sueños'], //subtitulos moviles
     telefono: '+56973012365',
+    message:'Necesito más información sobre el proyecto',
     footerText:"ventaslosangeles@ipuertomayor.cl",
     linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
     instagramLink: 'https://www.instagram.com/puertomayorll/',

@@ -21,7 +21,8 @@ const Hero = ({
   linkedinLink,
   gpsLink,
   footerText,
-  footerAfterStyles
+  footerAfterStyles,
+  message,
 }) => {
   useEffect(() => {
     const updateHeroHeight = () => {
@@ -77,6 +78,7 @@ const Hero = ({
           <div className="hero__whatsappButton-container">
             <WhatsAppButton
               phoneNumber={telefono}
+              message={message}
               callToAction={subtitle}
               className="hero__whatsappButton"
             />

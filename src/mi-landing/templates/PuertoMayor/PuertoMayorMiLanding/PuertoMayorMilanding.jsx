@@ -41,6 +41,7 @@ const TemplateMiLanding = () => {
     iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingPuertoMayor/output/index.html',
     subtitles: ['Sumérgete en nuestros recorridos 360', 'Elije tu futuro hogar desde la comodidad de tu sofá', ],
     telefono: '+56998474178',
+    message:'Necesito más información sobre el proyecto',
     footerText:"ventaslosangeles@ipuertomayor.cl",
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
     facebookLink: 'https://facebook.com/puertomayor.inmobiliaria',

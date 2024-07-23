@@ -56,6 +56,7 @@ const MiLanding = ({ landingPageData, opciones }) => {
                 footerAfterStyles={landingPageData.footerAfterStyles}
                 logo={landingPageData.logo}
                 footerText= {landingPageData.footerText}
+                message={landingPageData.message}
 
               />
             ) : (
