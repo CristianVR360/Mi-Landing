@@ -12,6 +12,7 @@ import parqueVicunaBkg2 from './assets/parque-vicuna-proyecto.jpg';
 import catalunaPiloto from './assets/CasaPilotoCataluna.jpg';
 import catalunaA from './assets/CatalunaA.jpg';
 import catalunaC2 from './assets/Catalunac2.jpg';
+import catalunaC1 from './assets/Catalunac1.jpg';
 import catalunaGourmet from './assets/Gourmet.jpg';
 import aragonPiloto from './assets/PilotoAragon.jpg';
 import aragonPortada from './assets/AragonAerea.jpg';
@@ -19,7 +20,9 @@ import catalunaPortada from './assets/CatalunaAerea.jpg';
 import puertoMayorIIPortada from './assets/PuertoMayor.jpg';
 import puertoMayorIIPortada2 from './assets/PuertoMayorII2.jpg';
 import edificioPortada from './assets/EdificioPortada.jpg';
-
+import workCafe from './assets/work-cafe.jpg';
+import EdificioPortada2 from './assets/EdificioAragon2.jpg';
+import catalunaPortadaCasas from './assets/CasasCataluna.jpg';
 
 const TemplateMiLanding = () => {
   const landingPageData = {
@@ -36,7 +39,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Contáctate con nosotros!',
     iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingPuertoMayor/output/index.html',
-    subtitles: ['Sumérgete en nuestros recorridos 360', 'Explora a tu propio ritmo, en cualquier momento y lugar', 'Elije tu futuro hogar desde la comodidad de tu sofá'],
+    subtitles: ['Sumérgete en nuestros recorridos 360', 'Elije tu futuro hogar desde la comodidad de tu sofá', ],
     telefono: '+56998474178',
     footerText:"ventaslosangeles@ipuertomayor.cl",
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
@@ -119,7 +122,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: edificioPortada,
+          image: EdificioPortada2,
           videoUrl: "",
           title: 'AVANCES CONTRUCCIÓN',
           subtitle: '2024',
@@ -133,7 +136,7 @@ const TemplateMiLanding = () => {
     ],
       carousel04: [
         {
-          image: catalunaPortada,
+          image: catalunaPortadaCasas,
           videoUrl: "",
           title: 'CONDOMINIO CATALUÑA',
           subtitle: 'Avenida Ricardo Vicuña 1610',
@@ -157,12 +160,29 @@ const TemplateMiLanding = () => {
           },
           
         },
+
+      ],
+      carousel05: [
+       
+        {
+          image: catalunaPortada,
+          videoUrl: "",
+          title: 'CONDOMINIO CATALUÑA',
+          subtitle: 'Barrio residencial Cataluña, con acceso por Av. Gabriela Mistral y también por Av. Alemania',
+          description: 'Los departamentos del proyecto cuentan con pisos de porcelanato continuos, amplias terrazas, cocinas amobladas con cubiertas de silestone, horno eléctrico, encimera y campana. Además, disponen de ventanas termopanel con marcos de PVC, calefacción central a gas individual y baños principales con shower door.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Aerea/output/index.html',
+            buttonText: 'Ver ubicación',
+          },
+        },
+
         {
           image: catalunaA,
           videoUrl: "",
           title: 'DEPARTAMENTO TIPO A',
-          subtitle: '193 m2, 4 Dormitorios 4 Baños.  ',
-          description: 'Los departamentos del proyecto cuentan con pisos de porcelanato continuos, amplias terrazas, cocinas amobladas con cubiertas de silestone, horno eléctrico, encimera y campana. Además, disponen de ventanas termopanel con marcos de PVC, calefacción central a gas individual y baños principales con shower door.',
+          subtitle: '61 m2, 2 Dormitorios 2 Baños.  ',
+          description: ' Dispone de 2 dormitorios amplios y luminosos, perfectos para el descanso, y 2 baños modernos y equipados con todas las comodidades necesarias. Además, incluye un estar versátil, ideal para relajarse o recibir a tus invitados. La amplia terraza te permitirá disfrutar de momentos al aire libre, con espacio suficiente para crear un ambiente acogedor y relajante. ',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Depto+TIPO+A/output/index.html',
@@ -171,11 +191,24 @@ const TemplateMiLanding = () => {
           
         },
         {
+          image: catalunaC1,
+          videoUrl: "",
+          title: 'DEPARTAMENTO C1',
+          subtitle: '121,95 m² y una terraza de 26,66 m², 3 Dormitorios 3 Baños.  ',
+          description: 'Ofrece un espacio generoso y elegante, ideal para quienes buscan amplitud y confort en su hogar. Dispone de 3 dormitorios espaciosos y luminosos, perfectos para el descanso, y 3 baños modernos y completamente equipados. Además, incluye un estar amplio y versátil, ideal para relajarse o recibir a tus invitados. La extensa terraza te permitirá organizarla a tu medida, con espacio suficiente para crear un ambiente acogedor y relajante. ',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Depto+C1/output/index.html',
+            buttonText: 'Ver Tour Virtual',
+          },
+          
+        },
+        {
           image: catalunaC2,
           videoUrl: "",
           title: 'DEPARTAMENTO C2',
-          subtitle: '193 m2, 4 Dormitorios 4 Baños.  ',
-          description: 'Los departamentos del proyecto cuentan con pisos de porcelanato continuos, amplias terrazas, cocinas amobladas con cubiertas de silestone, horno eléctrico, encimera y campana. Además, disponen de ventanas termopanel con marcos de PVC, calefacción central a gas individual y baños principales con shower door.',
+          subtitle: '124,39 m2, 3 Dormitorios 3 Baños.  ',
+          description: 'Ofrece un espacio generoso y elegante, ideal para quienes buscan amplitud y confort en su hogar. Dispone de 3 dormitorios espaciosos y luminosos, perfectos para el descanso, y 3 baños modernos y completamente equipados. Además, incluye un estar amplio y versátil, ideal para relajarse o recibir a tus invitados. La extensa terraza te permitirá organizarla a tu medida, con espacio suficiente para crear un ambiente acogedor y relajante.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Depto+C2/output/index.html',
@@ -198,20 +231,7 @@ const TemplateMiLanding = () => {
         },
       ],
 
-      carousel05: [
-        {
-          image: puertoMayorIIPortada2,
-          videoUrl: "",
-          title: 'PUERTO MAYOR II',
-          subtitle: 'Bulnes 220, Los Ángeles',
-          description: 'Al costado del Edificio Puerto Mayor I y en un sector residencial a pasos del centro de la ciudad, moderno sistema de oficinas con plantas libres, para que diseñes como necesites',
-          buttonConfig: {
-            type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/output/index.html',
-            buttonText: 'Ver ubicación',
-          },
-        },
-        
+      carousel06: [
         {
           image: puertoMayorIIPortada,
           videoUrl: "",
@@ -220,8 +240,32 @@ const TemplateMiLanding = () => {
           description: 'Al costado del Edificio Puerto Mayor I y en un sector residencial a pasos del centro de la ciudad, moderno sistema de oficinas con plantas libres, para que diseñes como necesites',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/output/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-Emplazamiento/output/index.html',
             buttonText: 'Ver ubicación',
+          },
+        },
+        {
+          image: puertoMayorIIPortada2,
+          videoUrl: "",
+          title: 'Locales Comerciales',
+          subtitle: 'Bulnes 220, Los Ángeles',
+          description: '2. En el primer piso contamos con 7 locales comerciales de un piso, con superficies de 39 a 92mts2, en plantas libres, cerca de puntos estratégicos de la ciudad. Quedan pocas unidades disponibles para arriendo.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-Fachada/output/index.html',
+            buttonText: 'Ver Fachada',
+          },
+        },
+        {
+          image: workCafe,
+          videoUrl: "",
+          title: 'SALA DE REUNIONES Y WORK CAFÉ ',
+          subtitle: 'Bulnes 220, Los Ángeles',
+          description: 'Contamos con cómodas y amplias salas de reuniones de uso común, todas con acceso libre a work café en el hall del edificio para tener un espacio de relajo y trabajo',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-WorkCafe/output/index.html',
+            buttonText: 'Ver Work Cafe',
           },
         },
       ]
@@ -232,11 +276,11 @@ const TemplateMiLanding = () => {
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
     { id: 'carousel01', texto: 'Parque Vicuña' },
-    { id: 'carousel02', texto: 'Aragón' },
+    { id: 'carousel02', texto: 'Aragón Casas' },
     { id: 'carousel03', texto: 'Aragón Deptos' },
-    { id: 'carousel04', texto: 'Puerto Mayor II' },
-    { id: 'carousel04', texto: 'Puerto Mayor II' },
-    { id: 'carousel04', texto: 'Puerto Mayor II' },
+    { id: 'carousel04', texto: 'Cataluña Casas' },
+    { id: 'carousel05', texto: 'Cataluña Deptos' },
+    { id: 'carousel06', texto: 'Puerto Mayor II' },
     
   ];
 

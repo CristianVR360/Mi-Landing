@@ -28,7 +28,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Contáctate con nosotros!',
     iframeBackground: '',
-    subtitles: ['Rodolfo Urra, Asesor de Venta', 'Explora el menu a tu ritmo, en cualquier momento y lugar', 'Asesorate para adquirir el hogar de tus sueños'],
+    subtitles: ['Rodolfo Urra, Vendedor', ' Lunes a viernes 9:30 a 14:00 y de 15:30 a 18:30 horas ', 'Sábados: 10:00 a 14:00 y de 15:30 a 18:00 horas.', 'Asesorate para adquirir el hogar de tus sueños'],
     telefono: '+56973356563',
     footerText:" ventaslosangeles@ipuertomayor.cl",
     linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
@@ -59,8 +59,8 @@ const TemplateMiLanding = () => {
         {
           image: bkgcarousel2,
           videoUrl: "",
-          title: 'PARQUE VICUÑA',
-          subtitle: 'Avenida Ricardo Vicuña 812',
+          title: 'EDIFICIO PARQUE VICUÑA',
+          subtitle: 'PRÓXIMAMENTE',
           description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
           
           buttonConfig: {
@@ -68,7 +68,7 @@ const TemplateMiLanding = () => {
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
             buttonText: 'Ver ubicación',
           },
-        }, 
+        },
       ],
       
 

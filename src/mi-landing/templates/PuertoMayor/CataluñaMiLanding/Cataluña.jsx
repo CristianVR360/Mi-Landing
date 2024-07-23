@@ -13,6 +13,8 @@ import catalunaC2 from './assets/Catalunac2.jpg';
 import catalunaGourmet from './assets/Gourmet.jpg';
 import catalunaPortada from './assets/Sala-Ventas.jpg';
 import catalunaAerea from './assets/caraluna-aerea.jpg';
+import catalunaC1 from './assets/Catalunac1.jpg';
+
 
 
 
@@ -31,7 +33,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Contáctate con nosotros!', //msg wsp
     iframeBackground: "",
-    subtitles: ['Roberto Figueroa, Asesor de ventas', 'Explora a tu ritmo, en cualquier momento y lugar', 'Asesorate para adquirir el hogar de tus sueños'], //subtitulos moviles
+    subtitles: ['Roberto Figueroa, Vendedor', ' Lunes a viernes 9:30 a 14:00 y de 15:30 a 18:30 horas ', 'Sábados: 10:00 a 14:00 y de 15:30 a 18:00 horas.',  'Asesorate para adquirir el hogar de tus sueños'], //subtitulos moviles
     telefono: '+56954237688',
     footerText:"ventaslosangeles@ipuertomayor.cl",
     linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
@@ -95,8 +97,8 @@ const TemplateMiLanding = () => {
           image: catalunaA,
           videoUrl: "",
           title: 'DEPARTAMENTO TIPO A',
-          subtitle: '61,54 m2, 2 Dormitorios 2 Baños.  ',
-          description: 'Modelo A',
+          subtitle: '61,54 m2, 2 Dormitorios 2 Baños.',
+          description: 'Dispone de 2 dormitorios amplios y luminosos, perfectos para el descanso, y 2 baños modernos y equipados con todas las comodidades necesarias. Además, incluye un estar versátil, ideal para relajarse o recibir a tus invitados. La amplia terraza te permitirá disfrutar de momentos al aire libre, con espacio suficiente para crear un ambiente acogedor y relajante. ',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Depto+TIPO+A/output/index.html',
@@ -104,19 +106,34 @@ const TemplateMiLanding = () => {
           },
           
         },
+
+        {
+          image: catalunaC1,
+          videoUrl: "",
+          title: 'DEPARTAMENTO C1',
+          subtitle: '121,95 m² y una terraza de 26,66 m², 3 Dormitorios 3 Baños.  ',
+          description: 'Ofrece un espacio generoso y elegante, ideal para quienes buscan amplitud y confort en su hogar. Dispone de 3 dormitorios espaciosos y luminosos, perfectos para el descanso, y 3 baños modernos y completamente equipados. Además, incluye un estar amplio y versátil, ideal para relajarse o recibir a tus invitados. La extensa terraza te permitirá organizarla a tu medida, con espacio suficiente para crear un ambiente acogedor y relajante. ',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Depto+C1/output/index.html',
+            buttonText: 'Ver Tour Virtual',
+          },
+        },
+
         {
           image: catalunaC2,
           videoUrl: "",
           title: 'DEPARTAMENTO C2',
           subtitle: '124,39 m2, 3 Dormitorios 3 Baños.  ',
-          description: 'Modelo B',
+          description: 'Ofrece un espacio generoso y elegante, ideal para quienes buscan amplitud y confort en su hogar. Dispone de 3 dormitorios espaciosos y luminosos, perfectos para el descanso, y 3 baños modernos y completamente equipados. Además, incluye un estar amplio y versátil, ideal para relajarse o recibir a tus invitados. La extensa terraza te permitirá organizarla a tu medida, con espacio suficiente para crear un ambiente acogedor y relajante.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Depto+C2/output/index.html',
-            buttonText: 'Tour Virtual',
+            buttonText: 'Ver Tour Virtual',
           },
           
         },
+
         {
           image: catalunaGourmet,
           videoUrl: "",

@@ -9,6 +9,7 @@ import logo from './assets/puerto-mayor.png';
 
 import puertoMayorIIPortada from './assets/PuertoMayor.jpg';
 import puertoMayorIIPortada2 from './assets/PuertoMayorII2.jpg';
+import workCafe from './assets/work-cafe.jpg';
 
 const TemplateMiLanding = () => {
   const landingPageData = {
@@ -25,7 +26,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Contáctate con nosotros!', //msg wsp
     iframeBackground: "",
-    subtitles: ['Lorena Almendras, Asesor de Venta ', 'Explora el menu a tu ritmo, en cualquier momento y lugar', 'Asesorate para adquirir el hogar de tus sueños'], //subtitulos moviles
+    subtitles: ['Lorena Almendras, Vendedora', 'Lunes a viernes 9:30 a 14:00 y de 15:30 a 18:30 horas ', 'Sábados: 10:00 a 14:00 y de 15:30 a 18:00 horas.', 'Asesorate para adquirir el hogar de tus sueños'], //subtitulos moviles
     telefono: '+56973012365',
     footerText:"ventaslosangeles@ipuertomayor.cl",
     linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
@@ -48,20 +49,32 @@ const TemplateMiLanding = () => {
           description: 'Al costado del Edificio Puerto Mayor I y en un sector residencial a pasos del centro de la ciudad, moderno sistema de oficinas con plantas libres, para que diseñes como necesites',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/output/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-Emplazamiento/output/index.html',
             buttonText: 'Ver ubicación',
           },
         },
         {
           image: puertoMayorIIPortada2,
           videoUrl: "",
-          title: 'PUERTO MAYOR II',
+          title: 'Locales Comerciales',
           subtitle: 'Bulnes 220, Los Ángeles',
-          description: 'Al costado del Edificio Puerto Mayor I y en un sector residencial a pasos del centro de la ciudad, moderno sistema de oficinas con plantas libres, para que diseñes como necesites',
+          description: '2. En el primer piso contamos con 7 locales comerciales de un piso, con superficies de 39 a 92mts2, en plantas libres, cerca de puntos estratégicos de la ciudad. Quedan pocas unidades disponibles para arriendo.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/output/index.html',
-            buttonText: 'Ver ubicación',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-Fachada/output/index.html',
+            buttonText: 'Ver Fachada',
+          },
+        },
+        {
+          image: workCafe,
+          videoUrl: "",
+          title: 'SALA DE REUNIONES Y WORK CAFÉ ',
+          subtitle: 'Bulnes 220, Los Ángeles',
+          description: 'Contamos con cómodas y amplias salas de reuniones de uso común, todas con acceso libre a work café en el hall del edificio para tener un espacio de relajo y trabajo',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-WorkCafe/output/index.html',
+            buttonText: 'Ver Work Cafe',
           },
         },
       ]

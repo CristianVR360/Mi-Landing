@@ -9,6 +9,7 @@ import mainBkg from './assets/Sala-Ventas.jpg';
 import carouselBkg from './assets/AragonAerea.jpg';
 import aragonPiloto from './assets/PilotoAragon.jpg';
 import edificioPortada from './assets/EdificioPortada.jpg';
+import EdificioPortada2 from './assets/EdificioAragon2.jpg';
 
 
 const TemplateMiLanding = () => {
@@ -27,8 +28,8 @@ const TemplateMiLanding = () => {
     ctaWhatsappButton: '¡Contáctate con nosotros!',
     iframeBackground: '',
     subtitles: [
-      'Roberto Figueroa, Asesor de ventas',
-      'Explora A tu ritmo, en cualquier momento y lugar',
+      'Roberto Figueroa, Vendedor', ' Lunes a viernes 9:30 a 14:00 y de 15:30 a 18:30 horas ', 'Sábados: 10:00 a 14:00 y de 15:30 a 18:00 horas.', 
+      
       'Asesórate para adquirir el hogar de tus sueños'
     ],
     telefono: '+56954237688',
@@ -77,23 +78,23 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'EDIFICIO ARAGÓN',
           subtitle: 'PRÓXIMAMENTE',
-          description: 'Edificio de 7 pisos con un total de 56 departamentos, de 1, 2 y 3 dormitorios, con metrajes desde 36 m² hasta 79m²',
+          description: 'Edificio Aragón estará ubicado en el consolidado sector Villa Cataluña de Los Ángeles, con acceso por Av. Gabriela Mistral y posteriormente también por Av. Alemania, lo que mejorará la conectividad hacia todos los servicios que necesitas.',
           buttonConfig: {
-            type: '',
-            iframeUrl: '',
-            buttonText: 'Próximamente',
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/Aerea/output/index.html',
+            buttonText: 'Ver ubicación',
           },
         },
         {
-          image: edificioPortada,
+          image: EdificioPortada2,
           videoUrl: "",
-          title: 'EDIFICIO ARAGÓN',
-          subtitle: 'PRÓXIMAMENTE',
+          title: 'AVANCES CONTRUCCIÓN',
+          subtitle: '2024',
           description: 'Edificio de 7 pisos con un total de 56 departamentos, de 1, 2 y 3 dormitorios, con metrajes desde 36 m² hasta 79m²',
           buttonConfig: {
-            type: '',
-            iframeUrl: '',
-            buttonText: 'Próximamente',
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/Fachada-Arag%C3%B3n/output/index.html',
+            buttonText: 'Ver avances',
           },
         },
     ],
