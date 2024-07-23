@@ -69,7 +69,7 @@ const TemplateMiLanding = () => {
         image: img03,
         videoUrl: "",
         title: 'UBICACIÓN',
-        subtitle: 'Toltén, Region de la Araucanía Costera.',
+        subtitle: 'Toltén, Sector Fintucue, Region de la Araucanía Costera.',
         description: 'Parcelas Santa Felicia se encuentra en Toltén, a 4.5 km del camino asfaltado (ruta S-658), ofreciendo fácil acceso y conectividad. La zona destaca por su proximidad a destinos turísticos como Queule, conocido por su puerto y mariscos, y Mehuín, con playas y bosques ideales para actividades al aire libre como senderismo y surf. Estos lugares son perfectos para quienes buscan combinar la tranquilidad de su parcela con emocionantes experiencias turísticas.',
         buttonConfig: {
           type: 'link',
@@ -84,7 +84,7 @@ const TemplateMiLanding = () => {
         videoUrl: "",
         title: 'CARACTERÍSTICAS',
         subtitle: 'Detalles únicos en un espacio ideal',
-        description: 'Parcelas de 5,000 m², ofrecen amplios espacios ideales para el desarrollo residencial. Ubicadas en una pradera verde con borde de estero, estas parcelas garantizan un entorno natural y fresco, perfecto para aquellos que buscan un estilo de vida en armonía con la naturaleza. Parcelas Santa Felicia asegura la factibilidad de servicios básicos como luz y agua, garantizando que su nueva propiedad esté lista para ser habitada desde el primer día. Además, contamos con caminos de acceso directo a cada parcela, facilitando la llegada y salida de su futuro hogar.',
+        description: 'Parcelas desde los 5,000 m², ofrecen amplios espacios ideales para el desarrollo residencial. Ubicadas en una pradera verde con borde de estero, estas parcelas garantizan un entorno natural y fresco, perfecto para aquellos que buscan un estilo de vida en armonía con la naturaleza. Parcelas Santa Felicia asegura la factibilidad de servicios básicos como luz y agua, garantizando que su nueva propiedad esté lista para ser habitada desde el primer día. Además, contamos con caminos de acceso directo a cada parcela, facilitando la llegada y salida de su futuro hogar.',
         buttonConfig: {
           type: 'popup',
           iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Santa-Felicia/output/index.html',

@@ -17,8 +17,8 @@ import aragonPiloto from './assets/PilotoAragon.jpg';
 import aragonPortada from './assets/AragonAerea.jpg';
 import catalunaPortada from './assets/CatalunaAerea.jpg';
 import puertoMayorIIPortada from './assets/PuertoMayor.jpg';
-import puertoMayorIIPortada2 from './assets/PuertoMayorII2.jpg'
-
+import puertoMayorIIPortada2 from './assets/PuertoMayorII2.jpg';
+import edificioPortada from './assets/EdificioPortada.jpg';
 
 
 const TemplateMiLanding = () => {
@@ -56,7 +56,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'PARQUE VICUÑA',
           subtitle: 'Avenida Ricardo Vicuña 812',
-          description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
+          description: 'Parque Vicuña, ubicado en plena avenida Ricardo Vicuña y frente al supermercado Jumbo, es un espacio privilegiado en la ciudad. Cercano a áreas verdes como la lagunas esmeralda, el estadio municipal e incluso la propia avenida que ofrece paseos, parques y una importante ciclovía. Además, destaca su proximidad a importantes instituciones educativas como Inacap y Santo Tomás, así como al centro de la ciudad, lo que lo convierte en un punto estratégico y accesible para todos.',
           
           buttonConfig: {
             type: 'popup',
@@ -67,8 +67,8 @@ const TemplateMiLanding = () => {
         {
           image: parqueVicunaBkg2,
           videoUrl: "",
-          title: 'PARQUE VICUÑA',
-          subtitle: 'Avenida Ricardo Vicuña 812',
+          title: 'EDIFICIO PARQUE VICUÑA',
+          subtitle: 'PRÓXIMAMENTE',
           description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
           
           buttonConfig: {
@@ -106,6 +106,32 @@ const TemplateMiLanding = () => {
         },
       ],
       carousel03: [
+        {
+          image: edificioPortada,
+          videoUrl: "",
+          title: 'EDIFICIO ARAGÓN',
+          subtitle: 'PRÓXIMAMENTE',
+          description: 'Edificio Aragón estará ubicado en el consolidado sector Villa Cataluña de Los Ángeles, con acceso por Av. Gabriela Mistral y posteriormente también por Av. Alemania, lo que mejorará la conectividad hacia todos los servicios que necesitas.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/Aerea/output/index.html',
+            buttonText: 'Ver ubicación',
+          },
+        },
+        {
+          image: edificioPortada,
+          videoUrl: "",
+          title: 'AVANCES CONTRUCCIÓN',
+          subtitle: '2024',
+          description: 'Edificio de 7 pisos con un total de 56 departamentos, de 1, 2 y 3 dormitorios, con metrajes desde 36 m² hasta 79m²',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/Fachada-Arag%C3%B3n/output/index.html',
+            buttonText: 'Ver avances',
+          },
+        },
+    ],
+      carousel04: [
         {
           image: catalunaPortada,
           videoUrl: "",
@@ -172,7 +198,7 @@ const TemplateMiLanding = () => {
         },
       ],
 
-      carousel04: [
+      carousel05: [
         {
           image: puertoMayorIIPortada2,
           videoUrl: "",
@@ -207,7 +233,9 @@ const TemplateMiLanding = () => {
     { id: 'inicio', texto: 'Inicio' },
     { id: 'carousel01', texto: 'Parque Vicuña' },
     { id: 'carousel02', texto: 'Aragón' },
-    { id: 'carousel03', texto: 'Cataluña' },
+    { id: 'carousel03', texto: 'Aragón Deptos' },
+    { id: 'carousel04', texto: 'Puerto Mayor II' },
+    { id: 'carousel04', texto: 'Puerto Mayor II' },
     { id: 'carousel04', texto: 'Puerto Mayor II' },
     
   ];
