@@ -30,7 +30,7 @@ const TemplateMiLanding = () => {
     iframeBackground: '',
     subtitles: ['Rodolfo Urra, Vendedor', ' Lunes a viernes 9:30 a 14:00 y de 15:30 a 18:30 horas ', 'Sábados: 10:00 a 14:00 y de 15:30 a 18:00 horas.', 'Asesorate para adquirir el hogar de tus sueños'],
     telefono: '+56973356563',
-    footerText:" ventaslosangeles@ipuertomayor.cl",
+    footerText:" ventaslosangeles@ipuertomayor.cl | rurra@ipuertomayor.cl",
     linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
     facebookLink: 'https://facebook.com/puertomayor.inmobiliaria',
