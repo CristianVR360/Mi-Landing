@@ -9,6 +9,7 @@ import logo from './assets/logo-parque-vicuna.png';
 import parqueVicunaBkg from './assets/ParqueVicuna.jpg';
 import portada from './assets/parque-vicuna-proyecto.jpg';
 import bkgcarousel2 from './assets/parque-vicuna-proyecto-banner.jpg';
+import parqueVicuna03 from './assets/parquevicuna03.jpg';
 
 
 
@@ -48,26 +49,39 @@ const TemplateMiLanding = () => {
           image: parqueVicunaBkg,
           videoUrl: "",
           title: 'PARQUE VICUÑA',
-          subtitle: 'Avenida Ricardo Vicuña 812',
-          description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
+          subtitle: 'PROYECTO',
+          description: 'Un espacio único que contempla 2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios.',
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
-            buttonText: 'Ver ubicación',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/ParqueVicu%C3%B1a-Fachada/output/index.html',
+            buttonText: 'Ver Proyecto',
           },
         },
         {
           image: bkgcarousel2,
           videoUrl: "",
-          title: 'EDIFICIO PARQUE VICUÑA',
-          subtitle: 'PRÓXIMAMENTE',
-          description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
+          title: 'UBICACIÓN CÉNTRICA',
+          subtitle: 'Av. Ricardo Vicuña 812',
+          description: 'Cercano a parques, universidades, supermercado, servicentros, ciclovías y más.',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/ParqueVicu%C3%B1a-Emplazamiento/output/index.html',
+            buttonText: 'Ver ubicación',
+          },
+        },
+        {
+          image: parqueVicuna03,
+          videoUrl: "",
+          title: 'PARQUE VICUÑA',
+          subtitle: 'ESPACIOS',
+          description: 'Moderno equipamiento, salón gourmet, gimnasio, piscina, taller de bicicletas y espacios cowork.',
           
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
-            buttonText: 'Ver ubicación',
+            buttonText: 'Ver Tour Virtual',
           },
         },
       ],

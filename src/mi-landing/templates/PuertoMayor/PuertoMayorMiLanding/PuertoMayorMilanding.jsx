@@ -7,7 +7,7 @@ import MiLanding from '../../../pages/Preview/MiLanding';
 import favUrl from './assets/fav.jpg'
 import logo from './assets/Recurso 1.png';
 import parqueVicunaBkg from './assets/ParqueVicuna.jpg';
-import parqueVicunaBkg2 from './assets/parque-vicuna-proyecto.jpg';
+//import parqueVicunaBkg2 from './assets/parque-vicuna-proyecto.jpg';
 //import foto01 from './assets/PilotoAragon.jpg';
 import catalunaPiloto from './assets/CasaPilotoCataluna.jpg';
 import catalunaA from './assets/CatalunaA.jpg';
@@ -23,6 +23,8 @@ import edificioPortada from './assets/EdificioPortada.jpg';
 import workCafe from './assets/work-cafe.jpg';
 import EdificioPortada2 from './assets/EdificioAragon2.jpg';
 import catalunaPortadaCasas from './assets/CasasCataluna.jpg';
+import parqueVicuna03 from './assets/parquevicuna03.jpg';
+import bkgcarousel2 from './assets/parque-vicuna-proyecto-banner.jpg';
 
 const TemplateMiLanding = () => {
   const landingPageData = {
@@ -59,29 +61,41 @@ const TemplateMiLanding = () => {
           image: parqueVicunaBkg,
           videoUrl: "",
           title: 'PARQUE VICUÑA',
-          subtitle: 'Avenida Ricardo Vicuña 812',
-          description: 'Parque Vicuña, ubicado en plena avenida Ricardo Vicuña y frente al supermercado Jumbo, es un espacio privilegiado en la ciudad. Cercano a áreas verdes como la lagunas esmeralda, el estadio municipal e incluso la propia avenida que ofrece paseos, parques y una importante ciclovía. Además, destaca su proximidad a importantes instituciones educativas como Inacap y Santo Tomás, así como al centro de la ciudad, lo que lo convierte en un punto estratégico y accesible para todos.',
+          subtitle: 'PROYECTO',
+          description: 'Un espacio único que contempla 2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios.',
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/ParqueVicu%C3%B1a-Fachada/output/index.html',
+            buttonText: 'Ver Proyecto',
+          },
+        },
+        {
+          image: bkgcarousel2,
+          videoUrl: "",
+          title: 'UBICACIÓN CÉNTRICA',
+          subtitle: 'Av. Ricardo Vicuña 812',
+          description: 'Cercano a parques, universidades, supermercado, servicentros, ciclovías y más.',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/ParqueVicu%C3%B1a-Emplazamiento/output/index.html',
             buttonText: 'Ver ubicación',
           },
         },
         {
-          image: parqueVicunaBkg2,
+          image: parqueVicuna03,
           videoUrl: "",
-          title: 'EDIFICIO PARQUE VICUÑA',
-          subtitle: 'PRÓXIMAMENTE',
-          description: '2 torres de 17 pisos, con departamentos estudio, de 1, 2 y 3 dormitorios, además de un moderno equipamiento, salón gourmet, gimnasio, piscina y espacios cowork para estudiantes y reuniones.',
+          title: 'PARQUE VICUÑA',
+          subtitle: 'ESPACIOS',
+          description: 'Moderno equipamiento, salón gourmet, gimnasio, piscina, taller de bicicletas y espacios cowork.',
           
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
-            buttonText: 'Ver ubicación',
+            buttonText: 'Ver Tour Virtual',
           },
         },
-        
       ],
       carousel02: [
         {
