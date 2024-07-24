@@ -13,7 +13,7 @@ const Subtitle01 = ({ subtitles, colorPrimario, colorSecundario }) => {
           setSubtitleIndex(prevIndex => (prevIndex + 1) % subtitles.length);
           setIsVisible(true);
         }, 1000);
-      }, 5000);
+      }, 10000);
 
       return () => clearInterval(interval);
     }

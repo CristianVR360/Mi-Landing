@@ -29,7 +29,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Contáctate con nosotros!',
     iframeBackground: '',
-    subtitles: ['Rodolfo Urra, Vendedor', ' Lunes a viernes 9:30 a 14:00 y de 15:30 a 18:30 horas ', 'Sábados: 10:00 a 14:00 y de 15:30 a 18:00 horas.', 'Asesórate para adquirir el hogar de tus sueños'],
+    subtitles: ['Contacto: Rodolfo Urra.', 'Lunes a viernes 9:30 a 14:00 y 15:30 a 18:30 horas ', 'Sábado 10:00 a 14:00 y de 15:30 a 18:00 horas - Domingo cerrado', 'Asesórate para adquirir el hogar de tus sueños'],
     telefono: '+56973356563',
     message:'Necesito más información sobre el proyecto',
     footerText:" ventaslosangeles@ipuertomayor.cl | rurra@ipuertomayor.cl",
@@ -80,8 +80,8 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
-            buttonText: 'Ver Tour Virtual',
+            iframeUrl: 'https://www.puertomayor.cl/index.php?action=parque-vicuna',
+            buttonText: 'Ver sitio web',
           },
         },
       ],

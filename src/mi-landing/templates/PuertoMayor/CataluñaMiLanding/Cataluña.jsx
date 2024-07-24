@@ -33,10 +33,10 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Contáctate con nosotros!', //msg wsp
     iframeBackground: "",
-    subtitles: ['Roberto Figueroa, Vendedor', ' Lunes a viernes 9:30 a 14:00 y de 15:30 a 18:30 horas ', 'Sábados: 10:00 a 14:00 y de 15:30 a 18:00 horas.',  'Asesorate para adquirir el hogar de tus sueños'], //subtitulos moviles
+    subtitles: ['Contato: Roberto Figueroa', ' Lunes a viernes 10:00 a 13:00 y 14:30 a 19:00 horas ', 'Sábado y domingo: 10:00 a 14:00 y 15:30 a 19:00 horas.',  'Asesorate para adquirir el hogar de tus sueños'], //subtitulos moviles
     telefono: '+56954237688',
     message:'Necesito más información sobre el proyecto',
-    footerText:"ventaslosangeles@ipuertomayor.cl",
+    footerText:"ventaslosangeles@ipuertomayor.cl | rfigueroa@ipuertomayor.cl",
     linkedinLink: 'https://www.linkedin.com/company/inmobiliariapuertomayor',
     instagramLink: 'https://www.instagram.com/inmobiliariapuertomayor/',
     facebookLink: 'https://facebook.com/puertomayor.inmobiliaria',
@@ -57,7 +57,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'CASAS',
           subtitle: 'Avenida Ricardo Vicuña 1610',
-          description: 'Casas de hormigon armado, pisos porcelanatos continuos, cocinas equipadas, calefacción central y segundo dormitorio en suite.',
+          description: 'Casas de hormigón armado, pisos porcelanatos continuos, cocinas equipadas, calefacción central y segundo dormitorio en suite.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Aerea/output/index.html',
@@ -87,10 +87,10 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'DEPARTAMENTOS',
           subtitle: 'Avenida Ricardo Vicuña 1610',
-          description: 'Pisos de porcelanato continuos, amplias terrazas, cocinas amobladas con cubiertas de silestone, cocina equipada, Termopaneles con marcos de PVC, calefacción central a gas baños principales con shower door',
+          description: 'Pisos de porcelanato continuos, amplias terrazas, cocinas amobladas con cubiertas de silestone, cocina equipada, termopaneles con marcos de PVC, calefacción central a gas, baños principales con shower door.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Aerea/output/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Edificio-Catalu%C3%B1a/output/index.html',
             buttonText: 'Ver ubicación',
           },
         },

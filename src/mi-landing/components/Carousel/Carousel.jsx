@@ -20,11 +20,11 @@ const Carousel = ({
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 700,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 25000,
+    autoplaySpeed: 250000,
     pauseOnHover: false,
     swipe: true,
     vertical: false,

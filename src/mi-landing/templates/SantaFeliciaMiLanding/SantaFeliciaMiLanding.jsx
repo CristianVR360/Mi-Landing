@@ -38,7 +38,7 @@ const TemplateMiLanding = () => {
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
-    ctaWhatsappButton: '¡Más Información',
+    ctaWhatsappButton: '¡Más Información!',
     iframeBackground: '',
     subtitles: ['Parcelas cerca de Araucanía Costera', 'Ideal para pesca deportiva', 'Espacio y naturaleza asegurados', "Oportunidad única para invertir"],
     telefono: '+56950937296',
@@ -87,7 +87,7 @@ const TemplateMiLanding = () => {
         description: 'Parcelas desde los 5,000 m², ofrecen amplios espacios ideales para el desarrollo residencial. Ubicadas en una pradera verde con borde de estero, estas parcelas garantizan un entorno natural y fresco, perfecto para aquellos que buscan un estilo de vida en armonía con la naturaleza. Parcelas Santa Felicia asegura la factibilidad de servicios básicos como luz y agua, garantizando que su nueva propiedad esté lista para ser habitada desde el primer día. Además, contamos con caminos de acceso directo a cada parcela, facilitando la llegada y salida de su futuro hogar.',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Santa-Felicia/output/index.html',
+          iframeUrl: 'https://parcelassantafelicia.cl/masterplan.html',
           buttonText: 'Ver MasterPlan',
         },
       },
@@ -97,7 +97,7 @@ const TemplateMiLanding = () => {
         videoUrl: "",
         title: 'PRECIOS Y FINANCIAMIENTO',
         subtitle: 'Desde $18.990.000',
-        description: 'Ofrecemos parcelas a precios competitivos y diversas opciones de financiamiento para adaptarse a sus necesidades. Consulte nuestras promociones y descuentos disponibles para facilitar su inversión en este paraíso natural.',
+        description: 'Pago en efectivo, vale vistas, tarjetas de crédito/débito. Para reserva de algún lote con promesa de venta, pie de $5.000.000. Además contamos con Crédito Directo de hasta 36 cuotas.',
         buttonConfig: {
           type: 'link',
           url: 'https://wa.me/56950937296?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
@@ -115,7 +115,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Santa-Felicia/output/index.html',
+          iframeUrl: 'https://parcelassantafelicia.cl/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },
