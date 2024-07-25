@@ -68,7 +68,7 @@ const TemplateMiLanding = () => {
           image: catalunaPiloto,
           videoUrl: "",
           title: 'CASA PILOTO',
-          subtitle: '193 m2, 4 Dormitorios 4 Baños.  ',
+          subtitle: '193 m², 4 Dormitorios 4 Baños.  ',
           description: 'Modelo B2 ',
           buttonConfig: {
             type: 'popup',
@@ -98,7 +98,7 @@ const TemplateMiLanding = () => {
           image: catalunaA,
           videoUrl: "",
           title: 'DEPARTAMENTO TIPO A',
-          subtitle: '61,54 m2, 2 Dormitorios 2 Baños.',
+          subtitle: '61,54 m², 2 Dormitorios 2 Baños.',
           description: 'Dispone de 2 dormitorios amplios y luminosos, perfectos para el descanso, y 2 baños modernos y equipados con todas las comodidades necesarias. Además, incluye un estar versátil, ideal para relajarse o recibir a tus invitados. La amplia terraza te permitirá disfrutar de momentos al aire libre, con espacio suficiente para crear un ambiente acogedor y relajante. ',
           buttonConfig: {
             type: 'popup',
@@ -125,7 +125,7 @@ const TemplateMiLanding = () => {
           image: catalunaC2,
           videoUrl: "",
           title: 'DEPARTAMENTO C2',
-          subtitle: '124,39 m2, 3 Dormitorios 3 Baños.  ',
+          subtitle: '124,39 m², 3 Dormitorios 3 Baños.  ',
           description: 'Ofrece un espacio generoso y elegante, ideal para quienes buscan amplitud y confort en su hogar. Dispone de 3 dormitorios espaciosos y luminosos, perfectos para el descanso, y 3 baños modernos y completamente equipados. Además, incluye un estar amplio y versátil, ideal para relajarse o recibir a tus invitados. La extensa terraza te permitirá organizarla a tu medida, con espacio suficiente para crear un ambiente acogedor y relajante.',
           buttonConfig: {
             type: 'popup',

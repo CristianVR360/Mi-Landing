@@ -92,8 +92,8 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
-            buttonText: 'Ver Tour Virtual',
+            iframeUrl: 'https://www.puertomayor.cl/index.php?action=parque-vicuna',
+            buttonText: 'Ver sitio web',
           },
         },
       ],
@@ -114,7 +114,7 @@ const TemplateMiLanding = () => {
           image: aragonPiloto,
           videoUrl: "",
           title: 'VISITA PILOTO VIRTUAL',
-          subtitle: '19 casas de 102,92 m2, en dos niveles, de 3 dormitorios y 3 baños.',
+          subtitle: '19 casas de 102,92 m², en dos niveles, de 3 dormitorios y 3 baños.',
           description: 'Ventanas de termopanel con marcos de PVC folio blanco, cocina equipada con campana, encimera a gas, horno empotrado y cubiertas de granito. El dormitorio principal en suite incluye baño con shower door y walk-in closet. Pisos de pavimentos cerámicos continuos completan el diseño.',
           buttonConfig: {
             type: 'popup',
@@ -166,7 +166,7 @@ const TemplateMiLanding = () => {
           image: catalunaPiloto,
           videoUrl: "",
           title: 'CASA PILOTO',
-          subtitle: '193 m2, 4 Dormitorios 4 Baños.  ',
+          subtitle: '193 m², 4 Dormitorios 4 Baños.  ',
           description: 'Casas con altos estandares de construcción, hormigon armado, pisos porcelanatos continuos, cocinas full equipadas, calefacción central y segundo dormitorio en suite.',
           buttonConfig: {
             type: 'popup',
@@ -196,7 +196,7 @@ const TemplateMiLanding = () => {
           image: catalunaA,
           videoUrl: "",
           title: 'DEPARTAMENTO TIPO A',
-          subtitle: '61 m2, 2 Dormitorios 2 Baños.  ',
+          subtitle: '61 m², 2 Dormitorios 2 Baños.  ',
           description: ' Dispone de 2 dormitorios amplios y luminosos, perfectos para el descanso, y 2 baños modernos y equipados con todas las comodidades necesarias. Además, incluye un estar versátil, ideal para relajarse o recibir a tus invitados. La amplia terraza te permitirá disfrutar de momentos al aire libre, con espacio suficiente para crear un ambiente acogedor y relajante. ',
           buttonConfig: {
             type: 'popup',
@@ -222,7 +222,7 @@ const TemplateMiLanding = () => {
           image: catalunaC2,
           videoUrl: "",
           title: 'DEPARTAMENTO C2',
-          subtitle: '124,39 m2, 3 Dormitorios 3 Baños.  ',
+          subtitle: '124,39 m², 3 Dormitorios 3 Baños.  ',
           description: 'Ofrece un espacio generoso y elegante, ideal para quienes buscan amplitud y confort en su hogar. Dispone de 3 dormitorios espaciosos y luminosos, perfectos para el descanso, y 3 baños modernos y completamente equipados. Además, incluye un estar amplio y versátil, ideal para relajarse o recibir a tus invitados. La extensa terraza te permitirá organizarla a tu medida, con espacio suficiente para crear un ambiente acogedor y relajante.',
           buttonConfig: {
             type: 'popup',
@@ -252,7 +252,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'PUERTO MAYOR II',
           subtitle: 'Bulnes 220, Los Ángeles',
-          description: 'Al costado del Edificio Puerto Mayor I y en un sector residencial a pasos del centro de la ciudad, moderno sistema de oficinas con plantas libres, para que diseñes como necesites',
+          description: 'Al costado del Edificio Puerto Mayor I y en un sector residencial a pasos del centro de la ciudad, conoce este moderno edificio de oficinas de plantas libres.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-Emplazamiento/output/index.html',
@@ -264,7 +264,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Locales Comerciales',
           subtitle: 'Bulnes 220, Los Ángeles',
-          description: '2. En el primer piso contamos con 7 locales comerciales de un piso, con superficies de 39 a 92mts2, en plantas libres, cerca de puntos estratégicos de la ciudad. Quedan pocas unidades disponibles para arriendo.',
+          description: 'En el primer piso contamos con 7 locales comerciales de un piso, con superficies de 39 a 92m², en plantas libres, cerca de puntos estratégicos de la ciudad. Quedan pocas unidades disponibles para arriendo.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-Fachada/output/index.html',
@@ -276,11 +276,11 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'SALA DE REUNIONES Y WORK CAFÉ ',
           subtitle: 'Bulnes 220, Los Ángeles',
-          description: 'Contamos con cómodas y amplias salas de reuniones de uso común, todas con acceso libre a work café en el hall del edificio para tener un espacio de relajo y trabajo',
+          description: 'Contamos con cómodas y amplias salas de reuniones de uso común, y un work café en el hall del edificio para tener un espacio de relajo y trabajo.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Puerto-Mayor-II/PuertoMayorII-WorkCafe/output/index.html',
-            buttonText: 'Ver Work Cafe',
+            buttonText: 'Ver Work Café',
           },
         },
       ]
