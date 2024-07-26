@@ -43,30 +43,163 @@ const Astra360MiLanding = () => {
           image: carouselImage1,
           
           videoUrl: "",
-          title: 'Master Plan 360',
+          title: 'AERO VIEW 360',
           subtitle: 'Tus proyectos inmobiliarios con una experiencia interactiva y envolvente',
           description: 'Transforma la experiencia de tus clientes y destaca entre la competencia con nuestro innovador servicio de Master Plan 360. Ofrece una vista interactiva y envolvente, integrando tags de georreferencia y amenities destacados del proyecto, proporcionando una comprensión clara y detallada de cada desarrollo inmobiliario.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Aerea/output/index.html',
-            buttonText: 'Ver ubicación',
+            buttonText: 'Ver ejemplo',
           },
         },
         {
           image: carouselImage1,
           videoUrl: "",
-          title: 'Tour Virtual',
+          title: 'TOUR VIRTUAL Y GALERÍAS 360',
           subtitle: 'Pilotos y espacios virtuales ',
-          description: '',
+          description: 'Busca la mejor experiencia inmersiva para  tus clientes y destaca entre la competencia con nuestro innovador servicio de Tour Virtual. Diseñado específicamente para inmobiliarias, este servicio ofrece una vista interactiva y envolvente de tus proyectos, integrando recorridos virtuales de 360° con tags, proporcionando una comprensión clara y detallada de cada piloto.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Casa+Piloto/output/index.html',
-            buttonText: 'Tour Virtual',
+            buttonText: 'Ver ejemplo',
+          },
+          
+        },
+
+        {
+          image: carouselImage1,
+          videoUrl: "",
+          title: 'PRODUCCIÓN AUDIOVISUAL',
+          subtitle: 'Fotografía, videos, reels.',
+          description: 'Transforma la presentación de tus desarrollos inmobiliarios y destaca en el mercado con nuestro servicio integral de producción audiovisual, que incluye fotografías de alta calidad, videos, reels y contenido atractivo para redes sociales',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://www.youtube.com/embed/sbQVgKE_UYQ?si=HPBjGHwFdTHuCg64',
+            buttonText: 'Ver ejemplo',
           },
           
         },
   
       ],
+
+      
+      carousel02: [
+        {
+          image: carouselImage1,
+          
+          videoUrl: "",
+          title: 'MASTERPLAN 360',
+          subtitle: 'Tus proyectos con una experiencia interactiva y envolvente',
+          description: 'Transforma la experiencia de tus clientes y destaca entre la competencia con nuestro innovador servicio de Master Plan 360. Ofrece una vista interactiva y envolvente, integrando tags de georreferencia y puntos de interes, proporcionando una comprensión clara y detallada de cada desarrollo inmobiliario.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Guillermo+Valenzuela/Chaignal/output/index.html',
+            buttonText: 'Ver ejemplo',
+          },
+        },
+        {
+          image: carouselImage1,
+          videoUrl: "",
+          title: 'GALERÍAS 360 y STREET VIEW',
+          subtitle: 'Recorre digitalmente tu proyecto ',
+          description: 'Busca la mejor experiencia inmersiva para  tus clientes y destaca entre la competencia con nuestro innovador servicio de Tour Virtual. Diseñado específicamente para proyectos de loteos, este servicio ofrece una vista interactiva y envolvente de tus proyectos, integrando recorridos tipo street view, proporcionando una comprensión clara y detallada de tu proyecto.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://marcoswillerintranet-production.up.railway.app/',
+            buttonText: 'Ver ejemplo',
+          },
+          
+        },
+
+        {
+          image: carouselImage1,
+          videoUrl: "",
+          title: 'PRODUCCIÓN AUDIOVISUAL',
+          subtitle: 'Fotografía, videos, reels.',
+          description: 'Transforma la presentación de tus proyectos y destaca en el mercado con nuestro servicio integral de producción audiovisual, que incluye fotografías de alta calidad, videos, reels y contenido atractivo para redes sociales',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://www.youtube.com/embed/sbQVgKE_UYQ?si=HPBjGHwFdTHuCg64',
+            buttonText: 'Ver ejemplo',
+          },
+          
+        },
+  
+      ],
+
+      carousel03: [
+        {
+          image: carouselImage1,
+          
+          videoUrl: "",
+          title: 'INMOBILIARIA NUALART',
+          subtitle: 'Proyectos ejecutados: 2',
+          description: 'AeroView + Recorridos Virtuales + Experiencias en Realidad Virtual',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://s3.sa-east-1.amazonaws.com/cristian.tv360/Nualart/Ponte-Vedra/a%C3%A9rea/output/index.html',
+            buttonText: 'Ver proyecto',
+          },
+        },
+        {
+          image: carouselImage1,
+          videoUrl: "",
+          title: 'INMOBILAIRIA PUERTO MAYOR',
+          subtitle: 'Proyectos ejecutados: 6',
+          description: 'Recorridos Virtuales y aeroviews para proyectos en Los Ángeles, Temuco y Pucón.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Parque-Vicu%C3%B1a/aerea/output/index.html',
+            buttonText: 'Ver proyecto',
+          },
+          
+        },
+
+        {
+          image: carouselImage1,
+          videoUrl: "",
+          title: 'HOFFMAN & WILLER',
+          subtitle: 'Proyectos ejecutados: 2',
+          description: 'Master plan 360 para loteos, Website de administracion y gestión de propiedades',
+          buttonConfig: {
+            type: 'link',
+            iframeUrl: 'https://ghw.cl',
+            buttonText: 'Visitar website',
+          },
+          
+        },
+
+        {
+          image: carouselImage1,
+          videoUrl: "",
+          title: 'PARCELAS VILLARRICA',
+          subtitle: 'Proyectos ejecutados: 2',
+          description: 'Master plan 360 para loteos, Website informativo.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://masterplan360.s3.sa-east-1.amazonaws.com/parcelasvillarrica/vogelHaus/output/index.html',
+            buttonText: 'Ver proyecto',
+          },
+          
+        },
+  
+        
+        {
+          image: carouselImage1,
+          videoUrl: "",
+          title: 'Parcelas Chaignal y Los Tordos',
+          subtitle: 'Proyectos ejecutados: 3',
+          description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://www.youtube.com/embed/6PC3STetosw?si=xmj-Nh9lhhAA7_Fs',
+            buttonText: 'Ver proyecto',
+          },
+          
+        },
+      ],
+
+
     }
 
 
@@ -75,7 +208,8 @@ const Astra360MiLanding = () => {
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
     { id: 'carousel01', texto: 'Inmobiliarias' },
-    { id: '', texto: 'Loteos' },
+    { id: 'carousel02', texto: 'Loteos y parcelaciones' },
+    { id: 'carousel03', texto: 'Portafolio' },
     
     // Agrega más opciones según sea necesario
   ];

@@ -7,8 +7,10 @@ import MiLanding from '../../../pages/Preview/MiLanding';
 import favUrl from './assets/fav.jpg'
 import logo from './assets/Recurso 1.png';
 import parqueVicunaBkg from './assets/ParqueVicuna.jpg';
+
 //import parqueVicunaBkg2 from './assets/parque-vicuna-proyecto.jpg';
 //import foto01 from './assets/PilotoAragon.jpg';
+
 import catalunaPiloto from './assets/CasaPilotoCataluna.jpg';
 import catalunaA from './assets/CatalunaA.jpg';
 import catalunaC2 from './assets/Catalunac2.jpg';
