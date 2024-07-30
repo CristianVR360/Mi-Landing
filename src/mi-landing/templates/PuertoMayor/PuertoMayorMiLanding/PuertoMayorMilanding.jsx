@@ -189,7 +189,7 @@ const TemplateMiLanding = () => {
           description: 'Los departamentos del proyecto cuentan con pisos de porcelanato continuos, amplias terrazas, cocinas amobladas con cubiertas de silestone, horno eléctrico, encimera y campana. Además, disponen de ventanas termopanel con marcos de PVC, calefacción central a gas individual y baños principales con shower door.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Aerea/output/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Catalu%C3%B1a/Edificio-Catalu%C3%B1a/output/index.html',
             buttonText: 'Ver ubicación',
           },
         },
