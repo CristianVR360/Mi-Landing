@@ -7,10 +7,10 @@ import MiLanding from '../../../pages/Preview/MiLanding';
 import favUrl from './assets/fav.svg';
 import logo from './assets/logo-ponteVedra.png';
 import portada from './assets/bg-mapa-2_liv_phot.jpg';
-import plantaC from './assets/portada02.jpg';
-import plantaD1 from './assets/portada03.jpg';
-import plantaD2 from './assets/portada04.jpg';
-import plantaE1 from './assets/portada05.jpg';
+import plantaD1 from './assets/portada02.jpg';
+import plantaC from './assets/portada03.jpg';
+import plantaE1 from './assets/e1.jpg';
+import plantaD2 from './assets/portada05.jpg';
 
 //import parqueVicunaBkg2 from './assets/parque-vicuna-proyecto.jpg';
 //import foto01 from './assets/PilotoAragon.jpg';
@@ -96,7 +96,7 @@ const TemplateMiLanding = () => {
             
             buttonConfig: {
               type: 'popup',
-              iframeUrl: 'https://s3.sa-east-1.amazonaws.com/cristian.tv360/Nualart/Ponte-Vedra/Planta-D2/index.html',
+              iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Nualart/PonteVedra/Tipo+D2/output/index.html',
               buttonText: 'Ver piloto virtual',
             },
           },
