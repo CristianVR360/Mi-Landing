@@ -57,7 +57,7 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://s3.sa-east-1.amazonaws.com/cristian.tv360/Nualart/Ponte-Vedra/a%C3%A9rea/output/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Nualart/PonteVedra/A%C3%A9rea/output/index.html',
             buttonText: 'Ver ubicación',
           },
         },
@@ -70,7 +70,7 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://s3.sa-east-1.amazonaws.com/cristian.tv360/Nualart/Ponte-Vedra/Planta-C/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Nualart/PonteVedra/Tipo+C/output/index.html',
             buttonText: 'Ver piloto virtual',
           },
         },
@@ -83,7 +83,7 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://s3.sa-east-1.amazonaws.com/cristian.tv360/Nualart/Ponte-Vedra/Planta-D1/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Nualart/PonteVedra/Tipo+D1/output/index.html',
             buttonText: 'Ver piloto virtual',
           },
         },
@@ -109,7 +109,7 @@ const TemplateMiLanding = () => {
             
             buttonConfig: {
               type: 'popup',
-              iframeUrl: 'https://s3.sa-east-1.amazonaws.com/cristian.tv360/Nualart/Ponte-Vedra/Planta-E1/index.html',
+              iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Nualart/PonteVedra/Tipo+E1/output/index.html',
               buttonText: 'Ver piloto virtual',
             },
           },
