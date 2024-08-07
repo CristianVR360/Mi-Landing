@@ -51,8 +51,8 @@ const TemplateMiLanding = () => {
         {
           image: portada ,
           videoUrl: "",
-          title: 'UBICACION PRIVILEGIADA',
-          subtitle: 'Av. Martín Lutero #02580',
+          title: 'UBICACIÓN PRIVILEGIADA',
+          subtitle: 'Av. Martín Lutero #02440',
           description: 'Asociado a una estética diferenciadora, el entorno se compenetra con un proyecto pensado para vivir los mejores momentos en diversos espacios que te llevarán a compartir sin límites…',
           
           buttonConfig: {
