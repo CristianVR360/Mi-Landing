@@ -20,7 +20,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Reserva aquí!',
     iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingGardenClub/output/index.html',
-    subtitles: ['¡Bienvenidos a Garden Club!', 'La mejor casa club de eventos de Temuco', 'Cumpleaños, reuniones, eventos y más'],
+    subtitles: ['¡Bienvenidos a Garden Club!', 'La mejor casa club de eventos en Temuco', 'Cumpleaños, reuniones, eventos y más'],
     telefono: '+56947441018',
     instagramLink: 'https://www.instagram.com/gardenclubtco',
     facebookLink: 'https://www.facebook.com/profile.php?id=100083870003458&mibextid=LQQJ4d',
