@@ -22,6 +22,7 @@ const App = () => {
       <Suspense fallback={<div>Cargando...</div>}>
         <Routes>
           <Route path="/" element={<Astra360MiLanding />} />
+          <Route path="/astra360" element={<Astra360MiLanding />} />
           <Route path="/Puerto-Mayor" element={<PuertoMayorMiLanding />} />
           <Route path="/Hoffman-y-Willer" element={<HoffmanyWiller/>} />
           <Route path="/Puerto-Mayor-Cataluna" element={<PuertoMayorCatalunaMiLanding />} />
