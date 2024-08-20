@@ -80,7 +80,7 @@ const TemplateMiLanding = () => {
     telefono: '+56971368049',
     instagramLink: '',
     facebookLink: '',
-    gpsLink: 'https://maps.app.goo.gl/2ttPthCYNqsYX4wC7',
+    gpsLink: 'https://maps.app.goo.gl/J1pqZTqdGxXeSmFJ9',
     linkedinLink:"",
     footerAfterStyles: {
       background: "linear-gradient(to bottom, rgba(96, 96, 96, 0) 0%, rgba(96, 96, 96, 0.2) 5%, rgba(96, 96, 96, 0.4) 20%, rgba(96, 96, 96, 0.7) 50%, rgba(96, 96, 96, 0.9) 70%, rgba(96, 96, 96, 1) 100%)",
@@ -148,7 +148,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://parcelassantafelicia.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/BosquesDeQuilentue/output/index.html',
           buttonText: 'Ver Master Plan',
         },
       },
