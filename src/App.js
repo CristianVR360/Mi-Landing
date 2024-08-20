@@ -15,6 +15,7 @@ const AinhoaBaby = lazy(() => import('./mi-landing/templates/AinhoaMiLanding/Ain
 const SantaFelicia = lazy(()=> import('./mi-landing/templates/SantaFeliciaMiLanding/SantaFeliciaMiLanding'));
 const PonteVedra = lazy(()=> import ('./mi-landing/templates/Nualart/Pontevedra/PontevedraMiLanding'));
 const GardenClub = lazy(()=> import ('./mi-landing/templates/GardenClub/GardenClub'));
+const BosquesDeQuilentue = lazy(()=> import ('./mi-landing/templates/BosquesDeQuilentue/BosquesDeQuilentue'));
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/Santa-Felicia" element = {< SantaFelicia/>} />
           <Route path="/Nualart-PonteVedra" element={<PonteVedra/>}/>
           <Route path="/Garden-club" element={<GardenClub/>}/>
+          <Route path="/Bosques-de-Quilentue" element={<BosquesDeQuilentue/>}/>
 
           {/* Agrega más rutas para otros clientes */}
         </Routes>
