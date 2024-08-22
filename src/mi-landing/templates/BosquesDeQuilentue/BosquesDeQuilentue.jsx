@@ -25,7 +25,7 @@ import img15 from './assets/img15.jpg';
 //import img16 from './assets/img16.jpg';
 import img17 from './assets/img17.jpg';
 //import img18 from './assets/img18.jpg';
-import img19 from './assets/img19.jpg';
+//import img19 from './assets/img19.jpg';
 import img20 from './assets/img20.jpg';
 //import img21 from './assets/img21.jpg';
 import img22 from './assets/img22.jpg';
@@ -42,7 +42,7 @@ import img32 from './assets/img32.jpg';
 import img33 from './assets/img33.jpg';
 import img34 from './assets/img34.jpg';
 import img35 from './assets/img35.jpg';
-import img36 from './assets/img36.jpg';
+//import img36 from './assets/img36.jpg';
 //import img37 from './assets/img37.jpg';
 import img38 from './assets/img38.jpg';
 import img39 from './assets/img39.jpg';
@@ -64,9 +64,9 @@ import img49 from './assets/img49.jpg';
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logo , // Agrega la ruta de tu logo aquí
-    colorPrimario: '#606060',
+    colorPrimario: '#322755',
     colorSecundario: '#fff',
-    colorPrimarioTransparente: 'rgba(162, 163, 162, 0.8)',
+    colorPrimarioTransparente: 'rgba(50, 39, 85, 0.8)',
     colorTerciario: '#606060',
     colorCuaternario: '#34495e',
     backgroundImage: img42 ,
@@ -80,10 +80,12 @@ const TemplateMiLanding = () => {
     telefono: '+56971368049',
     instagramLink: '',
     facebookLink: '',
+    footerText:'feisal_aluen@hotmail.com',
     gpsLink: 'https://maps.app.goo.gl/J1pqZTqdGxXeSmFJ9',
     linkedinLink:"",
     footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(96, 96, 96, 0) 0%, rgba(96, 96, 96, 0.2) 5%, rgba(96, 96, 96, 0.4) 20%, rgba(96, 96, 96, 0.7) 50%, rgba(96, 96, 96, 0.9) 70%, rgba(96, 96, 96, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(50, 39, 85, 0) 0%, rgba(50, 39, 85, 0.2) 5%, rgba(50, 39, 85, 0.4) 20%, rgba(50, 39, 85, 0.7) 50%, rgba(50, 39, 85, 0.9) 70%, rgba(50, 39, 85, 1) 100%)",
+
       textColor: '#fff'
     },
     carousels: {
@@ -120,7 +122,7 @@ const TemplateMiLanding = () => {
           description: 'Cada parcela de Bosques de Quilentue ofrece algo único: la presencia de un denso y mágico bosque nativo que te permitirá vivir rodeado de naturaleza en su estado más puro. Imagina despertar cada mañana con el suave susurro del viento entre los árboles, con la posibilidad de explorar senderos ocultos bajo la sombra de antiguos robles y coigües. Aquí, la naturaleza no es solo un paisaje, sino una parte viva de tu hogar. Además, todas las parcelas cuentan con factibilidad de luz y agua, asegurando un entorno cómodo y preparado para construir tu refugio perfecto.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/BosquesDeQuilentue/output/index.html',
+            iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
             buttonText: 'Ver MasterPlan',
           },
         },
@@ -128,8 +130,8 @@ const TemplateMiLanding = () => {
           image: img40,
           videoUrl: "",
           title: 'PRECIOS Y FINANCIAMIENTO',
-          subtitle: 'Oferta de lanzamiento desde $35.000.000',
-          description: 'Aprovecha nuestra oferta de lanzamiento con precios desde $35.000.000. Ofrecemos diversas opciones de pago, incluyendo financiamiento directo de hasta 48 cuotas. La reserva de parcelas se puede realizar con un pie de $7.000.000, asegurando tu lugar en este paraíso natural. Además, aceptamos pagos con tarjetas de crédito/débito y transferencias bancarias.',
+          subtitle: 'Oferta de lanzamiento desde $39.000.000',
+          description: 'Aprovecha nuestra oferta de lanzamiento con precios desde $39.000.000. Ofrecemos diversas opciones de pago, incluyendo financiamiento directo de hasta 48 cuotas. La reserva de parcelas se puede realizar con un pie de $7.000.000, asegurando tu lugar en este paraíso natural. Además, aceptamos pagos con tarjetas de crédito/débito y transferencias bancarias.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
@@ -141,26 +143,26 @@ const TemplateMiLanding = () => {
 
     carousel02:[
       {
-        image:img19 ,
+        image:img38 ,
         videoUrl: "",
         title: 'MASTER PLAN 360',
         subtitle: "Recorre de manera interactiva por nuestro Master Plan 360",
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/BosquesDeQuilentue/output/index.html',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },
       {
-        image:img36 ,
+        image:img38 ,
         videoUrl: "",
         title: 'MASTER PLAN 360',
         subtitle: "Recorre de manera interactiva por nuestro Master Plan 360",
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/BosquesDeQuilentue/output/index.html',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },

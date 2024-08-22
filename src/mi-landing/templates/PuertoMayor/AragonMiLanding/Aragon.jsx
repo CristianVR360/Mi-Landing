@@ -89,7 +89,7 @@ const TemplateMiLanding = () => {
         {
           image: EdificioPortada2,
           videoUrl: "",
-          title: 'AVANCES CONTRUCCIÓN',
+          title: 'Ver Piloto',
           subtitle: '2024',
           description: 'Edificio de 7 pisos con un total de 56 departamentos, de 1, 2 y 3 dormitorios, con metrajes desde 36 m² hasta 79m²',
           buttonConfig: {
