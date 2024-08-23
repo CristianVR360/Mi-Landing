@@ -128,16 +128,12 @@ const TemplateMiLanding = () => {
         },
         
         {
-  "image": img45,
-  "videoUrl": "",
-  "title": "ZONA DE CONSERVACIÓN",
-  "subtitle": "Senderos y ciclovías en medio de la naturaleza",
-  "description": "Bosques de Quilentue cuenta con una exclusiva zona de conservación, diseñada para preservar la biodiversidad y la belleza natural de Molco. Este espacio protegido incluirá una red de senderos y ciclovías que te permitirán explorar el entorno de manera sostenible. Camina o pedalea entre la riqueza del bosque nativo, disfrutando de paisajes únicos y la tranquilidad de la naturaleza en su máxima expresión. Aquí, la conexión con el entorno es parte fundamental de la vida diaria.",
-  "buttonConfig": {
-    "type": "popup",
-    "iframeUrl": "https://bosquesdequilentue.cl/conservacion.html",
-    "buttonText": "Explorar zona de conservación"
-  }
+  image: img45,
+  videoUrl: "",
+  title: "ZONA DE CONSERVACIÓN",
+  subtitle: "Senderos y ciclovías en medio de la naturaleza",
+  description: "Bosques de Quilentue cuenta con una exclusiva zona de conservación, diseñada para preservar la biodiversidad y la belleza natural de Molco. Este espacio protegido incluirá una red de senderos y ciclovías que te permitirán explorar el entorno de manera sostenible. Camina o pedalea entre la riqueza del bosque nativo, disfrutando de paisajes únicos y la tranquilidad de la naturaleza en su máxima expresión. Aquí, la conexión con el entorno es parte fundamental de la vida diaria.",
+  
 },
 
         {
