@@ -115,7 +115,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img45,
+          image: img41,
           videoUrl: "",
           title: 'CARACTERÍSTICAS',
           subtitle: 'Un paraíso natural en cada parcela',
@@ -126,11 +126,25 @@ const TemplateMiLanding = () => {
             buttonText: 'Ver MasterPlan',
           },
         },
+        
+        {
+  "image": img45,
+  "videoUrl": "",
+  "title": "ZONA DE CONSERVACIÓN",
+  "subtitle": "Senderos y ciclovías en medio de la naturaleza",
+  "description": "Bosques de Quilentue cuenta con una exclusiva zona de conservación, diseñada para preservar la biodiversidad y la belleza natural de Molco. Este espacio protegido incluirá una red de senderos y ciclovías que te permitirán explorar el entorno de manera sostenible. Camina o pedalea entre la riqueza del bosque nativo, disfrutando de paisajes únicos y la tranquilidad de la naturaleza en su máxima expresión. Aquí, la conexión con el entorno es parte fundamental de la vida diaria.",
+  "buttonConfig": {
+    "type": "popup",
+    "iframeUrl": "https://bosquesdequilentue.cl/conservacion.html",
+    "buttonText": "Explorar zona de conservación"
+  }
+},
+
         {
           image: img40,
           videoUrl: "",
           title: 'PRECIOS Y FINANCIAMIENTO',
-          subtitle: 'Oferta de lanzamiento desde $39.000.000',
+          subtitle: 'Oferta exclusiva de lanzamiento desde $39.000.000',
           description: 'Aprovecha nuestra oferta de lanzamiento con precios desde $39.000.000. Ofrecemos diversas opciones de pago, incluyendo financiamiento directo de hasta 48 cuotas. La reserva de parcelas se puede realizar con un pie de $7.000.000, asegurando tu lugar en este paraíso natural. Además, aceptamos pagos con tarjetas de crédito/débito y transferencias bancarias.',
           buttonConfig: {
             type: 'link',
