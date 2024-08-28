@@ -3,7 +3,7 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Importación dinámica de los componentes de clientes
-const Astra360MiLanding = lazy(() => import('./mi-landing/templates/Astra360MiLanding/Astra360MiLanding'));
+const Astra360MiLanding = lazy(() => import('./mi-landing/templates/Astra.360/Astra.360'));
 const PuertoMayorMiLanding = lazy(() => import('./mi-landing/templates/PuertoMayor/PuertoMayorMiLanding/PuertoMayorMilanding'));
 const HoffmanyWiller = lazy(() => import('./mi-landing/templates/hyw/HyWMiLanding')); 
 const PuertoMayorCatalunaMiLanding = lazy(() => import('./mi-landing/templates/PuertoMayor/CataluñaMiLanding/Cataluña'));
@@ -19,7 +19,7 @@ const BosquesDeQuilentue = lazy(()=> import ('./mi-landing/templates/BosquesDeQu
 const LosTordos = lazy(()=> import ('./mi-landing/templates/LosTordos/LosTordos'));
 const MarcosWiller = lazy(()=> import ('./mi-landing/templates/MarcosWiller/MarcosWiller'));
 const Chaignal = lazy(()=> import ('./mi-landing/templates/Chaignal/Chaignal'));
-const Astra360 = lazy(()=> import ('./mi-landing/templates/Astra.360/Astra.360'));
+
 
 const App = () => {
   return (
@@ -43,7 +43,7 @@ const App = () => {
           <Route path="/Los-Tordos" element={<LosTordos/>}/>
           <Route path="/Marcos-Willer" element={<MarcosWiller/>}/>
           <Route path="/Parcelas-Chaignal" element={<Chaignal/>}/>
-          <Route path="/Astra.360" element={<Astra360/>}/>
+          
           {/* Agrega más rutas para otros clientes */}
         </Routes>
       </Suspense>

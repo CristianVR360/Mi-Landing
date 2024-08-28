@@ -132,7 +132,7 @@ const TemplateMiLanding = () => {
   videoUrl: "",
   title: "ZONA DE CONSERVACIÓN",
   subtitle: "Senderos y ciclovías en medio de la naturaleza",
-  description: "Bosques de Quilentue cuenta con una exclusiva zona de conservación, diseñada para preservar la biodiversidad y la belleza natural de Molco. Este espacio protegido incluirá una red de senderos y ciclovías que te permitirán explorar el entorno de manera sostenible. Camina o pedalea entre la riqueza del bosque nativo, disfrutando de paisajes únicos y la tranquilidad de la naturaleza en su máxima expresión. Aquí, la conexión con el entorno es parte fundamental de la vida diaria.",
+  description: "Bosques de Quilentue cuenta con una exclusiva zona de conservación. El proyecto está diseñado con el propósito de preservar la biodiversidad y la belleza natural de Molco. Este espacio protegido incluye una red de senderos y ciclovías que te permitirán explorar y disfrutar del entorno de manera sostenible ya sea caminando o pedaleando inmerso en la riqueza del bosque nativo. Disfrutarás de paisajes únicos, de la paz y tranquilidad de la naturaleza en su máxima expresión. La conexión con el entorno será parte fundamental de la vida diaria.",
   
 },
 
@@ -140,8 +140,8 @@ const TemplateMiLanding = () => {
           image: img40,
           videoUrl: "",
           title: 'PRECIOS Y FINANCIAMIENTO',
-          subtitle: 'Oferta exclusiva de lanzamiento desde $39.000.000',
-          description: 'Aprovecha nuestra oferta de lanzamiento con precios desde $39.000.000. Ofrecemos diversas opciones de pago, incluyendo financiamiento directo de hasta 48 cuotas. La reserva de parcelas se puede realizar con un pie de $7.000.000, asegurando tu lugar en este paraíso natural. Además, aceptamos pagos con tarjetas de crédito/débito y transferencias bancarias.',
+          subtitle: 'Oferta exclusiva de lanzamiento desde los $39.000.000',
+          description: ' ',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
