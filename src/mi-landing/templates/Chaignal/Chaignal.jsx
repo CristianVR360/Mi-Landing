@@ -198,7 +198,19 @@ const TemplateMiLanding = () => {
       {
         image: img1 ,
         videoUrl: "",
-        title: 'Descubre el encanto de Parcelas Chaiganal:',
+        title: 'Descubre el encanto de Parcelas Chaignal:',
+        subtitle: 'Yo Juan Guillermo Valenzuela te presento',
+        description: 'Te invitamos a explorar un video exclusivo que te transportará al corazón de Parcelas Chaignal, un lugar donde la naturaleza se fusiona con la tranquilidad y el estilo de vida que siempre has deseado. En esta presentación detallada, conocerás cada rincón de este extraordinario proyecto de parcelación, diseñado para ofrecerte un refugio perfecto en medio de la belleza natural.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://www.youtube.com/embed/6PC3STetosw?si=EAF5g8Ijeo6C6TA6',
+          buttonText: 'Ver Video',
+        },
+      },
+      {
+        image: img1 ,
+        videoUrl: "",
+        title: 'Descubre el encanto de Parcelas Chaignal:',
         subtitle: 'Yo Juan Guillermo Valenzuela te presento',
         description: 'Te invitamos a explorar un video exclusivo que te transportará al corazón de Parcelas Chaignal, un lugar donde la naturaleza se fusiona con la tranquilidad y el estilo de vida que siempre has deseado. En esta presentación detallada, conocerás cada rincón de este extraordinario proyecto de parcelación, diseñado para ofrecerte un refugio perfecto en medio de la belleza natural.',
         buttonConfig: {
