@@ -18,6 +18,9 @@ const GardenClub = lazy(()=> import ('./mi-landing/templates/GardenClub/GardenCl
 const BosquesDeQuilentue = lazy(()=> import ('./mi-landing/templates/BosquesDeQuilentue/BosquesDeQuilentue'));
 const LosTordos = lazy(()=> import ('./mi-landing/templates/LosTordos/LosTordos'));
 const MarcosWiller = lazy(()=> import ('./mi-landing/templates/MarcosWiller/MarcosWiller'));
+const Chaignal = lazy(()=> import ('./mi-landing/templates/Chaignal/Chaignal'));
+const Astra360 = lazy(()=> import ('./mi-landing/templates/Astra.360/Astra.360'));
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -39,6 +42,8 @@ const App = () => {
           <Route path="/Bosques-de-Quilentue" element={<BosquesDeQuilentue/>}/>
           <Route path="/Los-Tordos" element={<LosTordos/>}/>
           <Route path="/Marcos-Willer" element={<MarcosWiller/>}/>
+          <Route path="/Parcelas-Chaignal" element={<Chaignal/>}/>
+          <Route path="/Astra.360" element={<Astra360/>}/>
           {/* Agrega más rutas para otros clientes */}
         </Routes>
       </Suspense>

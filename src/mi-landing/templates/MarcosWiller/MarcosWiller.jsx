@@ -16,9 +16,12 @@ import img8 from './assets/img8.jpg' ;
 import favIcon from './assets/favicon.png';
 import master from './assets/masterplan.jpg';
 import img9 from './assets/img9.jpg' ;
-import servi from './assets/servicios-básicos.jpg' ;
-import ubica from './assets/ubicacion.jpg' ;
+//import servi from './assets/servicios-básicos.jpg' ;
+//import ubica from './assets/ubicacion.jpg' ;
 import brochure from './assets/portadabruchure.jpg' ;
+import ubicav2 from './assets/ubicacionv2.jpg' ;
+//import img10 from './assets/img10.jpg' ;
+
 
 const TemplateMiLanding = () => {
   const landingPageData = {
@@ -63,7 +66,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: ubica,
+          image: ubicav2,
           videoUrl: "",
           title: 'UBICACIÓN',
           subtitle: 'La Picada, Puerto Octay, a minutos del Volcán Osorno y el Lago Llanquihue',
@@ -80,18 +83,6 @@ const TemplateMiLanding = () => {
           title: 'CARACTERÍSTICAS',
           subtitle: 'Un refugio natural en cada parcela',
           description: 'Las Parcelas Agrícolas Marcos Willer ofrecen un entorno privilegiado en la cordillera, convirtiéndose en el lugar perfecto para quienes buscan tranquilidad y conexión con la naturaleza. Cada parcela brinda una experiencia única: desde terrenos planos con vistas impresionantes al Volcán Osorno, hasta áreas rodeadas de vegetación nativa o con orillas de río que invitan al descanso y la reflexión. Aquí, la naturaleza no solo es un telón de fondo, sino parte integral de tu vida cotidiana. Además, cada parcela cuenta con acceso a luz soterrada y agua proporcionada por un APR privado, garantizando un entorno cómodo y listo para construir el refugio que siempre has soñado. Con atractivos turísticos a solo minutos, Marcos Willer es el lugar ideal para desconectarte de la ciudad y encontrar tu oasis personal.',
-          buttonConfig: {
-            type: 'popup',
-            iframeUrl: 'https://marcoswillerintranet-production.up.railway.app',
-            buttonText: 'Ver MasterPlan',
-          },
-        },
-        {
-          image: servi,
-          videoUrl: "",
-          title: 'Servicios Básicos',
-          subtitle: 'Un paraíso natural en cada parcela',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://marcoswillerintranet-production.up.railway.app',

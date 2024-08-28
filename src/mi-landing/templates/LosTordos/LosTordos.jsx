@@ -20,7 +20,7 @@ import master from './assets/mastermockup.jpg';
 import img9 from './assets/foto9.jpg'
 //import ubica from './assets/ubicación.jpg'; 
 import servi from './assets/servicios-básicos.jpg' ;
-
+import img10 from './assets/img10.png' ;
 
 
 
@@ -60,19 +60,19 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Los Tordos',
           subtitle: "Ubicado en la localidad de Ñancul, a solo 12 km de Villarrica.",
-          description: 'Ofrecemos un estilo de vida campestre con todas las comodidades modernas.',
+          description: 'Ubicado en la localidad de Ñancul, a solo12 km de Villarrica, "Parcelas Los Tordos" se presenta como un proyecto de loteo exclusivo, ideal para aquellos que buscan comenzar una nueva vida en el sur de Chile. Ofrecemos un estilo de vida campestre con todas las comodidades modernas.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://youtu.be/ZDqds6I9dXE',
+            iframeUrl: 'https://www.youtube.com/embed/ZDqds6I9dXE',
             buttonText: 'Ver video',
           },
         },
         {
-          image: villarrica,
+          image: servi,
           videoUrl: "",
-          title: 'UBICACIÓN',
-          subtitle: 'Ubicado en la localidad de Ñancul',
-          description: 'A solo 12 km de Villarrica, "Parcelas Los Tordos" se presenta como un proyecto de loteo exclusivo, ideal para aquellos que buscan comenzar una nueva vida en el sur de Chile.',
+          title: 'SERVICIOS BÁSICOS',
+          subtitle: '',
+          description: 'Cada una de nuestras parcelas cuenta con acceso a servicios de luz y agua, todos ellos 100% soterrados para garantizar una estética visual impecable. El abastecimiento de agua se realiza a través de un APR privado, con la opción para los clientes de optar por el APR local. La electricidad es suministrada por CGE a través de una línea exclusiva para el proyecto, y como alternativa, está disponible CODINER, la compañía eléctrica rural de la zona.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/iHhcccd3ncXvkpNf8',
@@ -80,11 +80,11 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: servi,
+          image: villarrica,
           videoUrl: "",
-          title: 'Servicios Básicos',
+          title: '¡AMPLIA CONECTIVIDAD!',
           subtitle: 'Un paraíso natural en cada parcela',
-          description: 'Cada una de nuestras parcelas cuenta con acceso a servicios de luz y agua, todos ellos 100% soterrados para garantizar una estética visual impecable. El abastecimiento de agua se realiza a través de un APR privado, con la opción para los clientes de optar por el APR local. La electricidad es suministrada por CGE a través de una línea exclusiva para el proyecto, y como alternativa, está disponible CODINER, la compañía eléctrica rural de la zona.',
+          description: 'Las señales de las principales compañías telefónicas, como Movistar, Wom, Entel y Claro, ofrecen cobertura tanto en redes 4G como en 5G.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://lostordosmaster360-production.up.railway.app',
@@ -92,11 +92,23 @@ const TemplateMiLanding = () => {
           },
         },
         {
+          image: img10,
+          videoUrl: "",
+          title: 'ACCESIBILIDAD',
+          subtitle: '',
+          description: 'El proyecto está convenientemente ubicado en la ruta S-65, que conecta Villarrica con Pitrufquén. Esta ruta está perfectamente pavimentada, asegurando un fácil acceso en automóvil. Los caminos internos del proyecto están diseñados según los más altos estándares, incluyendo nivelación, drenajes, compactación y una amplitud de 6 metros, para una circulación cómoda y segura.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+            buttonText: 'Más información',
+          },
+        },
+        {
           image: img5,
           videoUrl: "",
-          title: 'PRECIOS Y FINANCIAMIENTO',
-          subtitle: 'Oferta de lanzamiento desde $39.000.000',
-          description: 'Aprovecha nuestra oferta de lanzamiento con precios desde $39.000.000. Ofrecemos diversas opciones de pago, incluyendo financiamiento directo de hasta 48 cuotas. La reserva de parcelas se puede realizar con un pie de $7.000.000, asegurando tu lugar en este paraíso natural. Además, aceptamos pagos con tarjetas de crédito/débito y transferencias bancarias.',
+          title: 'CARACTERÍSTICAS DE LAS PARCELAS',
+          subtitle: '',
+          description: 'Las parcelas son de 5.000 m² y destacan por ser limpias, planas y ordenadas. Cada parcela está equipada con servicios esenciales completamente soterrados, incluyendo luz, agua e internet, lo que contribuye a la estética limpia y ordenada del proyecto.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
@@ -129,7 +141,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://lostordosmaster360-production.up.railway.app',
           buttonText: 'Ver Master Plan',
         },
       },
