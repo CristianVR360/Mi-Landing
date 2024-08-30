@@ -94,8 +94,8 @@ const TemplateMiLanding = () => {
           description: 'Edificio de 7 pisos con un total de 56 departamentos, de 1, 2 y 3 dormitorios, con metrajes desde 36 m² hasta 79m²',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/Fachada-Arag%C3%B3n/output/index.html',
-            buttonText: 'Ver avances',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/PilotoDepto/PilotoDepto-V1/output-1/index.html',
+            buttonText: 'Ver Piloto',
           },
         },
     ],

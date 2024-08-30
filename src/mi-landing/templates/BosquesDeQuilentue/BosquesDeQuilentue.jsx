@@ -106,7 +106,7 @@ const TemplateMiLanding = () => {
           image: fotoLago,
           videoUrl: "",
           title: 'UBICACIÓN',
-          subtitle: 'Molco, a minutos de Pucón y Villarrica',
+          subtitle: 'Molco Alto, a 20 minutos de Pucón y Villarrica',
           description: 'Bosques de Quilentue se encuentra en Molco, en una zona privilegiada de la Araucanía, rodeada de destinos turísticos de renombre. Desde aquí, puedes explorar lugares como Pucón, famoso por sus termas y el majestuoso Volcán Villarrica; el Lago Villarrica, ideal para deportes acuáticos; los Ojos del Caburgua, que ofrecen impresionantes cascadas; el Parque Nacional Huerquehue, perfecto para el senderismo en medio de la naturaleza virgen; y las Termas Geométricas, un refugio de aguas termales en medio del bosque.',
           buttonConfig: {
             type: 'link',
@@ -185,6 +185,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img20,
@@ -192,6 +193,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img22,
@@ -199,6 +201,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img23,
@@ -206,6 +209,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img24,
@@ -213,6 +217,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img25,
@@ -220,6 +225,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img26,
@@ -227,6 +233,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img28,
@@ -234,6 +241,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img29,
@@ -241,6 +249,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img30,
@@ -248,6 +257,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img32,
@@ -255,6 +265,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img33,
@@ -262,6 +273,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img34,
@@ -269,6 +281,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img35,
@@ -276,6 +289,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img38,
@@ -283,6 +297,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img39,
@@ -290,6 +305,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img40,
@@ -297,6 +313,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img41,
@@ -304,6 +321,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img42,
@@ -311,6 +329,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img43,
@@ -318,6 +337,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img44,
@@ -325,6 +345,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img45,
@@ -332,6 +353,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img46,
@@ -339,6 +361,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img47,
@@ -346,6 +369,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img02,
@@ -353,6 +377,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img04,
@@ -360,6 +385,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img05,
@@ -367,6 +393,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img06,
@@ -374,6 +401,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img08,
@@ -381,6 +409,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img09,
@@ -388,6 +417,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img11,
@@ -395,6 +425,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img12,
@@ -402,6 +433,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img14,
@@ -409,6 +441,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img15,
@@ -416,6 +449,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img48,
@@ -423,6 +457,7 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img49,
@@ -430,9 +465,9 @@ const TemplateMiLanding = () => {
         title: 'Bosques de Quilentue',
         subtitle: "",
         description: '',
-      }
-    ]
-    
+        className: 'photoGallery',
+      },
+    ],
     
     
 

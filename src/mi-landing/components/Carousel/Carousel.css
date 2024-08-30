@@ -136,6 +136,25 @@
   z-index: 9999;
 }
 
+/* Oculta el contenido de los slides que tengan la clase photoGallery */
+.carrusel__slide.photoGallery .carrusel__content,
+.carrusel__slide.photoGallery .carrusel__overlay,
+.carrusel__slide.photoGallery .carrusel__button,
+.carrusel__slide.photoGallery .carrusel__title,
+.carrusel__slide.photoGallery .carrusel__subtitle,
+.carrusel__slide.photoGallery .carrusel__description,
+.carrusel__slide.photoGallery .slick-dots li button
+{
+  display: none;
+}
+
+/* Mantiene visible solo la imagen o el video en las galerías de fotos */
+.carrusel__slide.photoGallery .carrusel__image-container,
+.carrusel__slide.photoGallery .carrusel__video-container {
+  z-index: 1; /* Asegura que la imagen esté visible */
+}
+
+
 @media screen and (max-width: 768px) {
   .carrusel__title {
     font-size: 20px;

@@ -52,7 +52,10 @@ const Carousel = ({
       <Slider {...settings}>
         {carouselLinks && carouselLinks.length > 0 ? (
           carouselLinks.map((link, index) => (
-            <div key={index} className="carrusel__slide">
+            <div
+              key={index}
+              className={`carrusel__slide ${link.className ? link.className : ''}`}
+            >
               {showIframe && link.buttonConfig && link.buttonConfig.type === 'iframe' && (
                 <iframe
                   src={iframeUrl}
@@ -131,7 +134,7 @@ const Carousel = ({
         )}
       </Slider>
       <PopUpIframe
-      logo={logo}
+        logo={logo}
         colorPrimario={colorPrimario}
         show={showPopUp}
         onClose={() => setShowPopUp(false)}
