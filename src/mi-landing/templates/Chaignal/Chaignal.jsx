@@ -19,7 +19,7 @@ import master from './assets/master.jpg';
 import favIcon from './assets/favicon.png';
 import img10 from './assets/img10.jpg';
 import img11 from './assets/img11.jpg';
-
+import guillermo from './assets/presentacion.jpg';
 
 
 
@@ -86,7 +86,7 @@ const TemplateMiLanding = () => {
           description: 'Las señales de las principales compañías telefónicas, como Movistar, Wom, Entel y Claro, ofrecen cobertura tanto en redes 4G como en 5G.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://lostordosmaster360-production.up.railway.app',
+            iframeUrl: 'https://masterchaignal-production.up.railway.app/',
             buttonText: 'Ver MasterPlan',
           },
         },
@@ -127,7 +127,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://lostordosmaster360-production.up.railway.app', //
+          iframeUrl: 'https://masterchaignal-production.up.railway.app/', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -140,7 +140,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://lostordosmaster360-production.up.railway.app',
+          iframeUrl: 'https://masterchaignal-production.up.railway.app/',
           buttonText: 'Ver Master Plan',
         },
       },
@@ -196,7 +196,7 @@ const TemplateMiLanding = () => {
     carousel04: [
       
       {
-        image: img1 ,
+        image: guillermo ,
         videoUrl: "",
         title: 'Descubre el encanto de Parcelas Chaignal:',
         subtitle: 'Yo Juan Guillermo Valenzuela te presento',

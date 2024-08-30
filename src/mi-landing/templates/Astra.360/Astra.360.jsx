@@ -16,6 +16,13 @@ import master2 from './assets/master2.jpg';
 import nualart from './assets/nualart.jpg';
 import puertomayor from './assets/puertom.jpg';
 import hyw from './assets/hyw.jpg';
+import chaignal from './assets/chaignal.jpg';
+import lostordos from './assets/lostordos.jpg';
+import bosquesquilentie from './assets/bosquesdequilentue.jpg';
+import stafelicia from './assets/stafelicia.jpg';
+import tranques from './assets/tranqueschile.jpg';
+import helvetica from './assets/helvetica.jpg';
+
 
 
 
@@ -51,7 +58,7 @@ const TemplateMiLanding = () => {
       //aqui va el brochure
       carousel01: [
         {
-          image: img1,
+          image: master2,
           videoUrl: "",
           title: 'AERO VIEW 360',
           subtitle: "Tus proyectos inmobiliarios con una experiencia interactiva y envolvente",
@@ -74,49 +81,14 @@ const TemplateMiLanding = () => {
             buttonText: 'Ver ejemplo',
           },
         },
-        {
-          image: audiovis,
-          videoUrl: "",
-          title: 'PRODUCCIÓN AUDIOVISUAL',
-          subtitle: 'Fotografía, videos, reels.',
-          description: 'Transforma la presentación de tus desarrollos inmobiliarios y destaca en el mercado con nuestro servicio integral de producción audiovisual, que incluye fotografías de alta calidad, videos, reels y contenido atractivo para redes sociales',
-          buttonConfig: {
-            type: 'popup',
-            iframeUrl: 'https://www.youtube.com/embed/sbQVgKE_UYQ?si=HPBjGHwFdTHuCg64',
-            buttonText: 'Ver ejemplo',
-          },
-        },
-        {
-          image: desaweb,
-          videoUrl: "",
-          title: 'DESARROLLO WEB',
-          subtitle: '',
-          description: 'El servicio de Desarrollo Web de Astra 360 crea sitios web efectivos para inmobiliarias, maximizando la visibilidad de propiedades y facilitando la interacción con clientes potenciales.',
-          buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
-            buttonText: 'Más información',
-          },
-        },
-        {
-          image: desadigi,
-          videoUrl: "",
-          title: 'DESARROLLO DIGITAL',
-          subtitle: '',
-          description: 'El servicio de Marketing Digital de Astra 360 para inmobiliarias maximiza la visibilidad de tus propiedades y atrae clientes potenciales mediante estrategias digitales efectivas y personalizadas.',
-          buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
-            buttonText: 'Más información',
-          },
-        },
+        
       ],
       
 
     carousel02:[
       //aqui pongo imagen del masterplan
       { 
-        image: master2 , 
+        image: img1 , 
         videoUrl: "",
         title: 'MASTER PLAN 360',
         subtitle: "Tus proyectos con una experiencia interactiva y envolvente",
@@ -199,21 +171,229 @@ const TemplateMiLanding = () => {
 
       
       {
-        image: img1,
+        image: chaignal,
         videoUrl: "",
-        title: 'Parcelas Chaignal y Los Tordos',
+        title: 'Parcelas Chaignal',
         subtitle: 'Proyectos ejecutados: 3',
         description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://www.youtube.com/embed/6PC3STetosw?si=xmj-Nh9lhhAA7_Fs',
+          iframeUrl: 'https://masterchaignal-production.up.railway.app/',
           buttonText: 'Ver proyecto',
         },
         
       },
+      {
+        image: lostordos,
+        videoUrl: "",
+        title: 'Los Tordos',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://lostordosmaster360-production.up.railway.app',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: bosquesquilentie,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: stafelicia,
+        videoUrl: "",
+        title: 'Santa Felicia',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: bosquesquilentie,
+        videoUrl: "",
+        title: 'Vista Quillén',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: tranques,
+        videoUrl: "",
+        title: 'Tranques Chile',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+    
+      {
+        image: helvetica,
+        videoUrl: "",
+        title: 'Helvética',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: bosquesquilentie,
+        videoUrl: "",
+        title: 'Padel Chile',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: bosquesquilentie,
+        videoUrl: "",
+        title: 'ICOS',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: bosquesquilentie,
+        videoUrl: "",
+        title: 'Dreams',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: bosquesquilentie,
+        videoUrl: "",
+        title: 'Expo Sabores',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: bosquesquilentie,
+        videoUrl: "",
+        title: 'Mink',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+      {
+        image: bosquesquilentie,
+        videoUrl: "",
+        title: 'Prana',
+        subtitle: 'Proyectos ejecutados: 3',
+        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          buttonText: 'Ver proyecto',
+        },
+        
+      },
+
+
+
+
+
+
+
+      
     ],
     
-  
+    carousel04: [
+      {
+        image: desaweb,
+        videoUrl: "",
+        title: 'DESARROLLO WEB',
+        subtitle: '',
+        description: 'El servicio de Desarrollo Web de Astra 360 crea sitios web efectivos para inmobiliarias, maximizando la visibilidad de propiedades y facilitando la interacción con clientes potenciales.',
+        buttonConfig: {
+          type: 'link',
+          url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+          buttonText: 'Más información',
+        },
+      },
+      {
+        image: desadigi,
+        videoUrl: "",
+        title: 'MARKETING DIGITAL',
+        subtitle: '',
+        description: 'El servicio de Marketing Digital de Astra 360 para inmobiliarias maximiza la visibilidad de tus propiedades y atrae clientes potenciales mediante estrategias digitales efectivas y personalizadas.',
+        buttonConfig: {
+          type: 'link',
+          url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+          buttonText: 'Más información',
+        },
+      },
+      {
+        image: audiovis,
+        videoUrl: "",
+        title: 'PRODUCCIÓN AUDIOVISUAL',
+        subtitle: 'Fotografía, videos, reels.',
+        description: 'Transforma la presentación de tus desarrollos inmobiliarios y destaca en el mercado con nuestro servicio integral de producción audiovisual, que incluye fotografías de alta calidad, videos, reels y contenido atractivo para redes sociales',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: 'https://www.youtube.com/embed/sbQVgKE_UYQ?si=HPBjGHwFdTHuCg64',
+          buttonText: 'Ver ejemplo',
+        },
+      },
+
+      
+    ],
+
+    
+
+    
     
     
     
@@ -228,7 +408,11 @@ const TemplateMiLanding = () => {
     { id: 'inicio', texto: 'Inicio' },
     { id: 'carousel01', texto: 'Inmobiliarias' },
     { id: 'carousel02', texto: 'Loteos y parcelaciones' },
+    { id: 'carousel04', texto: 'Servicios'},
     { id: 'carousel03', texto: 'Portafolio' },
+   
+    
+    
   ];
 
   useEffect(() => {
