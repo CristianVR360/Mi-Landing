@@ -5,14 +5,14 @@ import MiLanding from '../../pages/Preview/MiLanding';
 
 //import videoBkg from './assets/bkg.mp4';
 import logo from './assets/logoChaignal.png';
-import img1 from './assets/img1.png';
-import img2 from './assets/img2.png';
-import img3 from './assets/img3.png';
-import img4 from './assets/img4.png';
-import img5 from './assets/img5.png';
-import img6 from './assets/img6.png';
-import img7 from './assets/img7.png';
-import img8 from './assets/img8.png';
+import img1 from './assets/img1.jpg';
+import img2 from './assets/img2.jpg';
+import img3 from './assets/img3.jpg';
+import img4 from './assets/img4.jpg';
+import img5 from './assets/img5.jpg';
+import img6 from './assets/img6.jpg';
+import img7 from './assets/img7.jpg';
+import img8 from './assets/img8.jpg';
 import img9 from './assets/img9.png';
 import servi from './assets/serviciosbasicos.jpg';
 import master from './assets/master.jpg';
@@ -86,7 +86,7 @@ const TemplateMiLanding = () => {
           description: 'Las señales de las principales compañías telefónicas, como Movistar, Wom, Entel y Claro, ofrecen cobertura tanto en redes 4G como en 5G.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://masterchaignal-production.up.railway.app/',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Guillermo+Valenzuela/Chaignal-MasterPlan-Etapa3/index.html',
             buttonText: 'Ver MasterPlan',
           },
         },
