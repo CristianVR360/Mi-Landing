@@ -4,23 +4,23 @@ import MiLanding from '../../pages/Preview/MiLanding';
 //importacion de recursos
 
 //import videoBkg from './assets/bkg.mp4';
-import img1 from './assets/foto1.png';
-import img2 from './assets/foto2.png';
-import img3 from './assets/foto3.png';
+import img1 from './assets/foto1.jpg';
+import img2 from './assets/foto2.jpg';
+import img3 from './assets/foto3.jpg';
 import logo from './assets/lostordosblanco-01.png';
-import img4 from './assets/foto4.png';
-import img5 from './assets/foto5.png';
+import img4 from './assets/foto4.jpg';
+import img5 from './assets/foto5.jpg';
 import favIcon from './assets/favicon.png' ;
 import villarrica from './assets/volcán-villarrica.jpg' ;
 //import Masterplan from './assets/master.jpg' ;
-import img6 from './assets/foto6.png' ;
-import img7 from './assets/foto7.png'; 
-import img8 from './assets/foto8.png' ;
+import img6 from './assets/foto6.jpg' ;
+import img7 from './assets/foto7.jpg'; 
+import img8 from './assets/foto8.jpg' ;
 import master from './assets/mastermockup.jpg';
 import img9 from './assets/foto9.jpg'
 //import ubica from './assets/ubicación.jpg'; 
 import servi from './assets/servicios-básicos.jpg' ;
-import img10 from './assets/img10.png' ;
+import img10 from './assets/img10.jpg' ;
 
 
 

@@ -22,6 +22,14 @@ import bosquesquilentie from './assets/bosquesdequilentue.jpg';
 import stafelicia from './assets/stafelicia.jpg';
 import tranques from './assets/tranqueschile.jpg';
 import helvetica from './assets/helvetica.jpg';
+import icos from './assets/icos.jpg';
+import dreams from './assets/drams.jpg';
+import exposabores from './assets/exposabores.jpg';
+import mink from './assets/minck.jpg';
+import parcelasvillarrica from './assets/parcelasvillarrica.jpg';
+import vistaquillen from './assets/vistaquillen.jpg';
+import montajespadel from './assets/padelchile.jpg';
+import prana from './assets/prana.jpg';
 
 
 
@@ -156,7 +164,7 @@ const TemplateMiLanding = () => {
       },
 
       {
-        image: img1,
+        image: parcelasvillarrica,
         videoUrl: "",
         title: 'PARCELAS VILLARRICA',
         subtitle: 'Proyectos ejecutados: 2',
@@ -213,24 +221,24 @@ const TemplateMiLanding = () => {
         image: stafelicia,
         videoUrl: "",
         title: 'Santa Felicia',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        subtitle: 'Proyectos ejecutados: 2',
+        description: 'Master plan 360 para loteos, producción audiovisual.',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Santa-Felicia/output/index.html',
           buttonText: 'Ver proyecto',
         },
         
       },
       {
-        image: bosquesquilentie,
+        image: vistaquillen,
         videoUrl: "",
         title: 'Vista Quillén',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: 'Master plan 360 para loteos',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Vista-Quillen/output/index.html',
           buttonText: 'Ver proyecto',
         },
         
@@ -239,11 +247,11 @@ const TemplateMiLanding = () => {
         image: tranques,
         videoUrl: "",
         title: 'Tranques Chile',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/TranquesChile/galeria360tc/index.html',
           buttonText: 'Ver proyecto',
         },
         
@@ -253,89 +261,89 @@ const TemplateMiLanding = () => {
         image: helvetica,
         videoUrl: "",
         title: 'Helvética',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Helvetica/Zurich/3d-2b/output/index.html',
           buttonText: 'Ver proyecto',
         },
         
       },
       {
-        image: bosquesquilentie,
+        image: montajespadel,
         videoUrl: "",
-        title: 'Padel Chile',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        title: 'Montajes Padel Chile',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MontajesPadelChile/index.html',
           buttonText: 'Ver proyecto',
         },
         
       },
       {
-        image: bosquesquilentie,
+        image: icos,
         videoUrl: "",
         title: 'ICOS',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ClinicaICOS/index.html',
           buttonText: 'Ver proyecto',
         },
         
       },
       {
-        image: bosquesquilentie,
+        image: dreams,
         videoUrl: "",
         title: 'Dreams',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Dreams/DemoDreams/index.html',
           buttonText: 'Ver proyecto',
         },
         
       },
       {
-        image: bosquesquilentie,
+        image: exposabores,
         videoUrl: "",
         title: 'Expo Sabores',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ExpoSabores2023/output/index.html',
           buttonText: 'Ver proyecto',
         },
         
       },
       {
-        image: bosquesquilentie,
+        image: mink,
         videoUrl: "",
-        title: 'Mink',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        title: 'Minck',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Minck/life_by_k/life_by_k/index.html',
           buttonText: 'Ver proyecto',
         },
         
       },
       {
-        image: bosquesquilentie,
+        image: prana,
         videoUrl: "",
         title: 'Prana',
-        subtitle: 'Proyectos ejecutados: 3',
-        description: 'Master plan 360 para loteos, Website informativo, producción audiovisual.',
+        subtitle: 'Proyectos ejecutados: 1',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://bosquesdequilentue.cl/masterplan.html',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Prana/output/index.html',
           buttonText: 'Ver proyecto',
         },
         
