@@ -57,7 +57,7 @@ const TemplateMiLanding = () => {
         {
           image: img4,
           videoUrl: "",
-          title: 'Los Tordos',
+          title: 'Parcelas Chaignal',
           subtitle: "Ubicado en la localidad Malalhue, a solo 20 km de la hermosa ciudad de Panguipulli",
           description: '"Parcelas Chaignal" se presenta como un proyecto de loteo exclusivo, ideal para aquellos que buscan comenzar una nueva vida en el sur de Chile. Ofrecemos un estilo de vida campestre con todas las comodidades que puede ofrecer la vida moderna.',
           buttonConfig: {

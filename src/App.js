@@ -3,7 +3,6 @@ import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // Importación dinámica de los componentes de clientes
-const Astra360MiLanding = lazy(() => import('./mi-landing/templates/Astra.360/Astra.360'));
 const PuertoMayorMiLanding = lazy(() => import('./mi-landing/templates/PuertoMayor/PuertoMayorMiLanding/PuertoMayorMilanding'));
 const HoffmanyWiller = lazy(() => import('./mi-landing/templates/hyw/HyWMiLanding')); 
 const PuertoMayorCatalunaMiLanding = lazy(() => import('./mi-landing/templates/PuertoMayor/CataluñaMiLanding/Cataluña'));
@@ -19,6 +18,10 @@ const BosquesDeQuilentue = lazy(()=> import ('./mi-landing/templates/BosquesDeQu
 const LosTordos = lazy(()=> import ('./mi-landing/templates/LosTordos/LosTordos'));
 const MarcosWiller = lazy(()=> import ('./mi-landing/templates/MarcosWiller/MarcosWiller'));
 const Chaignal = lazy(()=> import ('./mi-landing/templates/Chaignal/Chaignal'));
+const Astra360 = lazy(()=> import ('./mi-landing/templates/Astra.360/Astra.360'));
+const EspacioZurich = lazy(()=> import ('./mi-landing/templates/Helvetica/EspacioZurich'));
+const GeoPunto = lazy(()=> import ('./mi-landing/templates/GeoPunto/GeoPunto'));
+
 
 
 const App = () => {
@@ -26,8 +29,8 @@ const App = () => {
     <BrowserRouter>
       <Suspense fallback={<div>Cargando...</div>}>
         <Routes>
-          <Route path="/" element={<Astra360MiLanding />} />
-          <Route path="/astra360" element={<Astra360MiLanding />} />
+          <Route path="/" element={<Astra360 />} />
+          <Route path="/astra360" element={<Astra360 />} />
           <Route path="/Puerto-Mayor" element={<PuertoMayorMiLanding />} />
           <Route path="/Hoffman-y-Willer" element={<HoffmanyWiller/>} />
           <Route path="/Puerto-Mayor-Cataluna" element={<PuertoMayorCatalunaMiLanding />} />
@@ -43,7 +46,8 @@ const App = () => {
           <Route path="/Los-Tordos" element={<LosTordos/>}/>
           <Route path="/Marcos-Willer" element={<MarcosWiller/>}/>
           <Route path="/Parcelas-Chaignal" element={<Chaignal/>}/>
-          
+          <Route path="/EspacioZurich" element={<EspacioZurich/>}/>
+          <Route path="/GeoPunto" element={<GeoPunto/>}/>
           {/* Agrega más rutas para otros clientes */}
         </Routes>
       </Suspense>
