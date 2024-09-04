@@ -13,7 +13,7 @@ import img5 from './assets/img5.jpg';
 import img6 from './assets/img6.jpg';
 import img7 from './assets/img7.jpg';
 import img8 from './assets/img8.jpg';
-import img9 from './assets/img9.png';
+import img9 from './assets/img9.jpg';
 import servi from './assets/serviciosbasicos.jpg';
 import master from './assets/master.jpg';
 import favIcon from './assets/favicon.png';
