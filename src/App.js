@@ -20,6 +20,10 @@ const LosTordos = lazy(()=> import ('./mi-landing/templates/LosTordos/LosTordos'
 const MarcosWiller = lazy(()=> import ('./mi-landing/templates/MarcosWiller/MarcosWiller'));
 const Chaignal = lazy(()=> import ('./mi-landing/templates/Chaignal/Chaignal'));
 const Astra360 = lazy(()=> import ('./mi-landing/templates/Astra.360/Astra.360'));
+const EspacioZurich = lazy(()=> import ('./mi-landing/templates/Helvetica/EspacioZurich'));
+const GeoPunto = lazy(()=> import ('./mi-landing/templates/GeoPunto/GeoPunto'));
+
+
 
 const App = () => {
   return (
@@ -44,6 +48,8 @@ const App = () => {
           <Route path="/Marcos-Willer" element={<MarcosWiller/>}/>
           <Route path="/Parcelas-Chaignal" element={<Chaignal/>}/>
           <Route path="/Astra.360" element={<Astra360/>}/>
+          <Route path="/EspacioZurich" element={<EspacioZurich/>}/>
+          <Route path="/GeoPunto" element={<GeoPunto/>}/>
           {/* Agrega más rutas para otros clientes */}
         </Routes>
       </Suspense>
