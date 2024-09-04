@@ -127,7 +127,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://masterchaignal-production.up.railway.app/', //
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Guillermo+Valenzuela/Chaignal-MasterPlan-Etapa3/index.html', //
           buttonText: 'Ver Master Plan',
         },
       },
