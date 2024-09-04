@@ -140,8 +140,8 @@ const TemplateMiLanding = () => {
           image: img40,
           videoUrl: "",
           title: 'PRECIOS Y FINANCIAMIENTO',
-          subtitle: 'Oferta exclusiva de lanzamiento desde los $39.000.000',
-          description: ' ',
+          subtitle: 'Oferta exclusiva de lanzamiento desde los UF 1.221 ',
+          description: '¡Oportunidad!',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
