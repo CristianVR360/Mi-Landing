@@ -56,7 +56,7 @@ const TemplateMiLanding = () => {
     instagramLink: 'https://instagram.com/astra.360',
     facebookLink: 'https://facebook.com/astra360.marketing',
     footerText:'marketing@astra360.cl',
-    gpsLink: 'https://maps.google.com/?q=Astra360',
+    //gpsLink: 'https://maps.google.com/?q=Astra360',
     linkedinLink:"",
     footerAfterStyles: {
       background: "linear-gradient(to bottom, rgba(51, 127, 239, 0) 0%, rgba(51, 127, 239, 0.2) 5%, rgba(51, 127, 239, 0.4) 20%, rgba(51, 127, 239, 0.7) 50%, rgba(51, 127, 239, 0.9) 70%, rgba(51, 127, 239, 1) 100%)",
