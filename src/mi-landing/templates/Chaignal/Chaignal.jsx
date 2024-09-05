@@ -44,7 +44,7 @@ const TemplateMiLanding = () => {
     message:'Hola, quiero más información de Parcelas Chaignal',
     instagramLink: 'https://www.instagram.com/parcelaschaignal/',
     facebookLink: '',
-    footerText:'parcelas.astra360@gmail.com',
+    footerText:'Ruta 203, Malalhue, Chile',
     gpsLink: 'https://maps.app.goo.gl/PKPdiCsChYYHCFxH6',
     linkedinLink:"",
     footerAfterStyles: {
@@ -87,7 +87,7 @@ const TemplateMiLanding = () => {
           description: 'Las señales de las principales compañías telefónicas, como Movistar, Wom, Entel y Claro, ofrecen cobertura tanto en redes 4G como en 5G.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Guillermo+Valenzuela/Chaignal-MasterPlan-Etapa3/index.html',
+            iframeUrl: 'https://parcelaschaignal.cl/masterplan.html',
             buttonText: 'Ver MasterPlan',
           },
         },
@@ -128,7 +128,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Guillermo+Valenzuela/Chaignal-MasterPlan-Etapa3/index.html', //
+          iframeUrl: 'https://parcelaschaignal.cl/masterplan.html', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -141,7 +141,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Guillermo+Valenzuela/Chaignal-MasterPlan-Etapa3/index.html',
+          iframeUrl: 'https://parcelaschaignal.cl/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },
