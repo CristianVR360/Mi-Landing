@@ -40,7 +40,8 @@ const TemplateMiLanding = () => {
     ctaWhatsappButton: '¡Más Información!',
     iframeBackground: '',
     subtitles: ['Tu nueva vida en el sur de Chile, Región de los Ríos', 'Ideal para quienes buscan vivir rodeados de Naturaleza ', 'Naturaleza virgen y espacios amplios en cada parcela', "Oportunidad única para invertir"],
-    telefono: '+56931354518',
+    telefono: '+56987631317',
+    message:'Hola, quiero más información de Parcelas Chaignal',
     instagramLink: 'https://www.instagram.com/parcelaschaignal/',
     facebookLink: '',
     footerText:'parcelas.astra360@gmail.com',
@@ -140,7 +141,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://masterchaignal-production.up.railway.app/',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Guillermo+Valenzuela/Chaignal-MasterPlan-Etapa3/index.html',
           buttonText: 'Ver Master Plan',
         },
       },

@@ -41,10 +41,11 @@ const TemplateMiLanding = () => {
     ctaWhatsappButton: '¡Más Información!',
     iframeBackground: '',
     subtitles: ['Descubre la Belleza Natural', 'Ideal para quienes buscan vivir rodeados de Naturaleza ', 'Naturaleza virgen y espacios amplios en cada parcela', "Oportunidad única para invertir"],
-    telefono: '+56931354518',
+    telefono: '+56987631317',
+    message:'Hola, quiero más información de Parcelas Los Tordos',
     instagramLink: 'https://www.instagram.com/parcelaslostordos/',
     facebookLink: '',
-    footerText:'parcelas.astra360@gmail.com',
+    footerText:'Ruta s65, Villarrica, Chile',
     gpsLink: 'https://maps.app.goo.gl/iHhcccd3ncXvkpNf8',
     linkedinLink:"",
     footerAfterStyles: {
@@ -60,7 +61,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Los Tordos',
           subtitle: "Ubicado en la localidad de Ñancul, a solo 12 km de Villarrica.",
-          description: 'Ubicado en la localidad de Ñancul, a solo12 km de Villarrica, "Parcelas Los Tordos" se presenta como un proyecto de loteo exclusivo, ideal para aquellos que buscan comenzar una nueva vida en el sur de Chile. Ofrecemos un estilo de vida campestre con todas las comodidades modernas.',
+          description: 'Ubicado en la localidad de Ñancul, a solo 12 km de Villarrica, "Parcelas Los Tordos" se presenta como un proyecto de loteo exclusivo, ideal para aquellos que buscan comenzar una nueva vida en el sur de Chile. Ofrecemos un estilo de vida campestre con todas las comodidades modernas.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://www.youtube.com/embed/ZDqds6I9dXE',
@@ -72,7 +73,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'SERVICIOS BÁSICOS',
           subtitle: '',
-          description: 'Cada una de nuestras parcelas cuenta con acceso a servicios de luz y agua, todos ellos 100% soterrados para garantizar una estética visual impecable. El abastecimiento de agua se realiza a través de un APR privado, con la opción para los clientes de optar por el APR local. La electricidad es suministrada por CGE a través de una línea exclusiva para el proyecto, y como alternativa, está disponible CODINER, la compañía eléctrica rural de la zona.',
+          description: 'Cada una de nuestras parcelas cuenta con acceso a servicios de luz y agua, todos ellos 100% soterrados para garantizar una estética visual impecable. El abastecimiento de agua se realiza a través de un APR privado, con la opción para los clientes de optar por el APR local. La electricidad es suministrada por CGE a través de una línea exclusiva para el proyecto.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/iHhcccd3ncXvkpNf8',
@@ -108,7 +109,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'CARACTERÍSTICAS DE LAS PARCELAS',
           subtitle: '',
-          description: 'Las parcelas son de 5.000 m² y destacan por ser limpias, planas y ordenadas. Cada parcela está equipada con servicios esenciales completamente soterrados, incluyendo luz, agua e internet, lo que contribuye a la estética limpia y ordenada del proyecto.',
+          description: 'Las parcelas son de 5.000 m² y destacan por ser limpias, planas y ordenadas. Cada parcela está equipada con servicios esenciales completamente soterrados, incluyendo luz y agua, lo que contribuye a la estética limpia y ordenada del proyecto.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
