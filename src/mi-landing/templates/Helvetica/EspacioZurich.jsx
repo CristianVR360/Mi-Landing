@@ -31,7 +31,7 @@ const TemplateMiLanding = () => {
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Agenda tu visita!',
-    iframeBackground: '',
+    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingEspacioZurich/index.html',
     subtitles: ['Sumérgete en nuestros recorridos 360', 'Elije tu futuro hogar desde la comodidad de tu sofá','SAN ERNESTO 990', ],
     telefono: '+56997854093',
     message:'Necesito más información sobre el proyecto',
@@ -65,8 +65,8 @@ const TemplateMiLanding = () => {
           image: piloto1d1b,
           videoUrl: "",
           title: 'Espacio Zurich 1D1B',
-          subtitle: '000 M² | 3 DORMITORIOS 2 BAÑOS',
-          description: 'Departamento inteligente impulsado por domótica, complete kitchen, calefacción por losa radiante, accesos controlados inteligentes.',
+          subtitle: '1 DORMITORIO 1 BAÑOS',
+          description: 'Estos modernos departamentos full electric destacan por su eficiente envolvente térmico y ventanas de PVC termopanel con diseño de línea europea, garantizando un confort térmico excepcional. Cuentan con ventilación pasiva y un sistema de extracción de aire centralizada, lo que asegura un ambiente siempre fresco. La cocina está equipada con muebles de vanguardia y superficies de cubierta de cuarzo, ofreciendo un estilo contemporáneo y funcionalidad premium.',
           
           buttonConfig: {
             type: 'popup',
@@ -78,8 +78,8 @@ const TemplateMiLanding = () => {
           image: piloto3d3b,
           videoUrl: "",
           title: 'Espacio Zurich 3D3B',
-          subtitle: '000 M² | 2 DORMITORIOS 2 BAÑOS',
-          description: 'Departamento inteligente impulsado por domótica, complete kitchen, calefacción por losa radiante, accesos controlados inteligentes.',
+          subtitle: '3 DORMITORIOS 3 BAÑOS',
+          description: 'Estos modernos departamentos full electric destacan por su eficiente envolvente térmico y ventanas de PVC termopanel con diseño de línea europea, garantizando un confort térmico excepcional. Cuentan con ventilación pasiva y un sistema de extracción de aire centralizada, lo que asegura un ambiente siempre fresco. La cocina está equipada con muebles de vanguardia y superficies de cubierta de cuarzo, ofreciendo un estilo contemporáneo y funcionalidad premium.',
           
           buttonConfig: {
             type: 'popup',
@@ -91,8 +91,8 @@ const TemplateMiLanding = () => {
           image: amenities,
           videoUrl: "",
           title: 'Amenities',
-          subtitle: 'Pasillos y hall de acceso  de gran amplitud de 4 metros de altura. ',
-          description: 'Privacidad y comodidad tanto al interior de los departamentos, como en todos sus espacios exteriores.',
+          subtitle: 'Dos conserjerías, lavandería, gimnasio y sala de reuniones.',
+          description: 'Las áreas comunes de este proyecto están equipadas con cámaras CCTV para mayor seguridad, iluminación LED de bajo consumo, y cuentan con dos conserjerías. Dispone de cuatro ascensores para un fácil acceso a todas las unidades, además de una lavandería, un completo gimnasio, y una sala de reuniones (Meeting Room) ideal para trabajar o reunirse. También incluye un parking para bicicletas, promoviendo el uso de transporte sustentable.',
           
           buttonConfig: {
             type: 'popup',
