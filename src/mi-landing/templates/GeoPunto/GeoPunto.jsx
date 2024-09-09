@@ -12,6 +12,12 @@ import inicio2 from './assets/inicio2.jpg';
 import subdivi from './assets/subdivisiones.jpg';
 import juri from './assets/juri.jpg';
 import logoblanco from './assets/logoblanco.png';
+import imgrelieve from './assets/imgrelieve.jpg';
+import limites from './assets/limites.jpg';
+import subdivi1 from './assets/subdivi1.jpg';
+import subdivi2 from './assets/subdivi2.jpg';
+import aseso from './assets/judi2.jpg';
+
 
 
 ;
@@ -50,28 +56,41 @@ const TemplateMiLanding = () => {
     carousels: {
       carousel01: [
         {
-          image: inicio2 ,
+          image: imgrelieve ,
           videoUrl: "",
-          title: 'Levantamientos Topográficos',
-          subtitle: '',
-          description: '',
+          title: 'Elevación y Relieve Preciso',
+          subtitle: 'Mide el terreno con exactitud milimétrica',
+          description: 'En Geopunto, utilizamos tecnología avanzada para la determinación precisa de elevaciones y la configuración del relieve. Nuestro equipo de expertos en topografía garantiza la obtención de datos detallados para un diseño seguro y eficiente de proyectos de construcción, carreteras y sistemas de drenaje.',
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://www.youtube.com/embed/5MMYR2gl8hI',
+            iframeUrl: '',
+            buttonText: 'Ver video',
+          },
+        },
+        {
+          image: limites ,
+          videoUrl: "",
+          title: 'Límites y Puntos de Referencia Seguros',
+          subtitle: 'Delimitamos tu terreno con precisión legal',
+          description: 'La correcta identificación de límites y puntos de referencia es crucial para el éxito de cualquier proyecto. En Geopunto, nuestros topógrafos se encargan de registrar cada detalle, asegurando que tus construcciones cumplan con las normativas y se ajusten a los límites establecidos.',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
             buttonText: 'Ver video',
           },
         },
         {
           image: inicio2 ,
           videoUrl: "",
-          title: 'Levantamientos Topográficos',
-          subtitle: '',
-          description: '',
+          title: 'Mapas y Planos Detallados',
+          subtitle: 'Visualiza tu proyecto antes de construir',
+          description: 'Con Geopunto, obtén mapas y planos topográficos en 2D y 3D, diseñados para facilitar la planificación de tu proyecto. Nuestro equipo transforma los datos de campo en representaciones gráficas claras y detalladas, optimizando la ejecución de tu obra desde el primer día.',
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://www.youtube.com/embed/5MMYR2gl8hI',
+            iframeUrl: '',
             buttonText: 'Ver video',
           },
         },
@@ -81,11 +100,24 @@ const TemplateMiLanding = () => {
 
       carousel02: [
         {
-          image: subdivi ,
+          image: subdivi1 ,
           videoUrl: "",
-          title: 'Subdivisiones',
-          subtitle: 'DISFRUTA LA EXPERIENCIA DE RECORRER TU PRÓXIMO DEPARTAMENTO',
-          description: '',
+          title: 'Subdivisión de Terrenos en Chile',
+          subtitle: 'Dividimos tu terreno de manera eficiente y legal',
+          description: 'En Geopunto, somos expertos en la subdivisión de terrenos de acuerdo con la normativa chilena vigente. Nos encargamos de todo el proceso, desde la medición precisa hasta la presentación de los planos, garantizando una subdivisión rápida y sin complicaciones legales.',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver Proyecto',
+          },
+        },
+        {
+          image: subdivi2 ,
+          videoUrl: "",
+          title: 'Asesoría Técnica en Parcelaciones',
+          subtitle: 'Convertimos tu terreno en un proyecto rentable',
+          description: 'Nuestro equipo en Geopunto te asesora en cada etapa del proceso de parcelación, asegurando que tu terreno cumpla con todos los requisitos legales y técnicos. Desde la planificación hasta la gestión de permisos, maximizamos el valor de tu propiedad.',
           
           buttonConfig: {
             type: 'popup',
@@ -96,9 +128,9 @@ const TemplateMiLanding = () => {
         {
           image: subdivi ,
           videoUrl: "",
-          title: 'Recorre nuestros espacios',
-          subtitle: 'DISFRUTA LA EXPERIENCIA DE RECORRER TU PRÓXIMO DEPARTAMENTO',
-          description: '',
+          title: 'Parcelaciones con Planificación Integral',
+          subtitle: 'Diseños personalizados para tus proyectos',
+          description: 'En Geopunto, no solo subdividimos terrenos, los transformamos en oportunidades de desarrollo. Creamos planes a medida, adaptados a las necesidades del cliente, optimizando el espacio y garantizando el cumplimiento de las normativas urbanísticas.',
           
           buttonConfig: {
             type: 'popup',
@@ -111,11 +143,11 @@ const TemplateMiLanding = () => {
 
       carousel03: [
         {
-          image: juri ,
+          image: aseso ,
           videoUrl: "",
-          title: 'Asesorías Juridicas',
-          subtitle: '',
-          description: '',
+          title: 'Asesoría Jurídica Integral para Parcelaciones',
+          subtitle: 'Todo en regla para tu subdivisión de terrenos',
+          description: 'En Geopunto, ofrecemos un completo servicio de asesoría jurídica, garantizando que tu proyecto de parcelación cumpla con todas las normativas chilenas. Nos encargamos de la revisión de documentos, obtención de permisos y la correcta inscripción en el Conservador de Bienes Raíces, asegurando que tu subdivisión esté legalmente protegida.',
           
           buttonConfig: {
             type: 'popup',
@@ -126,9 +158,9 @@ const TemplateMiLanding = () => {
         {
           image: juri ,
           videoUrl: "",
-          title: 'Recorre nuestros espacios',
-          subtitle: 'DISFRUTA LA EXPERIENCIA DE RECORRER TU PRÓXIMO DEPARTAMENTO',
-          description: '',
+          title: 'Asesoría Jurídica Integral para Parcelaciones',
+          subtitle: 'Todo en regla para tu subdivisión de terrenos',
+          description: 'En Geopunto, ofrecemos un completo servicio de asesoría jurídica, garantizando que tu proyecto de parcelación cumpla con todas las normativas chilenas. Nos encargamos de la revisión de documentos, obtención de permisos y la correcta inscripción en el Conservador de Bienes Raíces, asegurando que tu subdivisión esté legalmente protegida.',
           
           buttonConfig: {
             type: 'popup',

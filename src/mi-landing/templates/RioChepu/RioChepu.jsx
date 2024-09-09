@@ -37,11 +37,12 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Más Información!',
     iframeBackground: '',
-    subtitles: ['Nos preocupamos por nuestra Gente, por nuestra tierra', 'ORGÁNICOS ', ],
+    subtitles: ['Nos preocupamos por nuestra Gente y nuestra tierra', 'Orgánicos ', ],
     telefono: '+56940465696',
+    message: "¡Hola! Quiero más información.",
     instagramLink: '',
     facebookLink: '',
-    footerText:'parcelas.astra360@gmail.com',
+    footerText:'secretaria@riochepu.cl',
     gpsLink: 'https://maps.app.goo.gl/7M2cTkGaRf4KTBjc6',
     linkedinLink:"",
     footerAfterStyles: {
@@ -84,7 +85,7 @@ const TemplateMiLanding = () => {
           description: '',
           buttonConfig: {
             type: 'link',
-            url: '',
+            url: 'https://wa.me/+56940465696?text=undefined',
             buttonText: 'Más información',
           },
         },
@@ -96,7 +97,7 @@ const TemplateMiLanding = () => {
           description: '',
           buttonConfig: {
             type: 'link',
-            url: '',
+            url: 'https://wa.me/+56940465696?text=undefined',
             buttonText: 'Más información',
           },
         },
@@ -104,8 +105,7 @@ const TemplateMiLanding = () => {
       
 
     carousel02:[
-      //aqui pongo imagen del masterplan
-      { 
+       { 
         image: img10 , 
         videoUrl: "",
         title: '',
@@ -144,7 +144,7 @@ const TemplateMiLanding = () => {
         buttonConfig: {
           type: 'popup',
           iframeUrl: '',
-          buttonText: 'Ver Video',
+          buttonText: '',
         },
       },
       {
