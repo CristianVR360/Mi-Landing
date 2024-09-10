@@ -49,7 +49,7 @@ const TemplateMiLanding = () => {
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Más Información!',
-    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingAstra360/index.html',
+    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingPuertoMayor/output/index.html',
     subtitles: ['Marketing Inmobiliario Digital','Recorridos virtuales y experiencias 360', 'Contenido Audiovisual', 'Desarrollo web',],
     telefono: '+56931354518',
     message: "¡Hola! Quiero más información.",
