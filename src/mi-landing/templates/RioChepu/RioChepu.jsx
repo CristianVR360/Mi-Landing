@@ -9,15 +9,28 @@ import logoblanco from './assets/logoblanco.png';
 import img1 from './assets/img1.jpg';
 import img2 from './assets/img2.jpg';
 import img3 from './assets/img3.jpg';
-import img4 from './assets/img4.jpg';
-import img5 from './assets/img5.jpg';
-//import img6 from './assets/img6.jpg';
+//import img4 from './assets/img4.jpg';
+//import img5 from './assets/img5.jpg';
+import img6 from './assets/img6.jpg';
 //import img7 from './assets/img7.jpg';
-//import img8 from './assets/img8.jpg';
+import img8 from './assets/img8.jpg';
 //import img9 from './assets/img9.jpg';
 import favIcon from './assets/favicon.png';
 import img10 from './assets/img10.jpg';
-import img11 from './assets/img11.jpg';
+//import img11 from './assets/img11.jpg';
+import certichile from './assets/certifica-chile.jpg';
+import certificausa from './assets/certifica-usa.jpg';
+import img12 from './assets/img12.jpg';
+import img13 from './assets/img13.jpg';
+import img14 from './assets/img14.jpg';
+
+
+
+
+
+
+
+
 
 
 
@@ -54,7 +67,7 @@ const TemplateMiLanding = () => {
       //aqui va el brochure
       carousel01: [
         {
-          image: img4,
+          image: img3,
           videoUrl: "",
           title: 'Agrícola Rio chepu',
           subtitle: "Malalhue, Región de los Rios. ",
@@ -66,7 +79,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img11,
+          image: certichile,
           videoUrl: "",
           title: 'Certificación "Agricultura Ecologica en Chile"',
           subtitle: 'Ley 20.089',
@@ -78,7 +91,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img3,
+          image: certificausa,
           videoUrl: "",
           title: 'Certificación "Agricultura orgánica en Estados Unidos"',
           subtitle: 'USDA NOP',
@@ -119,13 +132,65 @@ const TemplateMiLanding = () => {
           buttonText: '',
         },
       },
+      {
+    
+        image:img6 ,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: '',
+          buttonText: '',
+        },
+      },
+      {
+    
+        image:img1 ,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: '',
+          buttonText: '',
+        },
+      },
+      {
+    
+        image:img13 ,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: '',
+          buttonText: '',
+        },
+      },
+      {
+    
+        image:img14 ,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        buttonConfig: {
+          type: 'popup',
+          iframeUrl: '',
+          buttonText: '',
+        },
+      },
     ],
 
     
     carousel03: [
       
       {
-        image: img5 ,
+        image: img8 ,
         videoUrl: "",
         title: 'Trabaja con nosotros',
         subtitle: '',
@@ -137,7 +202,7 @@ const TemplateMiLanding = () => {
         },
       },
       {
-        image: img1 ,
+        image: img12 ,
         videoUrl: "",
         title: 'Reglamento Interno de la empresa',
         subtitle: '',
