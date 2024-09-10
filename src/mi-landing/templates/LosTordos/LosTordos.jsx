@@ -88,7 +88,7 @@ const TemplateMiLanding = () => {
           description: 'Las señales de las principales compañías telefónicas, como Movistar, Wom, Entel y Claro, ofrecen cobertura tanto en redes 4G como en 5G.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://lostordosmaster360-production.up.railway.app',
+            iframeUrl: 'https://parcelaslostordos.cl/masterplan.html',
             buttonText: 'Ver MasterPlan',
           },
         },
@@ -129,7 +129,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://lostordosmaster360-production.up.railway.app', //
+          iframeUrl: 'https://parcelaslostordos.cl/masterplan.html', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -142,7 +142,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://lostordosmaster360-production.up.railway.app',
+          iframeUrl: 'https://parcelaslostordos.cl/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },
