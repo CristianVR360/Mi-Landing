@@ -17,7 +17,7 @@ import img6 from './assets/img6.jpg';
 import img7 from './assets/img7.jpg';
 import img8 from './assets/img8.jpg';
 import img9 from './assets/img9.jpg';
-
+import portada from './assets/portada.jpg';
 
 
 
@@ -27,18 +27,18 @@ import img9 from './assets/img9.jpg';
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logo , // Agrega la ruta de tu logo aquí
-    colorPrimario: '#1c1c1c',
+    colorPrimario: '#d2492a',
     colorSecundario: '#fff',
-    colorPrimarioTransparente: 'rgba(50, 47, 33,0.8)',
+    colorPrimarioTransparente: 'rgba(0, 85, 90,0.8)',
     colorTerciario: '#f08013',
     colorCuaternario: '#34495e', 
-    backgroundImage: img4 ,
+    backgroundImage: portada ,
     title: '',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Más Información!',
-    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingParcelasVillarrica//index.html',
+    iframeBackground: '',
     subtitles: ['Mercado de Calidad de Vida', 'Cerca de la ciudad y con fácil acceso', 'Tu nueva vida en el sur de Chile', "Oportunidad única para invertir"],
     telefono: '+56976858145',
     message:'¡Hola!, quiero más información.',
@@ -48,7 +48,7 @@ const TemplateMiLanding = () => {
     gpsLink: 'https://maps.app.goo.gl/KfSDRnxhvNQZF9A29?g_st=iwb',
     linkedinLink:"",
     footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(210, 70, 29, 0) 0%, rgba(210, 70, 29, 0.2) 5%, rgba(210, 70, 29, 0.4) 20%, rgba(210, 70, 29, 0.7) 50%, rgba(210, 70, 29, 0.9) 70%, rgba(210, 70, 29, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(0, 85, 90, 0) 0%, rgba(0, 85, 90, 0.2) 5%, rgba(0, 85, 90, 0.4) 20%, rgba(0, 85, 90, 0.7) 50%, rgba(0, 85, 90, 0.9) 70%, rgba(0, 85, 90, 1) 100%)",
 
       textColor: '#fff'
     },
@@ -117,7 +117,7 @@ const TemplateMiLanding = () => {
         description: 'Descubre nuestro Tour Virtual interactivo y explora la ubicación estratégica del proyecto, así como su hermoso entorno natural y su gran plusvalía.',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasVillarrica/VogelHaus/output/index.html', //
+          iframeUrl: 'https://parcelasvillarricamasterplan-production.up.railway.app/', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -129,7 +129,7 @@ const TemplateMiLanding = () => {
         description: 'Descubre nuestro Tour Virtual interactivo y explora la ubicación estratégica del proyecto, así como su hermoso entorno natural y su gran plusvalía.',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasVillarrica/VogelHaus/output/index.html', //
+          iframeUrl: 'https://parcelasvillarricamasterplan-production.up.railway.app/', //
           buttonText: 'Ver Master Plan',
         },
       },
