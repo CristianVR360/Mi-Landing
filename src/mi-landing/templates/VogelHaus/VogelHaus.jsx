@@ -117,7 +117,7 @@ const TemplateMiLanding = () => {
         description: 'Descubre nuestro Tour Virtual interactivo y explora la ubicación estratégica del proyecto, así como su hermoso entorno natural y su gran plusvalía.',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://parcelasvillarricamasterplan-production.up.railway.app', //
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasVillarrica/VogelHaus/output/index.html', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -129,7 +129,7 @@ const TemplateMiLanding = () => {
         description: 'Descubre nuestro Tour Virtual interactivo y explora la ubicación estratégica del proyecto, así como su hermoso entorno natural y su gran plusvalía.',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://parcelasvillarricamasterplan-production.up.railway.app', //
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasVillarrica/VogelHaus/output/index.html', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -145,6 +145,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas VogelHaus',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img2,
@@ -152,6 +153,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas VogelHaus',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img3,
@@ -159,6 +161,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas VogelHaus',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img4,
@@ -166,6 +169,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas VogelHaus',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img5,
@@ -173,6 +177,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas VogelHaus',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img1,
@@ -180,6 +185,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas VogelHaus',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
     ],
   
