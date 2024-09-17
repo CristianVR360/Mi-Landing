@@ -85,7 +85,7 @@ const TemplateMiLanding = () => {
           description: 'Las Parcelas Agrícolas Marcos Willer ofrecen un entorno privilegiado en la cordillera, convirtiéndose en el lugar perfecto para quienes buscan tranquilidad y conexión con la naturaleza. Cada parcela brinda una experiencia única: desde terrenos planos con vistas impresionantes al Volcán Osorno, hasta áreas rodeadas de vegetación nativa o con orillas de río que invitan al descanso y la reflexión. Aquí, la naturaleza no solo es un telón de fondo, sino parte integral de tu vida cotidiana. Además, cada parcela cuenta con acceso a luz soterrada y agua proporcionada por un APR privado, garantizando un entorno cómodo y listo para construir el refugio que siempre has soñado. Con atractivos turísticos a solo minutos, Marcos Willer es el lugar ideal para desconectarte de la ciudad y encontrar tu oasis personal.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://marcoswillerintranet-production.up.railway.app',
+            iframeUrl: 'https://www.parcelasmarcoswiller.cl/masterplan.html',
             buttonText: 'Ver MasterPlan',
           },
         },
@@ -114,7 +114,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://marcoswillerintranet-production.up.railway.app', //
+          iframeUrl: 'https://www.parcelasmarcoswiller.cl/masterplan.html', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -127,7 +127,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://marcoswillerintranet-production.up.railway.app',
+          iframeUrl: 'https://www.parcelasmarcoswiller.cl/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },

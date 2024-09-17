@@ -22,6 +22,10 @@ const Astra360 = lazy(()=> import ('./mi-landing/templates/Astra.360/Astra.360')
 const EspacioZurich = lazy(()=> import ('./mi-landing/templates/Helvetica/EspacioZurich'));
 const GeoPunto = lazy(()=> import ('./mi-landing/templates/GeoPunto/GeoPunto'));
 const RioChepu = lazy(()=> import ('./mi-landing/templates/RioChepu/RioChepu'));
+const ParcelasVillarrica = lazy(()=> import ('./mi-landing/templates/ParcelasVillarrica/ParcelasVillarrica'));
+const Emdo = lazy(()=> import ('./mi-landing/templates/Emdo/Emdo'));
+const VogelHaus = lazy(()=> import ('./mi-landing/templates/VogelHaus/VogelHaus'));
+const TecnoAraucania = lazy(()=> import ('./mi-landing/templates//TecnoAraucania/TecnoAraucania'));
 
 
 
@@ -50,6 +54,10 @@ const App = () => {
           <Route path="/EspacioZurich" element={<EspacioZurich/>}/>
           <Route path="/GeoPunto" element={<GeoPunto/>}/>
           <Route path="/RioChepu" element={<RioChepu/>}/>
+          <Route path="/Parcelas-Villarrica" element={<ParcelasVillarrica/>}/>
+          <Route path="/Emdo" element={<Emdo/>}/>
+          <Route path="/VogelHaus" element={<VogelHaus/>}/>
+          <Route path="/TecnoAraucania" element={<TecnoAraucania/>}/>
           {/* Agrega más rutas para otros clientes */}
         </Routes>
       </Suspense>
