@@ -55,8 +55,8 @@ const TemplateMiLanding = () => {
         subtitle: "Todo lo que necesitas está aquí",
         description: 'Luz y agua a los pies de tu parcela. Portón de acceso, amplios caminos, red de grifos de incendio y cerco incluido. ',
         buttonConfig: {
-          type: 'popup',
-          iframeUrl: 'https://parcelasvillarricamasterplan-production.up.railway.app', //
+          type: 'link',
+          url: 'https://milanding.cl/vogelHaus', //
           buttonText: 'Ver Master Plan',
         },
       },
