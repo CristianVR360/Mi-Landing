@@ -12,7 +12,7 @@ import img4 from './assets/img4.jpg';
 import img5 from './assets/img5-6tafaja.jpg';
 import favIcon from './assets/favicon.png';
 import casapremium from './assets/casapreimum.jpg';
-
+import portada from './assets/portada.jpg';
 
 
 const TemplateMiLanding = () => {
@@ -20,16 +20,16 @@ const TemplateMiLanding = () => {
     logo: logo , // Agrega la ruta de tu logo aquí
     colorPrimario: '#d2492a',
     colorSecundario: '#fff',
-    colorPrimarioTransparente: 'rgba(253, 130, 4,0.8)',
+    colorPrimarioTransparente: 'rgba(0, 85, 90,0.8)',
     colorTerciario: '#3e3e3e',
     colorCuaternario: '#34495e', 
-    backgroundImage: img1 ,
+    backgroundImage: portada ,
     title: '',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Más Información!',
-    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingParcelasVillarrica//index.html',
+    iframeBackground: '',
     subtitles: ['Parcelas planas, limpias y listas para comenzar a construir', 'Cerca de la ciudad y con fácil acceso', 'Tu nueva vida en el sur de Chile', "Oportunidad única para invertir"],
     telefono: '+56976858145',
     message:'¡Hola!, quiero más información.',
@@ -39,7 +39,7 @@ const TemplateMiLanding = () => {
     gpsLink: 'https://maps.app.goo.gl/KfSDRnxhvNQZF9A29?g_st=iwb',
     linkedinLink:"",
     footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(50, 47, 32, 0) 0%, rgba(50, 47, 32, 0.2) 5%, rgba(50, 47, 32, 0.4) 20%, rgba(50, 47, 32, 0.7) 50%, rgba(50, 47, 32, 0.9) 70%, rgba(50, 47, 32, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(0, 85, 90, 0) 0%, rgba(0, 85, 90, 0.2) 5%, rgba(0, 85, 90, 0.4) 20%, rgba(0, 85, 90, 0.7) 50%, rgba(0, 85, 90, 0.9) 70%, rgba(0, 85, 90, 1) 100%)",
 
       textColor: '#fff'
     },
@@ -97,6 +97,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Villarrica',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img2,
@@ -104,6 +105,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Villarrica',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img3,
@@ -111,6 +113,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Villarrica',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img4,
@@ -118,6 +121,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Villarrica',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img5,
@@ -125,6 +129,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Villarrica',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img1,
@@ -132,6 +137,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Villarrica',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
     ],
   
