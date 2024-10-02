@@ -86,7 +86,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Distancias a Puntos de Interés',
           subtitle: "",
-          description: 'Ubicados en un punto estratégico, estamos a solo 59 km del Aeropuerto de Temuco, a 20 km de Villarrica y a 49 km de Pucón, lo que facilita el acceso a estos destinos turísticos. También estamos a 118 km de Valdivia y 117 km de la Reserva Huilo Huilo, destinos ideales para los amantes de la naturaleza. En los alrededores, encontramos Ñancul a 12 km y Huiscapi a 11 km, con servicios como gasolineras, bomberos, farmacias, supermercados, y escuelas. Además, contamos con la Posta Manhue a 1,5 km para atención de salud inmediata, y estamos a 16 km del Colegio Inglés Oxford School, destacado en el lugar 97 de la PAES 2023.',
+          description: 'Ubicados en un punto estratégico, estamos a solo 59 km del Aeropuerto de Temuco, a 20 km de Villarrica y a 49 km de Pucón, lo que facilita el acceso a estos destinos turísticos. También estamos a 118 km de Valdivia y 117 km de la Reserva Huilo Huilo, destinos ideales para los amantes de la naturaleza. En los alrededores, encontramos Ñancul a 12 km y Huiscapi a 11 km, con servicios como gasolineras, bomberos, farmacias, supermercados, y escuelas. Además, contamos con la Posta Manhue a 1,5 km para atención de salud, y estamos a 16 km del Colegio Inglés Oxford School, destacado en el lugar 97 de la PAES 2023.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/KfSDRnxhvNQZF9A29?g_st=iwb',
@@ -99,7 +99,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Parcelación Estratégica en un Entorno Natural Único',
           subtitle: "Conectividad, Seguridad y Comodidad en un Proyecto que Combina lo Mejor del Campo y la Ciudad",
-          description: 'En tierras de excelentes cualidades agrícolas y ganaderas y fuera de riesgo volcánico. Combina un equilibrio perfecto entre el bullicio turístico y la tranquilidad campestre. Listo para escrituración inmediata, el proyecto cuenta con cercos perimetrales para cada parcela, caminos interiores amplios de 8 metros, y un pozo de agua exclusivo y registrado. Cada parcela dispone de conexión de agua, red de grifos de incendio, y buena señal de celulares e internet. Además, ofrece conexión subterránea de empalme eléctrico individual, caminos ripiados y estabilizados, y un portón de acceso automático para mayor seguridad y comodidad.',
+          description: 'En tierras de excelentes cualidades agrícolas y ganaderas y fuera de riesgo volcánico. Combina un equilibrio perfecto entre el bullicio turístico y la tranquilidad campestre. Listo para escrituración inmediata, el proyecto cuenta con cercos perimetrales para cada parcela, caminos interiores amplios de 8 metros, y un pozo de agua exclusivo y registrado. Cada parcela dispone de conexión de agua, grifos de incendio, y buena señal de celulares e internet. Además, ofrece conexión subterránea de empalme eléctrico individual, caminos ripiados y estabilizados, y un portón de acceso automático para mayor seguridad y comodidad.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/56976858145',
