@@ -53,11 +53,11 @@ const TemplateMiLanding = () => {
         videoUrl: "",
         title: 'VogelHaus',
         subtitle: "Todo lo que necesitas está aquí",
-        description: 'Luz y agua a los pies de tu parcela. Portón de acceso, amplios caminos, red de grifos de incendio y cerco incluido. ',
+        description: 'Luz y agua a los pies de tu parcela. Portón de acceso, amplios caminos, grifos de incendio y cerco incluido. ',
         buttonConfig: {
           type: 'link',
-          url: 'https://milanding.cl/vogelHaus', //
-          buttonText: 'Ver Master Plan',
+          url: 'https://parcelasvillarrica.cl/vogelhaus.html', //
+          buttonText: 'Ver sitio web',
         },
       },
       {
