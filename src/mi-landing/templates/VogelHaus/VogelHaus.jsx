@@ -63,7 +63,7 @@ const TemplateMiLanding = () => {
           description: 'Puedes invertir; desde comprar una sola Parcela, hasta varias de ellas e incluso con casa de diseño único.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://www.youtube.com/embed/BBCCRo8oH2Q', //
+            iframeUrl: 'https://www.youtube.com/embed/FT0QI2GzhDs', //
             buttonText: 'Ver Video',
           },
         },

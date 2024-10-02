@@ -56,7 +56,7 @@ const TemplateMiLanding = () => {
         description: 'Luz y agua a los pies de tu parcela. Portón de acceso, amplios caminos, red de grifos de incendio y cerco incluido. ',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://parcelasvillarricamasterplan-production.up.railway.app', //
+          iframeUrl: 'https://parcelasvillarricamasterplan-production.up.railway.app/', //
           buttonText: 'Ver Master Plan',
         },
       },
