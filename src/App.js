@@ -26,6 +26,9 @@ const ParcelasVillarrica = lazy(()=> import ('./mi-landing/templates/ParcelasVil
 const Emdo = lazy(()=> import ('./mi-landing/templates/Emdo/Emdo'));
 const VogelHaus = lazy(()=> import ('./mi-landing/templates/VogelHaus/VogelHaus'));
 const TecnoAraucania = lazy(()=> import ('./mi-landing/templates//TecnoAraucania/TecnoAraucania'));
+const HTVilcun = lazy(()=> import ('./mi-landing/templates/HTVilcun/HTVilcun'));
+const ServiciosDeDrone = lazy(()=> import ('./mi-landing/templates/ServiciosDrone/ServiciosDeDrone'));
+const HaciendaDelRanco = lazy(()=> import ('./mi-landing/templates/HaciendaDelRanco/HaciendaDelRanco'));
 
 
 
@@ -58,6 +61,9 @@ const App = () => {
           <Route path="/Emdo" element={<Emdo/>}/>
           <Route path="/VogelHaus" element={<VogelHaus/>}/>
           <Route path="/TecnoAraucania" element={<TecnoAraucania/>}/>
+          <Route path="/HT-Vilcun" element={<HTVilcun/>}/>
+          <Route path="/ServiciosDeDrone" element={<ServiciosDeDrone/>}/>
+          <Route path="/HaciendaDelRanco" element={<HaciendaDelRanco/>}/>
           {/* Agrega más rutas para otros clientes */}
         </Routes>
       </Suspense>
