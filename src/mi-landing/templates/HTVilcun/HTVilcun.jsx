@@ -30,7 +30,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Contáctanos!',
     iframeBackground: '',
-    subtitles: ['Servicio Técnico Informático a domicilio en Temuco.', 'Venta de accesorios para celulares y computadores' ],
+    subtitles: ['Servicio Técnico Informático en Vilcún.', 'Venta de accesorios para celulares y computadores' ],
     telefono: '+56935099213',
     message:'Necesito más información',
     footerText:"Arturo Prat 669, Vilcún",
@@ -51,7 +51,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Quienes Somos',
           subtitle: '',
-          description: 'En Hyper Technology Vilcún nos especializamos en la venta de accesorios para teléfonos inteligentes y computadoras, así como en brindar un servicio técnico confiable y de calidad. Ubicados en Vilcún, ofrecemos soluciones tecnológicas adaptadas a las necesidades de nuestros clientes, asegurando una atención personalizada y productos de alta calidad. Nuestro compromiso es mantener tus dispositivos en óptimas condiciones y proveer los mejores accesorios para mejorar tu experiencia digital. ¡Confía en nosotros para cuidar y potenciar tu tecnología!',
+          description: 'En HT Vilcún, nos especializamos en brindar soluciones de servicio técnico de la más alta calidad para dispositivos móviles y computadoras. Con una sólida experiencia en el mercado, ofrecemos reparación y mantenimiento para las principales marcas de teléfonos celulares, incluyendo Samsung, Xiaomi, Huawei y Motorola, asegurando que cada equipo vuelva a su óptimo funcionamiento. Además, contamos con servicios técnicos especializados para computadores, formateos, instalción de programas, servicio técnico y más. Nuestro compromiso es ofrecer un servicio confiable, rápido y eficiente, siempre con el objetivo de la solución tennologica en Vilcún.',
           
           buttonConfig: {
             type: 'link',
@@ -126,7 +126,7 @@ const TemplateMiLanding = () => {
   ];
 
   useEffect(() => {
-    document.title = 'TecnoAraucanía Temuco';
+    document.title = 'HT vilcún';
     const favicon = document.querySelector('link[rel="icon"]');
     favicon.href = FavIcon;
 
