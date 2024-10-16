@@ -19,39 +19,38 @@ import img6 from './assets/img6.jpg';
 import img7 from './assets/img7.jpg';
 import img8 from './assets/img8.jpg';
 import img9 from './assets/img9.jpg';
-import img10 from './assets/img11.jpg';
+//import img10 from './assets/img11.jpg';
 import img11 from './assets/img11.jpg';
-import img12 from './assets/img12.jpg';
-import img13 from './assets/img13.jpg';
-import img14 from './assets/img14.jpg';
-import img15 from './assets/img15.jpg';
 import master from './assets/masterplan.jpg';
+import paillaco from './assets/paillaco.jpg';
+
+
 
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: Logo , // Agrega la ruta de tu logo aquí
-    colorPrimario: '#1b3457',
+    colorPrimario: '#0e592e',
     colorSecundario: '#fff',
-    colorPrimarioTransparente: 'rgba(27, 52, 86,0.8)',
+    colorPrimarioTransparente: 'rgba(238, 89, 7,0.8)',
     colorTerciario: '#3e3e3e',
     colorCuaternario: '#34495e', 
     backgroundImage: img1 ,
-    title: 'Hacienda Del Ranco',
+    title: 'Parcelas Paillaco',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Más Información!',
-    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingHaciendaDelRanco/index.html',
+    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingParcelasPaillaco/index.html',
     subtitles: ['Descubre la Belleza Natural', 'Ideal para quienes buscan vivir rodeados de Naturaleza ', 'Naturaleza virgen y espacios amplios en cada parcela', "Oportunidad única para invertir"],
-    telefono: '+',
-    message:'Hola, quiero más información de Hacienda Del Ranco',
+    telefono: '+56962981160',
+    message:'Hola, quiero más información de Parcelas Paillaco',
     instagramLink: '',
     facebookLink: '',
-    footerText:'Lago Ranco, Los Ríos, Chile',
-    gpsLink: 'https://maps.app.goo.gl/az23YRbb7MHmbdyo8',
+    footerText:'Paillaco, Los Ríos, Chile',
+    gpsLink: 'https://maps.app.goo.gl/Pbr5WrZoPGFdsMdB6',
     linkedinLink:"",
     footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(101, 190, 74, 0) 0%, rgba(101, 190, 74, 0.2) 5%, rgba(101, 190, 74, 0.4) 20%, rgba(101, 190, 74, 0.7) 50%, rgba(101, 190, 74, 0.9) 70%, rgba(101, 190, 74, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(238, 89, 7, 0) 0%, rgba(238, 89, 7, 0.2) 5%, rgba(238, 89, 7, 0.4) 20%, rgba(238, 89, 7, 0.7) 50%, rgba(238, 89, 7, 0.9) 70%, rgba(238, 89, 7, 1) 100%)",
 
       textColor: '#fff'
     },
@@ -61,63 +60,52 @@ const TemplateMiLanding = () => {
         {
           image: img1,
           videoUrl: "",
-          title: 'Hacienda Del Ranco',
-          subtitle: "Ubicado en Lago Ranco, Los Ríos",
-          description: 'Ubicada estratégicamente en la zona suroeste de la cuenca, Lago Ranco se destaca como la comuna con la mejor conectividad de la región. Se encuentra a solo 25 minutos de la Ruta 5 Sur, a 60 minutos de Valdivia y a 45 minutos de la ciudad de Osorno, y cuenta con una población aproximada de 9,500 habitantes. A pocos minutos, se pueden disfrutar de atractivos turísticos de gran belleza, como el Parque Futangue, el Bosque Quillin, el Mirador Piedra Mesa y el Salto Pichi Ignao. Su ubicación la convierte en un lugar ideal para cualquier proyecto de negocios, gracias a su alta plusvalía.',
+          title: 'Parcelas Paillaco',
+          subtitle: "Ubicado en Paillaco, Los Ríos",
+          description: 'El proyecto de loteos en Paillaco está enfocado en la conexión con la naturaleza y aprovechar las impresionantes vistas desde sus parcelas en altura. Ofrece panorámicas únicas de los bosques nativos y paisajes de la Región de Los Ríos. Este desarrollo inmobiliario sostenible promueve unestilo de vida tranquilo, preservando los recursos naturales del entorno.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: '',
+            iframeUrl: 'https://www.youtube.com/embed/9iVzO3BCcqI',
             buttonText: 'Ver video',
           },
         },
         {
-          image: img2,
+          image: paillaco,
           videoUrl: "",
-          title: 'Servicios Básicos',
+          title: 'Ubicación',
           subtitle: '',
-          description: 'En la Hacienda del Lago Ranco, las parcelas cuentan con servicios básicos de agua y luz.',
+          description: 'Nuestras parcelas están ubicadas en un entorno natural excepcional, cerca de destinos turísticos destacados en la región de Los Ríos. A poca distancia de Valdivia, con su vibrante vida cultural, Futrono y Lago Ranco, ideales para el ecoturismo y actividades acuáticas, y La Unión, rica en historia y patrimonio. Estos lugares ofrecen una combinación perfecta de naturaleza, aventura y cultura. Vivir aquí te permitirá disfrutar de la tranquilidad del campo sin renunciar a la cercanía con algunos de los sitios turísticos más importantes del sur de Chile.',
           buttonConfig: {
             type: 'link',
-            url: 'https://maps.app.goo.gl/az23YRbb7MHmbdyo8',
+            url: 'https://maps.app.goo.gl/Pbr5WrZoPGFdsMdB6',
             buttonText: 'Ver ubicación',
           },
         },
         {
           image: img3,
           videoUrl: "",
-          title: 'Accesibilidad',
+          title: 'Características',
           subtitle: '',
-          description: 'Nuestras parcelas cuentan con acceso controlado para mayor seguridad y amplios caminos de accesos.',
+          description: 'Descubre nuestras parcelas de 5000m2, en las alturas cercanas a Paillaco, donde la tranquilidad de la naturaleza se une con la comodidad de servicios básicos cercanos. Con amplias áreas de terreno y vistas espectaculares a los bosques, estas parcelas ofrecen privacidad y contacto con la naturaleza. A pocos minutos de la Ruta 5 y del pueblo de Paillaco, tendrás acceso rápido a supermercados, colegios y centros de salud. Vive en un entorno natural único sin renunciar a la comodidad.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://haciendadelagoranco-production.up.railway.app',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasPaillaco/index.html',
             buttonText: 'Ver MasterPlan',
-          },
-        },
-        {
-          image: img9,
-          videoUrl: "",
-          title: 'Conectividad',
-          subtitle: '',
-          description: 'Su Acceso directo a a ruta T- 8 5 permite una alta conectividad a toda la cuenca del Lago Ranco.',
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Más información',
           },
         },
         {
           image: img4,
           videoUrl: "",
-          title: 'Actividades Turisticas',
+          title: 'Financiamiento',
           subtitle: '',
-          description: 'A pocos minutos de allí, se encuentran atractivos turísticos de gran belleza, como son; el Parque Futangue, el Bosque Quillin, el Mirador Piedra Mesa y el Salto Pichi Ignao.',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id libero et metus blandit laoreet sit amet at orci. Sed venenatis est dolor, at viverra sapien sodales id. Duis cursus sem nisl, ac tristique nibh scelerisque ut. Aenean massa nibh, eleifend eget lacinia non, iaculis in mauris. Proin sem lorem, feugiat quis lobortis quis, interdum nec dolor. Suspendisse quis nunc vitae ex iaculis sollicitudin. Nullam imperdiet dolor in urna porta auctor. Nam ut porta mi. Morbi pharetra nisi varius urna rutrum ultricies. Cras vel elit vitae ipsum semper aliquet a id est. Nullam dapibus leo in orci eleifend, a phar',
           buttonConfig: {
             type: 'link',
-            url: '',
+            url: 'https://wa.me/+56962981160?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Parcelas%20Paillaco',
             buttonText: 'Más información',
           },
         },
+        
       ],
       
 
@@ -131,7 +119,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://haciendadelagoranco-production.up.railway.app', //
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasPaillaco/index.html', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -144,7 +132,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://haciendadelagoranco-production.up.railway.app',
+          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasPaillaco/index.html',
           buttonText: 'Ver Master Plan',
         },
       },
@@ -156,7 +144,7 @@ const TemplateMiLanding = () => {
 
         image: img6, 
         videoUrl: "",
-        title: 'Hacienda Del Ranco',
+        title: 'Parcelas Paillaco',
         subtitle: "",
         description: '',
         className: 'photoGallery',
@@ -165,7 +153,7 @@ const TemplateMiLanding = () => {
 
         image: img7, 
         videoUrl: "",
-        title: 'Hacienda Del Ranco',
+        title: 'Parcelas Paillaco',
         subtitle: "",
         description: '',
         className: 'photoGallery',
@@ -173,7 +161,7 @@ const TemplateMiLanding = () => {
       {
         image: img8,
         videoUrl: "",
-        title: 'Hacienda Del Ranco',
+        title: 'Parcelas Paillaco',
         subtitle: "",
         description: '',
         className: 'photoGallery',
@@ -181,59 +169,29 @@ const TemplateMiLanding = () => {
       {
         image: img9,
         videoUrl: "",
-        title: 'Hacienda Del Ranco',
+        title: 'Parcelas Paillaco',
         subtitle: "",
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: img10,
-        videoUrl: "",
-        title: 'Hacienda Del Ranco',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
       {
         image: img11,
         videoUrl: "",
-        title: 'Hacienda Del Ranco',
+        title: 'Parcelas Paillaco',
         subtitle: "",
         description: '',
         className: 'photoGallery',
       },
       {
-        image: img12,
+        image: img2,
         videoUrl: "",
-        title: 'Hacienda Del Ranco',
+        title: 'Parcelas Paillaco',
         subtitle: "",
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: img13,
-        videoUrl: "",
-        title: 'Hacienda Del Ranco',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img14,
-        videoUrl: "",
-        title: 'Hacienda Del Ranco',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img15,
-        videoUrl: "",
-        title: 'Hacienda Del Ranco',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
       
     ]
     
@@ -254,7 +212,7 @@ const TemplateMiLanding = () => {
   ];
 
   useEffect(() => {
-    document.title = 'Hacienda Del Ranco';
+    document.title = 'Parcelas Paillaco';
     const favicon = document.querySelector('link[rel="icon"]');
     favicon.href = favIcon ;
 
