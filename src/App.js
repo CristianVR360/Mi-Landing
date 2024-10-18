@@ -18,7 +18,7 @@ const BosquesDeQuilentue = lazy(()=> import ('./mi-landing/templates/BosquesDeQu
 const LosTordos = lazy(()=> import ('./mi-landing/templates/LosTordos/LosTordos'));
 const MarcosWiller = lazy(()=> import ('./mi-landing/templates/MarcosWiller/MarcosWiller'));
 const Chaignal = lazy(()=> import ('./mi-landing/templates/Chaignal/Chaignal'));
-const Astra360 = lazy(()=> import ('./mi-landing/templates/Astra.360/Astra.360'));
+const Astra360 = lazy(()=> import ('./mi-landing/templates/Loteos/Loteos'));
 const EspacioZurich = lazy(()=> import ('./mi-landing/templates/Helvetica/EspacioZurich'));
 const GeoPunto = lazy(()=> import ('./mi-landing/templates/GeoPunto/GeoPunto'));
 const RioChepu = lazy(()=> import ('./mi-landing/templates/RioChepu/RioChepu'));
