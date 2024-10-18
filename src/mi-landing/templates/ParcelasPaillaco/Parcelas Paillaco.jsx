@@ -13,16 +13,26 @@ import Logo from './assets/Logo.png';
 import img1 from './assets/img1.jpg';
 import img2 from './assets/img2.jpg';
 import img3 from './assets/img3.jpg';
-import img4 from './assets/img4.jpg';
+//import img4 from './assets/img4.jpg';
 import img5 from './assets/img5.jpg';
-import img6 from './assets/img6.jpg';
+//import img6 from './assets/img6.jpg';
 import img7 from './assets/img7.jpg';
-import img8 from './assets/img8.jpg';
+//import img8 from './assets/img8.jpg';
 import img9 from './assets/img9.jpg';
 //import img10 from './assets/img11.jpg';
 import img11 from './assets/img11.jpg';
 import master from './assets/masterplan.jpg';
 import paillaco from './assets/paillaco.jpg';
+import img12 from './assets/img12.jpg';
+import img13 from './assets/img13.jpg';
+import img14 from './assets/img14.jpg';
+import img15 from './assets/img15.jpg';
+import img16 from './assets/img16.jpg';
+import img17 from './assets/img17.jpg';
+import valdi from './assets/valdivia.jpg';
+import img18 from './assets/img18.jpg';
+
+
 
 
 
@@ -58,7 +68,7 @@ const TemplateMiLanding = () => {
       //aqui va el brochure
       carousel01: [
         {
-          image: img1,
+          image: img13,
           videoUrl: "",
           title: 'Parcelas Paillaco',
           subtitle: "Ubicado en Paillaco, Los Ríos",
@@ -74,7 +84,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Ubicación',
           subtitle: '',
-          description: 'Nuestras parcelas están ubicadas en un entorno natural excepcional, cerca de destinos turísticos destacados en la región de Los Ríos. A poca distancia de Valdivia, con su vibrante vida cultural, Futrono y Lago Ranco, ideales para el ecoturismo y actividades acuáticas, y La Unión, rica en historia y patrimonio. Estos lugares ofrecen una combinación perfecta de naturaleza, aventura y cultura. Vivir aquí te permitirá disfrutar de la tranquilidad del campo sin renunciar a la cercanía con algunos de los sitios turísticos más importantes del sur de Chile.',
+          description: 'Parcelas Paillaco se ubica junto al poblado de Paillaco, en la Región de Los Ríos, ofreciendo una oportunidad única de inversión gracias a la creciente plusvalía de la zona. Destaca por estar a escasos 800 metros de la Ruta 5, lo que garantiza excelente conectividad. Su estratégica ubicación permite acceso a servicios básicos como agua potable, electricidad y vías de comunicación, además de cercanía a centros de salud, supermercados y otros servicios esenciales, incrementando su atractivo para proyectos residenciales o turísticos. Además, la región cuenta con diversas zonas turísticas, como el lago Ranco, los saltos del Huilo Huilo y la ciudad de Valdivia, reconocida por su riqueza histórica y belleza natural.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/Pbr5WrZoPGFdsMdB6',
@@ -82,7 +92,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img3,
+          image: img16,
           videoUrl: "",
           title: 'Características',
           subtitle: '',
@@ -94,15 +104,27 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img4,
+          image: img15,
           videoUrl: "",
           title: 'Financiamiento',
           subtitle: '',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id libero et metus blandit laoreet sit amet at orci. Sed venenatis est dolor, at viverra sapien sodales id. Duis cursus sem nisl, ac tristique nibh scelerisque ut. Aenean massa nibh, eleifend eget lacinia non, iaculis in mauris. Proin sem lorem, feugiat quis lobortis quis, interdum nec dolor. Suspendisse quis nunc vitae ex iaculis sollicitudin. Nullam imperdiet dolor in urna porta auctor. Nam ut porta mi. Morbi pharetra nisi varius urna rutrum ultricies. Cras vel elit vitae ipsum semper aliquet a id est. Nullam dapibus leo in orci eleifend, a phar',
+          description: 'En cuanto al financiamiento, Parcelas Paillaco ofrece opciones absolutamente flexibles. Se requiere un pie inicial, y el resto del pago se negocia caso a caso con cada potencial comprador. Esta flexibilidad financiera facilita la adquisición y permite adaptar los términos según las necesidades individuales, haciendo de esta inversión una oportunidad accesible y atractiva para diferentes presupuestos.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56962981160?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Parcelas%20Paillaco',
             buttonText: 'Más información',
+          },
+        },
+        {
+          image: valdi, //imagen de valdivia
+          videoUrl: "",
+          title: 'Turismo y Naturaleza',
+          subtitle: 'Región de Los Ríos',
+          description: 'Desde Parcelas Paillaco, tienes acceso directo a la variada oferta turística de la Región de Los Ríos. Comenzando por Valdivia, la capital regional te recibe con su rica historia, arquitectura colonial y vibrante vida cultural, además de paseos en bote por el río Calle-Calle. Luego, el lago Ranco ofrece actividades náuticas en paisajes espectaculares. No puedes perderte los saltos del Huilo Huilo, impresionantes cascadas en medio de bosques nativos. Para disfrutar de la costa, las playas de Niebla y Curiñanco brindan arenas doradas y fuertes históricos. Termas naturales, parques nacionales como Alerce Costero y rutas enológicas completan una experiencia turística enriquecida por la gastronomía local y la hospitalidad de la gente.',
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://www.youtube.com/embed/9iVzO3BCcqI',
+            buttonText: 'Ver video',
           },
         },
         
@@ -142,7 +164,7 @@ const TemplateMiLanding = () => {
       //este carrusel corresponde a la galeria de imagenes
       {
 
-        image: img6, 
+        image: img15, 
         videoUrl: "",
         title: 'Parcelas Paillaco',
         subtitle: "",
@@ -159,7 +181,7 @@ const TemplateMiLanding = () => {
         className: 'photoGallery',
       },
       {
-        image: img8,
+        image: img13,
         videoUrl: "",
         title: 'Parcelas Paillaco',
         subtitle: "",
@@ -191,7 +213,46 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      
+      {
+        image: img12,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img14,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img17,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img3,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img18,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
       
     ]
     
