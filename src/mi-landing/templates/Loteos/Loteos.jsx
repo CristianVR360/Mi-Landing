@@ -51,7 +51,7 @@ const TemplateMiLanding = () => {
     ctaWhatsappButton: '¡Más Información!',
     iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/astraLoteos/index.html',
     subtitles: ['Master Plan 360: Muestra tu proyecto con el máximo detalle a través de puntos interactivos', 'Producción audiovisual: El mejor contenido para tus redes sociales y tus campañas de marketing digital', 'Intranet: Administra y gestiona facilmente tu proyecto', 'Street view 360: Para que tus clientes recorran todo tu proyecto 100% Online', 'Branding y Marketing digital: Somos tu aliado perfecto para asesorarte en todos los aspectos de marketing de tu proyecto'],
-    telefono: '+56931354518',
+    telefono: '',
     message: "¡Hola! Quiero más información.",
     instagramLink: 'https://instagram.com/astra.360',
     facebookLink: 'https://facebook.com/astra360.marketing',

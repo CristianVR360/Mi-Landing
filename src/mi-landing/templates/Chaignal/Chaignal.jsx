@@ -13,14 +13,23 @@ import img5 from './assets/img5.jpg';
 import img6 from './assets/img6.jpg';
 import img7 from './assets/img7.jpg';
 import img8 from './assets/img8.jpg';
-import img9 from './assets/img9.jpg';
+//import img9 from './assets/img9.jpg';
 import servi from './assets/serviciosbasicos.jpg';
 import master from './assets/master.jpg';
 import favIcon from './assets/favicon.png';
 import img10 from './assets/img10.jpg';
 import img11 from './assets/img11.jpg';
 import guillermo from './assets/presentacion.jpg';
-
+import img12 from './assets/img12.jpg'
+import img13 from './assets/img13.jpg'
+import img14 from './assets/img14.jpg'
+import img15 from './assets/img15.jpg'
+import img16 from './assets/img16.jpg'
+import img17 from './assets/img17.jpg'
+import img18 from './assets/img18.jpg'
+import img19 from './assets/img19.jpg'
+import img20 from './assets/img20.jpg'
+import img21 from './assets/img21.jpg'
 
 
 
@@ -156,6 +165,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Chaignal',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img10,
@@ -163,6 +173,7 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Chaignal',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img8,
@@ -170,20 +181,16 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Chaignal',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
-      {
-        image: img9,
-        videoUrl: "",
-        title: 'Parcelas Chaignal',
-        subtitle: "",
-        description: '',
-      },
+    
       {
         image: img2,
         videoUrl: "",
         title: 'Parcelas Chaignal',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
       },
       {
         image: img11,
@@ -191,6 +198,87 @@ const TemplateMiLanding = () => {
         title: 'Parcelas Chaignal',
         subtitle: "",
         description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img12,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img13,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img14,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img15,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img16,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img17,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img18,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img19,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img20,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img21,
+        videoUrl: "",
+        title: 'Parcelas Chaignal',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
       },
     ],
     

@@ -3,6 +3,11 @@ import { BsWhatsapp } from 'react-icons/bs';
 import './WhatsAppButton.css';
 
 function WhatsAppButton({ phoneNumber, message, callToAction }) {
+  // Si el número de teléfono está vacío o es nulo, no renderiza el botón
+  if (!phoneNumber || phoneNumber.trim() === "") {
+    return null; // No renderizar nada si el teléfono es inválido
+  }
+
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (
