@@ -368,7 +368,7 @@ const TemplateMiLanding = () => {
         description: 'El servicio de Desarrollo Web de Astra 360 crea sitios web efectivos para inmobiliarias, maximizando la visibilidad de propiedades y facilitando la interacción con clientes potenciales.',
         buttonConfig: {
           type: 'link',
-          url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+          url: 'https://wa.me/+56931354518?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
           buttonText: 'Más información',
         },
       },
@@ -380,7 +380,7 @@ const TemplateMiLanding = () => {
         description: 'El servicio de Marketing Digital de Astra 360 para inmobiliarias maximiza la visibilidad de tus propiedades y atrae clientes potenciales mediante estrategias digitales efectivas y personalizadas.',
         buttonConfig: {
           type: 'link',
-          url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+          url: 'https://wa.me/+56931354518?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
           buttonText: 'Más información',
         },
       },

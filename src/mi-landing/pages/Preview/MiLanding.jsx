@@ -8,20 +8,26 @@ import "./MiLanding.css";
 const MiLanding = ({ landingPageData, opciones }) => {
   const [activeComponent, setActiveComponent] = useState("inicio");
 
-  const handleNavigation = (component) => {
-    setActiveComponent(component);
-  };
+  // Controla la navegación entre Hero y Carousel, no dentro de los carruseles
+  const handleWheel = (e) => {
+    const currentIndex = opciones.findIndex((opcion) => opcion.id === activeComponent);
 
-  const getTransitionClassName = () => {
-    return activeComponent === "inicio" ? "mi-landing-transition-inicio" : "mi-landing-transition-carousel";
+    // Si se desplaza hacia arriba (retroceder)
+    if (e.deltaY < 0 && currentIndex > 0) {
+      setActiveComponent(opciones[currentIndex - 1].id);
+    } 
+    // Si se desplaza hacia abajo (avanzar)
+    else if (e.deltaY > 0 && currentIndex < opciones.length - 1) {
+      setActiveComponent(opciones[currentIndex + 1].id);
+    }
   };
 
   return (
-    <div className="mi-landing">
+    <div className="mi-landing" onWheel={handleWheel}>
       <Header
         colorPrimario={landingPageData.colorPrimario}
         colorSecundario={landingPageData.colorSecundario}
-        handleNavigation={handleNavigation}
+        handleNavigation={setActiveComponent}
         activeComponent={activeComponent}
         opciones={opciones}
       />
@@ -29,7 +35,7 @@ const MiLanding = ({ landingPageData, opciones }) => {
         <CSSTransition
           key={activeComponent}
           timeout={500}
-          classNames={getTransitionClassName()}
+          classNames={activeComponent === "inicio" ? "mi-landing-transition-inicio" : "mi-landing-transition-carousel"}
         >
           <div className="mi-landing__content">
             {activeComponent === "inicio" ? (
@@ -55,9 +61,8 @@ const MiLanding = ({ landingPageData, opciones }) => {
                 gpsLink={landingPageData.gpsLink}
                 footerAfterStyles={landingPageData.footerAfterStyles}
                 logo={landingPageData.logo}
-                footerText= {landingPageData.footerText}
+                footerText={landingPageData.footerText}
                 message={landingPageData.message}
-
               />
             ) : (
               <Carousel
