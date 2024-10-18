@@ -102,7 +102,7 @@ const TemplateMiLanding = () => {
         description: 'El servicio de Desarrollo Web de Astra 360 crea sitios web efectivos para inmobiliarias, maximizando la visibilidad de propiedades y facilitando la interacción con clientes potenciales.',
         buttonConfig: {
           type: 'link',
-          url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+          url: 'https://wa.me/56931354518?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
           buttonText: 'Más información',
         },
       },
@@ -114,7 +114,7 @@ const TemplateMiLanding = () => {
         description: 'El servicio de Marketing Digital de Astra 360 para inmobiliarias maximiza la visibilidad de tus propiedades y atrae clientes potenciales mediante estrategias digitales efectivas y personalizadas.',
         buttonConfig: {
           type: 'link',
-          url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+          url: 'https://wa.me/56931354518?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
           buttonText: 'Más información',
         },
       },
@@ -397,20 +397,7 @@ const TemplateMiLanding = () => {
     const favicon = document.querySelector('link[rel="icon"]');
     favicon.href = favIcon ;
 
- // Inserta el script de Google Tag Manager en la cabecera
- const script = document.createElement('script');
- script.innerHTML = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-   })(window,document,'script','dataLayer','GTM-MWSBN2FK');`;
- document.head.appendChild(script);
-
- // Inserta el iframe de Google Tag Manager en el body
- const noscript = document.createElement('noscript');
- noscript.innerHTML = `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWSBN2FK"
-   height="0" width="0" style="display:none;visibility:hidden"></iframe>`;
- document.body.appendChild(noscript);
+ 
 
     return () => {
       document.title = 'MiLanding';
