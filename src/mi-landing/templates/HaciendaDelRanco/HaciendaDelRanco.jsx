@@ -42,7 +42,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Más Información!',
     iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingHaciendaDelRanco/index.html',
-    subtitles: ['Descubre la Belleza Natural', 'Ideal para quienes buscan vivir rodeados de Naturaleza ', 'Naturaleza virgen y espacios amplios en cada parcela', "Oportunidad única para invertir"],
+    subtitles: ['Agenda tu visita online gratis en el botón de whatsapp', 'Ideal para quienes buscan vivir rodeados de Naturaleza ', 'Agenda tu visita online gratis en el botón de whatsapp', 'Naturaleza virgen y espacios amplios en cada parcela', 'Agenda tu visita online gratis en el botón de whatsapp', "Oportunidad única para invertir"],
     telefono: '+',
     message:'Hola, quiero más información de Hacienda Del Ranco',
     instagramLink: '',
