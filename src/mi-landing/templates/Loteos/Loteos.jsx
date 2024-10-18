@@ -403,9 +403,8 @@ const TemplateMiLanding = () => {
       document.title = 'MiLanding';
       favicon.href = 'default_favicon.ico';
 
-      // Limpieza al desmontar el componente
-      document.head.removeChild(script);
-      document.body.removeChild(noscript);
+    
+     
     };
   }, []);
 
