@@ -23,7 +23,15 @@ import pangui from './assets/pangui.jpg';
 import lagopangui from './assets/lagopangui.jpg';
 import master2 from './assets/masterplan2.jpg';
 import img9 from './assets/img9.jpg';
-
+import img10 from './assets/img10.jpg';
+import img11 from './assets/img11.jpg';
+import img12 from './assets/img12.jpg';
+import img13 from './assets/img13.jpg';
+import img14 from './assets/img14.jpg';
+import img15 from './assets/img15.jpg';
+import img16 from './assets/img16.jpg';
+import img17 from './assets/img17.jpg';
+import teatro from './assets/teatro.jpg';
 
 
 
@@ -45,7 +53,7 @@ const TemplateMiLanding = () => {
     subtitles: ['Descubre la Belleza Natural', 'Ideal para quienes buscan vivir rodeados de Naturaleza ', 'Naturaleza virgen y espacios amplios en cada parcela', "Oportunidad única para invertir"],
     telefono: '+56996780430',
     message:'Hola, quiero más información de Condominio Santa Sofía',
-    instagramLink: '',
+    instagramLink: 'https://www.instagram.com/condominiosantasofia/',
     facebookLink: '',
     footerText:'',
     gpsLink: 'https://maps.app.goo.gl/HeYDcnSqH2Vwd45X9',
@@ -59,7 +67,7 @@ const TemplateMiLanding = () => {
       //aqui va el brochure
       carousel01: [
         {
-          image: img4,
+          image: img17,
           videoUrl: "",
           title: 'Condominio Santa Sofía',
           subtitle: "Panguipulli, Los Ríos",
@@ -95,6 +103,18 @@ const TemplateMiLanding = () => {
           },
         },
         {
+          image: teatro,
+          videoUrl: "",
+          title: 'Teatro de las Artes de Panguipulli',
+          subtitle: '',
+          description: 'El Teatro de las Artes de Panguipulli, parte de la Fundación de Amigos de las Artes y la Cultura de Panguipulli, es un emblemático centro cultural que refleja el espíritu artístico y comunitario de la región. Al adquirir nuestras parcelas en Panguipulli, no solo se sumergirá en paisajes naturales de ensueño, sino que también formará parte de una vibrante escena cultural. El teatro ofrece una variada programación de eventos, desde conciertos y obras de teatro hasta exposiciones y talleres, enriqueciendo la vida cotidiana y convirtiendo a la comuna en un referente artístico en el sur de Chile.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56996780430?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Condominio%20Santa%20Sof%C3%ADa',
+            buttonText: 'Más información',
+          },
+        },
+        {
           image: img8,
           videoUrl: "",
           title: 'Financiamiento',
@@ -106,6 +126,7 @@ const TemplateMiLanding = () => {
             buttonText: 'Más información',
           },
         },
+        
         {
           image: lagopangui,
           videoUrl: "",
@@ -232,6 +253,62 @@ const TemplateMiLanding = () => {
     
       {
         image: img5,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img12,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img13,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img14,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img15,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img16,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img10,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img11,
         videoUrl: "",
         title: '',
         subtitle: "",
