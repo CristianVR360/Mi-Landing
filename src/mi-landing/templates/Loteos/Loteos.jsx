@@ -44,7 +44,7 @@ const TemplateMiLanding = () => {
     colorTerciario: '#337fef', //botones del carrusel
     colorCuaternario: '#34495e', 
     backgroundImage: img1 ,
-    title: 'Digitaliza tu proeycto de Parcelas',
+    title: 'Aumenta tus ventas con Tour Virtual',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',

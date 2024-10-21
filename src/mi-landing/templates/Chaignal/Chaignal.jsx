@@ -49,7 +49,7 @@ const TemplateMiLanding = () => {
     ctaWhatsappButton: '¡Más Información!',
     iframeBackground: '',
     subtitles: ['Tu nueva vida en el sur de Chile, Región de los Ríos', 'Ideal para quienes buscan vivir rodeados de Naturaleza ', 'Naturaleza virgen y espacios amplios en cada parcela', "Oportunidad única para invertir"],
-    telefono: '+56987631317',
+    telefono: '',
     message:'Hola, quiero más información de Parcelas Chaignal',
     instagramLink: 'https://www.instagram.com/parcelaschaignal/',
     facebookLink: '',
@@ -108,7 +108,7 @@ const TemplateMiLanding = () => {
           description: 'El proyecto tiene acceso directo por la internacional 203, que conecta Ruta 5, Lanco, Malalhue, Panguipulli, hasta el paso fronterizo Huahum que conecta con San Martin de los Andes. Esta ruta está perfectamente pavimentada, asegurando un fácil acceso en automóvil. Los caminos internos del proyecto están diseñados según los más altos estándares, incluyendo nivelación, drenajes, compactación y una amplitud de 6 metros, para una circulación cómoda y segura.',
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+            url: 'https://wa.me/56987631317?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
             buttonText: 'Más información',
           },
         },
@@ -120,7 +120,7 @@ const TemplateMiLanding = () => {
           description: 'Las parcelas, de 5.000 m² cada una, destacan por su diseño limpio, plano y ordenado. Cada parcela está equipada con servicios esenciales como luz, agua e internet, todos soterrados para mantener la armonía con el entorno natural. Además, el proyecto incluye áreas verdes, bosques, y árboles a lo largo de los caminos, y algunas parcelas tienen acceso directo al río, ofreciendo un entorno natural único.',
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+            url: 'https://wa.me/56987631317?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
             buttonText: 'Más información',
           },
         },
