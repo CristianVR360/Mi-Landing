@@ -39,17 +39,18 @@ const TemplateMiLanding = () => {
   const landingPageData = {
     logo: Logo , // Agrega la ruta de tu logo aquí
     colorPrimario: '#fbab4b',
+    videoBkgHero: '',
     colorSecundario: '#fff',
     colorPrimarioTransparente: 'rgba(38, 129, 147, 0.8)',
     colorTerciario: '#3e3e3e',
     colorCuaternario: '#34495e', 
     backgroundImage: img1 ,
-    title: 'Condominio Santa Sofía',
+    title: 'Panguipulli: el futuro de tu hogar, la certeza de tu inversión',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Más Información!',
-    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingSantaSof%C3%ADa/index.html',
+    iframeBackground: '',
     subtitles: ['Descubre la Belleza Natural', 'Ideal para quienes buscan vivir rodeados de Naturaleza ', 'Naturaleza virgen y espacios amplios en cada parcela', "Oportunidad única para invertir"],
     telefono: '+56996780430',
     message:'Hola, quiero más información de Condominio Santa Sofía',
@@ -67,11 +68,11 @@ const TemplateMiLanding = () => {
       //aqui va el brochure
       carousel01: [
         {
-          image: img17,
+          image: img1,
           videoUrl: "",
-          title: 'Condominio Santa Sofía',
-          subtitle: "Panguipulli, Los Ríos",
-          description: 'Condominio Santa Sofía te ofrece parcelas exclusivas con todos los servicios que necesitas. Cada parcela cuenta con agua, luz y tranquetas para tu privacidad. El condominio está equipado con un portón de acceso y cámaras de seguridad para brindarte máxima tranquilidad. Además, cuenta con un reglamento de propiedad que asegura convivencia armónica y mantiene el valor de tu inversión a largo plazo.',
+          title: 'Condominio Santa Sofía: Exclusividad, Seguridad y Tranquilidad en Cada Parcela',
+          subtitle: "Un espacio privado con todo lo que necesitas para disfrutar de la vida al máximo",
+          description: 'Condominio Santa Sofía te invita a ser parte de una experiencia única, ofreciéndote parcelas exclusivas equipadas con todos los servicios esenciales para tu confort. Cada una de nuestras parcelas cuenta con agua, luz y tranqueras que garantizan tu privacidad. El condominio dispone de modernos portones de acceso controlado y cámaras de vigilancia, asegurando la máxima seguridad y tranquilidad para ti y tu familia. Además, un reglamento de copropiedad diseñado para promover una convivencia armoniosa protege el valor de tu inversión a largo plazo, garantizando un entorno perfecto para vivir o invertir.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: '',
@@ -81,9 +82,9 @@ const TemplateMiLanding = () => {
         {
           image: pangui,
           videoUrl: "",
-          title: 'Ubicación',
-          subtitle: '',
-          description: 'Las parcelas de Santa Sofía están ubicadas a solo 11 km de Panguipulli, con acceso directo a la Ruta T-39, lo que facilita la conexión a los lagos de la zona y a la Ruta 5. Su cercanía al pueblo garantiza acceso a todos los servicios esenciales como farmacias, colegios, supermercados, atención médica y más.',
+          title: 'Conectividad y Naturaleza en un Entorno Inigualable',
+          subtitle: 'Tu refugio privado a pasos de Panguipulli y los lagos más bellos de la región',
+          description: 'A solo 11 km de Panguipulli, en la hermosa Región de Los Ríos, Condominio Santa Sofía te ofrece una ubicación privilegiada con acceso directo a la emblemática Ruta de los Siete Lagos (T-39), conectándote fácilmente con los lagos más cercanos y la Ruta 5, que lleva a la comuna de Los Lagos. Disfruta de la tranquilidad de estar rodeado por la naturaleza sin sacrificar la cercanía a los servicios esenciales: farmacias, colegios, supermercados, atención médica y más, todo a tu alcance para una vida plena y cómoda.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/HeYDcnSqH2Vwd45X9',
@@ -91,11 +92,23 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img6,
+          image: img8,
           videoUrl: "",
-          title: 'Características',
-          subtitle: '',
-          description: 'El Condominio Santa Sofía, ubicado cerca de Panguipulli, ofrece parcelas exclusivas de 5000 a 7000 m². Cada una cuenta con agua, luz y tranqueta privada para garantizar tu privacidad y comodidad. Disfruta de un entorno natural único y tranquilo, ideal para construir tu hogar o casa de descanso.',
+          title: 'Financiamiento',
+          subtitle: 'Desde UF 1660',
+          description: 'En cuanto al financiamiento, Santa Sofía ofrece opciones absolutamente flexibles. Se requiere un pie inicial, y el resto del pago se negocia caso a caso con cada potencial comprador. Esta flexibilidad financiera facilita la adquisición y permite adaptar los términos según las necesidades individuales, haciendo de esta inversión una oportunidad accesible y atractiva para diferentes presupuestos.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56996780430?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Condominio%20Santa%20Sof%C3%ADa',
+            buttonText: 'Más información',
+          },
+        },
+        {
+          image: img3,
+          videoUrl: "",
+          title: 'Terrenos con las Mejores Condiciones para tu Proyecto',
+          subtitle: 'El lugar perfecto para construir tu hogar en un entorno natural incomparable',
+          description: 'Santa Sofía te ofrece parcelas exclusivas de entre 5000 y 7000 m², diseñadas para brindarte el espacio y las comodidades que necesitas. Cada lote cuenta con acceso a agua y luz, asentado sobre una morfología mayormente plana y un suelo no inundable, ideal para garantizar la estabilidad de tu futuro proyecto. Con un alto porcentaje de ocupación, estas parcelas son perfectas para construir la casa de tus sueños. Todo esto en un entorno natural único y tranquilo, pensado para que disfrutes de la paz y la privacidad que mereces.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ElManantial/SantaSofia/index.html',
@@ -105,27 +118,16 @@ const TemplateMiLanding = () => {
         {
           image: teatro,
           videoUrl: "",
-          title: 'Teatro de las Artes de Panguipulli',
-          subtitle: '',
-          description: 'El Teatro de las Artes de Panguipulli, parte de la Fundación de Amigos de las Artes y la Cultura de Panguipulli, es un emblemático centro cultural que refleja el espíritu artístico y comunitario de la región. Al adquirir nuestras parcelas en Panguipulli, no solo se sumergirá en paisajes naturales de ensueño, sino que también formará parte de una vibrante escena cultural. El teatro ofrece una variada programación de eventos, desde conciertos y obras de teatro hasta exposiciones y talleres, enriqueciendo la vida cotidiana y convirtiendo a la comuna en un referente artístico en el sur de Chile.',
+          title: '¿Por qué Elegir Santa Sofía?',
+          subtitle: 'Un lugar único donde naturaleza, exclusividad y cultura se encuentran',
+          description: 'Su ubicación estratégica te conecta fácilmente con los lagos más hermosos de la región y la Ruta 5, sin dejar de lado la cercanía a servicios esenciales como supermercados, colegios y centros de salud. Además, al vivir en Santa Sofía, serás parte de una vibrante comunidad cultural, gracias al cercano Teatro de las Artes de Panguipulli, un espacio que enriquece la vida diaria con eventos artísticos de primer nivel. Aquí, la naturaleza y la cultura se combinan para ofrecerte una experiencia de vida única.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56996780430?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Condominio%20Santa%20Sof%C3%ADa',
             buttonText: 'Más información',
           },
         },
-        {
-          image: img8,
-          videoUrl: "",
-          title: 'Financiamiento',
-          subtitle: '',
-          description: 'orem ipsum dolor sit amet, consectetur adipiscing elit. Cras rhoncus, elit quis tempus sollicitudin, orci arcu tempor orci, nec suscipit ante nisi non ipsum. Vestibulum elementum lectus eget congue tincidunt.',
-          buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/+56996780430?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Condominio%20Santa%20Sof%C3%ADa',
-            buttonText: 'Más información',
-          },
-        },
+        
         
         {
           image: lagopangui,
@@ -176,7 +178,7 @@ const TemplateMiLanding = () => {
       //este carrusel corresponde a la galeria de imagenes
       {
 
-        image: img4, 
+        image: img2, 
         videoUrl: "",
         title: '',
         subtitle: "",
@@ -185,7 +187,7 @@ const TemplateMiLanding = () => {
       },
       {
 
-        image: img7, 
+        image: img1, 
         videoUrl: "",
         title: '',
         subtitle: "",
@@ -193,13 +195,22 @@ const TemplateMiLanding = () => {
         className: 'photoGallery',
       },
       {
-        image: img9,
+        image: img3,
         videoUrl: "",
         title: '',
         subtitle: "",
         description: '',
         className: 'photoGallery',
       },
+      {
+        image: img4,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      
       {
         image: img5,
         videoUrl: "",
@@ -208,7 +219,6 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      
       {
         image: img6,
         videoUrl: "",
@@ -217,17 +227,9 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: img2,
-        videoUrl: "",
-        title: '',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
       
       {
-        image: img3,
+        image: img7,
         videoUrl: "",
         title: '',
         subtitle: "",
@@ -244,15 +246,6 @@ const TemplateMiLanding = () => {
       },
       {
         image: img9,
-        videoUrl: "",
-        title: '',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-    
-      {
-        image: img5,
         videoUrl: "",
         title: '',
         subtitle: "",
@@ -309,6 +302,14 @@ const TemplateMiLanding = () => {
       },
       {
         image: img11,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img17,
         videoUrl: "",
         title: '',
         subtitle: "",
