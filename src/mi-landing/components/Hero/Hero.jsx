@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from 'prop-types';
 import "./Hero.css";
 import WhatsAppButton from "../../components/common/WhatsappButton/WhatsAppButton";
@@ -25,17 +25,19 @@ const Hero = ({
   footerAfterStyles,
   message,
 }) => {
+  const [videoLoaded, setVideoLoaded] = useState(false);
+
   useEffect(() => {
     const updateHeroHeight = () => {
       const vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty('--vh', `${vh}px`);
     };
 
-    // Initialize --vh value on load and resize
+    // Inicializa el valor de --vh en el load y resize
     updateHeroHeight();
     window.addEventListener('resize', updateHeroHeight);
 
-    // Cleanup the event listener on component unmount
+    // Limpia el event listener al desmontar el componente
     return () => {
       window.removeEventListener('resize', updateHeroHeight);
     };
@@ -45,14 +47,19 @@ const Hero = ({
     <div className="hero">
       <div className="hero__main-content">
         {videoBkgHero ? (
-          <video
-            src={videoBkgHero}
-            className="hero__video-background"
-            autoPlay
-            loop
-            muted
-            playsInline
-          ></video>
+          <>
+            <img src={backgroundImage} alt="Imagen de fondo" className="hero__background" />
+            <video
+              src={videoBkgHero}
+              className="hero__video-background"
+              autoPlay
+              loop
+              muted
+              playsInline
+              onCanPlayThrough={() => setVideoLoaded(true)}
+              style={{ opacity: videoLoaded ? 1 : 0, transition: 'opacity 1s ease-in-out' }}
+            ></video>
+          </>
         ) : iframeBackground ? (
           <iframe 
             src={iframeBackground}
@@ -60,6 +67,7 @@ const Hero = ({
             className="hero__iframe"
             frameBorder="0"
             allowFullScreen
+            style={{ opacity: 0.9 }}
           ></iframe>
         ) : (
           <img src={backgroundImage} alt="Imagen de fondo" className="hero__background" />
