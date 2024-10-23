@@ -4,26 +4,35 @@
   display: flex;
   flex-direction: column;
   height: calc(var(--vh, 1vh) * 100);
-  overflow: hidden; /* Evita desbordamientos */
-}
-.hero__logo {
-  display: block; /* Asegura que el logo sea un bloque para centrarlo correctamente */
-  max-width: 150px; /* Limita el ancho del logo para mantener el diseño */
-  margin: 0 auto 10px; /* Centra el logo y añade un margen debajo antes del título */
-  height: auto; /* Mantiene la proporción del logo */
+  overflow: hidden; /* Prevent overflows */
 }
 
+.hero__logo {
+  display: block; /* Ensure the logo is a block element for proper centering */
+  max-width: 150px; /* Limit the logo width to maintain design */
+  margin: 0 auto 10px; /* Center the logo and add margin below */
+  height: auto; /* Maintain logo proportions */
+}
 
 .hero__background,
-.hero__iframe {
+.hero__iframe,
+.hero__video-background {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
   opacity: 0.9;
   z-index: -1;
+}
+
+/* Optional: Add zoom effect to the background elements */
+/*
+.hero__background,
+.hero__iframe,
+.hero__video-background {
   animation: zoomEffect 60s infinite alternate;
 }
 
@@ -38,6 +47,7 @@
     transform: scale(1);
   }
 }
+*/
 
 .hero__content {
   position: relative;
@@ -47,7 +57,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  overflow: hidden; /* Evita desbordamientos */
+  overflow: hidden; /* Prevent overflows */
 }
 
 .hero__main-content {
@@ -56,7 +66,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Evita desbordamientos */
+  overflow: hidden; /* Prevent overflows */
 }
 
 .hero::before {
@@ -92,7 +102,7 @@
   font-weight: bold;
 }
 
-/* Estilos específicos para desktop */
+/* Specific styles for desktop */
 @media (min-width: 769px) {
   .hero__content {
     justify-content: center;
@@ -110,30 +120,29 @@
   }
 
   .hero__background,
-  .hero__iframe {
+  .hero__iframe,
+  .hero__video-background {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
   }
 }
 
-/* Estilos específicos para móviles */
+/* Specific styles for mobile */
 @media (max-width: 768px) {
   .hero__section {
     transform: translateY(-200px);
   }
 
   .hero__title {
-    font-size: 24px; /* Ajusta el tamaño de la fuente si es necesario */
+    font-size: 24px; /* Adjust font size if necessary */
   }
 
   .hero__description {
-    font-size: 14px; /* Ajusta el tamaño de la fuente si es necesario */
+    font-size: 14px; /* Adjust font size if necessary */
   }
 
   .hero__subtitles {
-    font-size: 28px; /* Ajusta el tamaño de la fuente si es necesario */
+    font-size: 28px; /* Adjust font size if necessary */
   }
 }
-
-

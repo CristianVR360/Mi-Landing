@@ -41,6 +41,7 @@ const MiLanding = ({ landingPageData, opciones }) => {
             {activeComponent === "inicio" ? (
               <Hero
                 backgroundImage={landingPageData.backgroundImage}
+                videoBkgHero={landingPageData.videoBkgHero}
                 iframeBackground={landingPageData.iframeBackground}
                 title={landingPageData.title}
                 description={landingPageData.description}

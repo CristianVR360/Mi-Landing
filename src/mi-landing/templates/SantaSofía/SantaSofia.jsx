@@ -32,6 +32,7 @@ import img15 from './assets/img15.jpg';
 import img16 from './assets/img16.jpg';
 import img17 from './assets/img17.jpg';
 import teatro from './assets/teatro.jpg';
+import videoBkg from './assets/videobkg.mp4';
 
 
 
@@ -39,7 +40,7 @@ const TemplateMiLanding = () => {
   const landingPageData = {
     logo: Logo , // Agrega la ruta de tu logo aquí
     colorPrimario: '#fbab4b',
-    videoBkgHero: '',
+    videoBkgHero: videoBkg,
     colorSecundario: '#fff',
     colorPrimarioTransparente: 'rgba(38, 129, 147, 0.8)',
     colorTerciario: '#3e3e3e',

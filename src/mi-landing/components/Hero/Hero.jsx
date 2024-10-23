@@ -7,6 +7,7 @@ import Footer01 from "../Footer/Footer01";
 
 const Hero = ({
   backgroundImage,
+  videoBkgHero, 
   logo,
   iframeBackground,
   title,
@@ -30,7 +31,7 @@ const Hero = ({
       document.documentElement.style.setProperty('--vh', `${vh}px`);
     };
 
-    // Inicializa el valor de --vh en el load y resize
+    // Initialize --vh value on load and resize
     updateHeroHeight();
     window.addEventListener('resize', updateHeroHeight);
 
@@ -43,7 +44,16 @@ const Hero = ({
   return (
     <div className="hero">
       <div className="hero__main-content">
-        {iframeBackground ? (
+        {videoBkgHero ? (
+          <video
+            src={videoBkgHero}
+            className="hero__video-background"
+            autoPlay
+            loop
+            muted
+            playsInline
+          ></video>
+        ) : iframeBackground ? (
           <iframe 
             src={iframeBackground}
             title="Virtual Tour"
@@ -56,7 +66,7 @@ const Hero = ({
         )}
         <div className="hero__content">
           <div className="hero__section">
-          <img src={logo} alt="Logo" className="hero__logo"/>
+            <img src={logo} alt="Logo" className="hero__logo"/>
             <h1 className="hero__title" style={{ color: colorSecundario }}>
               {title}
             </h1>
@@ -86,7 +96,7 @@ const Hero = ({
         </div>
       </div>
       <Footer01
-       footerText={ footerText}
+        footerText={footerText}
         instagramLink={instagramLink}
         facebookLink={facebookLink}
         gpsLink={gpsLink}
@@ -102,6 +112,8 @@ const Hero = ({
 Hero.propTypes = {
   backgroundImage: PropTypes.string,
   iframeBackground: PropTypes.string,
+  videoBkgHero: PropTypes.string,
+  logo: PropTypes.string,
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
   subtitle: PropTypes.string,
@@ -111,8 +123,11 @@ Hero.propTypes = {
   subtitles: PropTypes.arrayOf(PropTypes.string),
   instagramLink: PropTypes.string,
   facebookLink: PropTypes.string,
+  linkedinLink: PropTypes.string,
   gpsLink: PropTypes.string,
+  footerText: PropTypes.string,
   footerAfterStyles: PropTypes.object,
+  message: PropTypes.string,
 };
 
 export default Hero;
