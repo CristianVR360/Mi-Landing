@@ -156,7 +156,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ElManantial/SantaSofia/index.html', //
+          iframeUrl: 'https://santasofia-production.up.railway.app/masterplan.html', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -169,7 +169,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ElManantial/SantaSofia/index.html',
+          iframeUrl: 'https://santasofia-production.up.railway.app/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },
