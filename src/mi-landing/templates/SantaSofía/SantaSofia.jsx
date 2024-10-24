@@ -73,7 +73,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Condominio Santa Sofía: Exclusividad, Seguridad y Tranquilidad en Cada Parcela',
           subtitle: "Un espacio privado con todo lo que necesitas para disfrutar de la vida al máximo",
-          description: 'Condominio Santa Sofía te invita a ser parte de una experiencia única, ofreciéndote parcelas exclusivas equipadas con todos los servicios esenciales para tu confort. Cada una de nuestras parcelas cuenta con agua, luz y tranqueras que garantizan tu privacidad. El condominio dispone de modernos portones de acceso controlado y cámaras de vigilancia, asegurando la máxima seguridad y tranquilidad para ti y tu familia. Además, un reglamento de copropiedad diseñado para promover una convivencia armoniosa protege el valor de tu inversión a largo plazo, garantizando un entorno perfecto para vivir o invertir.',
+          description: 'Condominio Santa Sofía te invita a ser parte de una experiencia única, ofreciéndote parcelas exclusivas equipadas con todos los servicios esenciales para tu confort. Cada una de nuestras parcelas cuenta con agua, luz y tranqueras que garantizan tu privacidad. El condominio dispone de portones de acceso controlado y cámaras de vigilancia, asegurando la máxima seguridad y tranquilidad para ti y tu familia. Además, un reglamento de copropiedad diseñado para promover una convivencia armónica que protege el valor de tu inversión a largo plazo, garantizando un entorno perfecto para vivir o invertir.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: '',
@@ -85,7 +85,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Conectividad y Naturaleza en un Entorno Inigualable',
           subtitle: 'Tu refugio privado a pasos de Panguipulli y los lagos más bellos de la región',
-          description: 'A solo 11 km de Panguipulli, en la hermosa Región de Los Ríos, Condominio Santa Sofía te ofrece una ubicación privilegiada con acceso directo a la emblemática Ruta de los Siete Lagos (T-39), conectándote fácilmente con los lagos más cercanos y la Ruta 5, que lleva a la comuna de Los Lagos. Disfruta de la tranquilidad de estar rodeado por la naturaleza sin sacrificar la cercanía a los servicios esenciales: farmacias, colegios, supermercados, atención médica y más, todo a tu alcance para una vida plena y cómoda.',
+          description: 'A solo 11 km del corazón de Panguipulli, en el sector Panguilelfún, Condominio Santa Sofía te ofrece una ubicación privilegiada con acceso directo a 1 km de la emblemática Ruta de los Siete Lagos (T-39), conectándote fácilmente con los lagos más cercanos, la comuna de Los Lagos y a la Ruta 5. Disfruta de la tranquilidad de estar rodeado por la naturaleza sin sacrificar la cercanía a los servicios esenciales: farmacias, colegios, supermercados, atención médica y más, todo a tu alcance para una vida plena y cómoda.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/HeYDcnSqH2Vwd45X9',
@@ -96,8 +96,8 @@ const TemplateMiLanding = () => {
           image: img8,
           videoUrl: "",
           title: 'Financiamiento',
-          subtitle: 'Desde UF 1660',
-          description: 'En cuanto al financiamiento, Santa Sofía ofrece opciones absolutamente flexibles. Se requiere un pie inicial, y el resto del pago se negocia caso a caso con cada potencial comprador. Esta flexibilidad financiera facilita la adquisición y permite adaptar los términos según las necesidades individuales, haciendo de esta inversión una oportunidad accesible y atractiva para diferentes presupuestos.',
+          subtitle: 'Desde UF 1160',
+          description: 'En cuanto al financiamiento, Santa Sofía ofrece diversas opciones.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56996780430?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Condominio%20Santa%20Sof%C3%ADa',
@@ -108,7 +108,7 @@ const TemplateMiLanding = () => {
           image: img3,
           videoUrl: "",
           title: 'Terrenos con las Mejores Condiciones para tu Proyecto',
-          subtitle: 'El lugar perfecto para construir tu hogar en un entorno natural incomparable',
+          subtitle: 'El lugar perfecto para construir tu hogar en un entorno natural e incomparable',
           description: 'Santa Sofía te ofrece parcelas exclusivas de entre 5000 y 7000 m², diseñadas para brindarte el espacio y las comodidades que necesitas. Cada lote cuenta con acceso a agua y luz, asentado sobre una morfología mayormente plana y un suelo no inundable, ideal para garantizar la estabilidad de tu futuro proyecto. Con un alto porcentaje de ocupación, estas parcelas son perfectas para construir la casa de tus sueños. Todo esto en un entorno natural único y tranquilo, pensado para que disfrutes de la paz y la privacidad que mereces.',
           buttonConfig: {
             type: 'popup',
@@ -135,7 +135,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Turismo y Naturaleza',
           subtitle: '',
-          description: 'La zona alrededor de Panguipulli y la Ruta T-39 es rica en paisajes naturales, termas, lagos y montañas. Los viajeros pueden disfrutar tanto de la tranquilidad como de la aventura en este entorno privilegiado por la naturaleza. Aquí algunos de los principales puntos de interés mencionados: Lago Panguipulli, Termas Geométricas, Reserva Biológica Huilo Huilo, Volcán y Lago Ranco, Lago Calafquén, Parque Nacional Villarrica, Neltume. Pucón y Villarrica, Termas de Coñaripe, Saltos de la China y del León, Lago Riñihue.',
+          description: 'La zona alrededor de Panguipulli y la Ruta siete lagos es rica en paisajes naturales, termas, lagos y montañas. Los viajeros pueden disfrutar tanto de la tranquilidad como de la aventura en este entorno privilegiado por la naturaleza. Aquí algunos de los principales puntos de interés mencionados: Lago Panguipulli, Reserva Biológica Huilo Huilo, Volcán mocho choshuenco, Lago Calafquén, Parque Nacional Villarrica, Neltume, Puerto Fuy, Lago Pirihueico, paso internacional Hua Hum, Lago Riñihue, Lago Ranco entre otros muchos destinos turísticos.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: '',
