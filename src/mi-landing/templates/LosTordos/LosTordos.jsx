@@ -112,7 +112,7 @@ const TemplateMiLanding = () => {
           description: 'Las parcelas son de 5.000 m² y destacan por ser limpias, planas y ordenadas. Cada parcela está equipada con servicios esenciales completamente soterrados, incluyendo luz y agua, lo que contribuye a la estética limpia y ordenada del proyecto.',
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+            url: 'https://wa.me/+56987631317?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Parcelas%20Los%20Tordos',
             buttonText: 'Más información',
           },
         },

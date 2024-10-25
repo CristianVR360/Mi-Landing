@@ -97,7 +97,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Financiamiento',
           subtitle: 'Desde UF 1160',
-          description: 'En cuanto al financiamiento, Santa Sofía ofrece diversas opciones.',
+          description: 'En Santa Sofía, creemos que el sueño de tu espacio ideal está al alcance de tu mano. Por eso, ofrecemos opciones de financiamiento directo, adaptadas para que encuentres una forma cómoda de adquirir tu propiedad. También puedes acceder a financiamientos tradicionales como créditos hipotecarios a través de instituciones financieras, lo que te permite elegir la alternativa que mejor se adapte a tus necesidades y posibilidades. Cláusula de Evaluación Crediticia: El financiamiento está sujeto a la evaluación crediticia de la entidad otorgante, quien decidirá su aprobación conforme a los criterios establecidos.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56996780430?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20de%20Condominio%20Santa%20Sof%C3%ADa',

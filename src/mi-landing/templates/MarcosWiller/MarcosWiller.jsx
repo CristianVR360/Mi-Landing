@@ -97,7 +97,7 @@ const TemplateMiLanding = () => {
           description: 'Aprovecha nuestra oferta de lanzamiento con precios desde $59.990.000. Ofrecemos diversas opciones de pago, incluyendo financiamiento directo de hasta 36 cuotas. La reserva de parcelas se puede realizar con un pie de $5.000.000, asegurando tu lugar en este refugio natural. Además, aceptamos pagos con tarjetas de crédito/débito y transferencias bancarias, te brindamos el mejor asesoramiento financiero que necesites.',
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+            url: 'https://wa.me/+56944156747?text=undefined',
             buttonText: 'Más información',
           },
         },
