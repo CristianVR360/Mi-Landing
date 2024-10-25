@@ -30,7 +30,7 @@ import parcelasvillarrica from './assets/parcelasvillarrica.jpg';
 import vistaquillen from './assets/vistaquillen.jpg';
 import montajespadel from './assets/padelchile.jpg';
 import prana from './assets/prana.jpg';
-
+import videoBkg from './assets/BGastra.mp4';
 
 
 
@@ -38,6 +38,7 @@ import prana from './assets/prana.jpg';
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logo , // Agrega la ruta de tu logo aquí
+    videoBkgHero: videoBkg,
     colorPrimario: '#337fef',
     colorSecundario: '#fff',
     colorPrimarioTransparente: 'rgba(25, 25, 107,0.8)',
