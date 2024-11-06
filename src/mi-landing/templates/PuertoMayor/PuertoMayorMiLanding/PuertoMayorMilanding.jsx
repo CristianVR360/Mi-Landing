@@ -21,12 +21,16 @@ import aragonPortada from './assets/AragonAerea.jpg';
 import catalunaPortada from './assets/CatalunaAerea.jpg';
 import puertoMayorIIPortada from './assets/PuertoMayor.jpg';
 import puertoMayorIIPortada2 from './assets/PuertoMayorII2.jpg';
-import edificioPortada from './assets/EdificioPortada.jpg';
+//import edificioPortada from './assets/EdificioPortada.jpg';
 import workCafe from './assets/work-cafe.jpg';
-import EdificioPortada2 from './assets/EdificioAragon2.jpg';
+//import EdificioPortada2 from './assets/EdificioAragon2.jpg';
 import catalunaPortadaCasas from './assets/CasasCataluna.jpg';
 import parqueVicuna03 from './assets/parquevicuna03.jpg';
 import bkgcarousel2 from './assets/parque-vicuna-proyecto-banner.jpg';
+import edificioportada1 from './assets/EdificioPortada1.jpg';
+import edificioportada3 from './assets/EdificioPortada3.jpg';
+
+
 
 const TemplateMiLanding = () => {
   const landingPageData = {
@@ -127,7 +131,7 @@ const TemplateMiLanding = () => {
       ],
       carousel03: [
         {
-          image: edificioPortada,
+          image: edificioportada1,
           videoUrl: "",
           title: 'EDIFICIO ARAGÓN',
           subtitle: 'PRÓXIMAMENTE',
@@ -139,7 +143,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: EdificioPortada2,
+          image: edificioportada3,
           videoUrl: "",
           title: 'AVANCES CONTRUCCIÓN',
           subtitle: '2024',

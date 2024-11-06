@@ -8,8 +8,10 @@ import logo from './assets/Aragon-logo.png';
 import mainBkg from './assets/Sala-Ventas.jpg';
 import carouselBkg from './assets/AragonAerea.jpg';
 import aragonPiloto from './assets/PilotoAragon.jpg';
-import edificioPortada from './assets/EdificioPortada.jpg';
-import EdificioPortada2 from './assets/EdificioAragon2.jpg';
+//import edificioPortada from './assets/EdificioPortada.jpg';
+//import EdificioPortada2 from './assets/EdificioAragon2.jpg';
+import edificioportada1 from './assets/EdificioPortada1.jpg';
+import edificioportada3 from './assets/EdificioPortada3.jpg';
 
 
 const TemplateMiLanding = () => {
@@ -75,7 +77,7 @@ const TemplateMiLanding = () => {
 
       carousel02: [
         {
-          image: edificioPortada,
+          image: edificioportada1,
           videoUrl: "",
           title: 'EDIFICIO ARAGÓN',
           subtitle: 'PRÓXIMAMENTE',
@@ -87,7 +89,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: EdificioPortada2,
+          image: edificioportada3,
           videoUrl: "",
           title: 'Ver Piloto',
           subtitle: '2024',
