@@ -52,7 +52,7 @@ const TemplateMiLanding = () => {
           image: carouselBkg,
           videoUrl: "",
           title: 'CONDOMINIO ARAGON',
-          subtitle: 'Avenida Ricardo Vicuña 1610',
+          subtitle: 'Av. Cordillera 255',
           description: 'Ubicado en el consolidado sector Villa Cataluña de Los Ángeles, con acceso por Av. Gabriela Mistral y posteriormente también por Av. Alemania',
           buttonConfig: {
             type: 'popup',
@@ -80,7 +80,7 @@ const TemplateMiLanding = () => {
           image: edificioportada1,
           videoUrl: "",
           title: 'EDIFICIO ARAGÓN',
-          subtitle: 'PRÓXIMAMENTE',
+          subtitle: '',
           description: 'Edificio Aragón estará ubicado en el consolidado sector Villa Cataluña de Los Ángeles, con acceso por Av. Gabriela Mistral y posteriormente también por Av. Alemania, lo que mejorará la conectividad hacia todos los servicios que necesitas.',
           buttonConfig: {
             type: 'popup',

@@ -108,7 +108,7 @@ const TemplateMiLanding = () => {
           image: aragonPortada,
           videoUrl: "",
           title: 'CONDOMINIO ARAGON',
-          subtitle: 'Avenida Ricardo Vicuña 1610',
+          subtitle: 'Av. Cordillera 255',
           description: 'Ubicado en el consolidado sector Villa Cataluña de Los Ángeles, con acceso por Av. Gabriela Mistral y posteriormente también por Av. Alemania',
           buttonConfig: {
             type: 'popup',
@@ -134,7 +134,7 @@ const TemplateMiLanding = () => {
           image: edificioportada1,
           videoUrl: "",
           title: 'EDIFICIO ARAGÓN',
-          subtitle: 'PRÓXIMAMENTE',
+          subtitle: '',
           description: 'Edificio Aragón estará ubicado en el consolidado sector Villa Cataluña de Los Ángeles, con acceso por Av. Gabriela Mistral y posteriormente también por Av. Alemania, lo que mejorará la conectividad hacia todos los servicios que necesitas.',
           buttonConfig: {
             type: 'popup',
@@ -145,12 +145,12 @@ const TemplateMiLanding = () => {
         {
           image: edificioportada3,
           videoUrl: "",
-          title: 'AVANCES CONTRUCCIÓN',
+          title: 'Ver Piloto',
           subtitle: '2024',
           description: 'Edificio de 7 pisos con un total de 56 departamentos, de 1, 2 y 3 dormitorios, con metrajes desde 36 m² hasta 79m²',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/Fachada-Arag%C3%B3n/output/index.html',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Puerto-Mayor/Condominio-Aragon/PilotoDepto/PilotoDepto-V1/output-1/index.html',
             buttonText: 'Ver avances',
           },
         },
