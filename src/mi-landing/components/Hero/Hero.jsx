@@ -24,6 +24,7 @@ const Hero = ({
   footerText,
   footerAfterStyles,
   message,
+  isExiting,
 }) => {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
@@ -44,7 +45,7 @@ const Hero = ({
   }, []);
 
   return (
-    <div className="hero">
+    <div className={`hero ${isExiting ? 'hero-element-fade-out' : ''}`}>
       <div className="hero__main-content">
         {videoBkgHero ? (
           <>
@@ -74,17 +75,17 @@ const Hero = ({
         )}
         <div className="hero__content">
           <div className="hero__section">
-            <img src={logo} alt="Logo" className="hero__logo"/>
-            <h1 className="hero__title" style={{ color: colorSecundario }}>
+            <img src={logo} alt="Logo" className={`hero__logo ${isExiting ? 'hero-element-fade-out' : ''}`}/>
+            <h1 className={`hero__title ${isExiting ? 'hero-element-fade-out' : ''}`} style={{ color: colorSecundario }}>
               {title}
             </h1>
             <p
-              className="hero__description"
+              className={`hero__description ${isExiting ? 'hero-element-fade-out' : ''}`}
               style={{ color: colorSecundario, display: description ? 'block' : 'none' }}
             >
               {description}
             </p>
-            <div className="hero__subtitles-container">
+            <div className={`hero__subtitles-container ${isExiting ? 'hero-element-fade-out' : ''}`}>
               <Subtitle01 
                 subtitles={subtitles}  
                 colorPrimario={colorPrimario} 
@@ -93,7 +94,7 @@ const Hero = ({
               />
             </div>
           </div>
-          <div className="hero__whatsappButton-container">
+          <div className={`hero__whatsappButton-container ${isExiting ? 'hero-element-fade-out' : ''}`}>
             <WhatsAppButton
               phoneNumber={telefono}
               message={message}
@@ -136,6 +137,7 @@ Hero.propTypes = {
   footerText: PropTypes.string,
   footerAfterStyles: PropTypes.object,
   message: PropTypes.string,
+  isExiting: PropTypes.bool,
 };
 
 export default Hero;

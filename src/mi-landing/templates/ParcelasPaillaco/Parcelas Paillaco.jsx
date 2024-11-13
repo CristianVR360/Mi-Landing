@@ -67,24 +67,13 @@ const TemplateMiLanding = () => {
     carousels: {
       //aqui va el brochure
       carousel01: [
-        {
-          image: img13,
-          videoUrl: "",
-          title: 'Parcelas Paillaco',
-          subtitle: "Ubicado en Paillaco, Los Ríos",
-          description: 'El proyecto de loteos en Paillaco está enfocado en la conexión con la naturaleza y aprovechar las impresionantes vistas desde sus parcelas en altura. Ofrece panorámicas únicas de los bosques nativos y paisajes de la Región de Los Ríos. Este desarrollo inmobiliario sostenible promueve unestilo de vida tranquilo, preservando los recursos naturales del entorno.',
-          buttonConfig: {
-            type: 'popup',
-            iframeUrl: 'https://www.youtube.com/embed/9iVzO3BCcqI',
-            buttonText: 'Ver video',
-          },
-        },
+       
         {
           image: paillaco,
           videoUrl: "",
           title: 'Ubicación',
           subtitle: '',
-          description: 'Parcelas Paillaco se ubica junto al poblado de Paillaco, en la Región de Los Ríos, ofreciendo una oportunidad única de inversión gracias a la creciente plusvalía de la zona. Destaca por estar a escasos 800 metros de la Ruta 5, lo que garantiza excelente conectividad. Su estratégica ubicación permite acceso a servicios básicos como agua potable, electricidad y vías de comunicación, además de cercanía a centros de salud, supermercados y otros servicios esenciales, incrementando su atractivo para proyectos residenciales o turísticos. Además, la región cuenta con diversas zonas turísticas, como el lago Ranco, los saltos del Huilo Huilo y la ciudad de Valdivia, reconocida por su riqueza histórica y belleza natural.',
+          description: 'Estas parcelas se ubican junto a la comuna de Paillaco, en la Región de Los Ríos, ofreciendo una oportunidad única de inversión gracias a la creciente plusvalía de la zona. Destaca por estar a escasos 800 metros de la Ruta 5, lo que garantiza excelente conectividad. Su estratégica ubicación permite cercanía a servicios como centros de salud, supermercados y otros servicios esenciales, incrementando su atractivo para una inversión segura.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/Pbr5WrZoPGFdsMdB6',
@@ -96,11 +85,11 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Características',
           subtitle: '',
-          description: 'Descubre nuestras parcelas de 5000m2, en las alturas cercanas a Paillaco, donde la tranquilidad de la naturaleza se une con la comodidad de servicios básicos cercanos. Con amplias áreas de terreno y vistas espectaculares a los bosques, estas parcelas ofrecen privacidad y contacto con la naturaleza. A pocos minutos de la Ruta 5 y del pueblo de Paillaco, tendrás acceso rápido a supermercados, colegios y centros de salud. Vive en un entorno natural único sin renunciar a la comodidad.',
+          description: 'Parcelas de 5000m2 en planicies y tambien suaves lomajes que permiten hermosas postales de puesta de sol, donde la naturaleza y la tranquilidad se despliega en su máximo esplendor. Estas parcelas cuentan con una quinta de manzanas, castaños, ciruelos y bosque nativo. Disfruta de la vista a los volcanes, o preciosas vistas a los valles de la zona mientras gozas de la tranquilidad y privacidad que solo este entorno natural puede ofrecer. Con acceso asfaltado y a pocos minutos de la Ruta 5 y la comuna de Paillaco, tendrás servicios como supermercados, colegios y centros de salud al alcance de la mano.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasPaillaco/index.html',
-            buttonText: 'Ver MasterPlan',
+            iframeUrl: 'https://www.youtube.com/embed/9iVzO3BCcqI',
+            buttonText: 'Ver video',
           },
         },
         {
@@ -118,9 +107,9 @@ const TemplateMiLanding = () => {
         {
           image: valdi, //imagen de valdivia
           videoUrl: "",
-          title: 'Turismo y Naturaleza',
+          title: 'Entorno, Turismo y Naturaleza',
           subtitle: 'Región de Los Ríos',
-          description: 'Desde Parcelas Paillaco, tienes acceso directo a la variada oferta turística de la Región de Los Ríos. Comenzando por Valdivia, la capital regional te recibe con su rica historia, arquitectura colonial y vibrante vida cultural, además de paseos en bote por el río Calle-Calle. Luego, el lago Ranco ofrece actividades náuticas en paisajes espectaculares. No puedes perderte los saltos del Huilo Huilo, impresionantes cascadas en medio de bosques nativos. Para disfrutar de la costa, las playas de Niebla y Curiñanco brindan arenas doradas y fuertes históricos. Termas naturales, parques nacionales como Alerce Costero y rutas enológicas completan una experiencia turística enriquecida por la gastronomía local y la hospitalidad de la gente.',
+          description: 'Desde Parcelas Paillaco, tienes acceso directo a la variada oferta turística de la Región de Los Ríos. Comenzando por Valdivia, la capital regional te recibe con su rica historia, arquitectura colonial y vibrante vida cultural y universitaria, además de paseos en el río Calle-Calle. Luego, el lago Ranco ofrece actividades náuticas en paisajes espectaculares. No puedes perderte los saltos del Huilo Huilo, impresionantes cascadas en medio de bosques nativos. También destacan las termas de Puyehue, famosas por sus aguas termales y paisajes andinos. Para disfrutar de la costa, las playas de Niebla y Curiñanco brindan arenas doradas y fuertes históricos. Termas naturales, parques nacionales como Alerce Costero y rutas enológicas completan una experiencia turística enriquecida por la gastronomía local y la hospitalidad de la gente.',
           buttonConfig: {
             type: 'popup',
             iframeUrl: 'https://www.youtube.com/embed/9iVzO3BCcqI',

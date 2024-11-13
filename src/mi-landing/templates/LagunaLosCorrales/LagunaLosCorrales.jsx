@@ -117,7 +117,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'PAISAJES Y TURISMO',
           subtitle: '',
-          description: 'Laguna Los Corrales, donde vivir rodeado de la naturaleza es un lujo que puede formar parte de tu vida diaria. Disfruta de la cercanía al Lago Puyehue, a la belleza del Lago Ranco, al imponente Río Nilahue y los Saltos del Nilahue, al sereno Río Bueno, y por supuesto, a la tranquilidad de la Laguna Los Corrales.',
+          description: 'Laguna Los Corrales, donde vivir rodeado de la naturaleza es un lujo que puede formar parte de tu vida diaria. Disfruta de la cercanía al Lago Ranco, a la belleza del Lago Maihue, al imponente Río Nilahue y los Saltos del Nilahue, al sereno Río Bueno, y por supuesto, a la tranquilidad de la Laguna Los Corrales.',
           
           buttonConfig: {
             type: 'link',

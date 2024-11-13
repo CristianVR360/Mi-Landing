@@ -1,29 +1,56 @@
+.mi-landing {
+  height: 100vh;
+  overflow: hidden;
+  touch-action: none; /* Previene el scroll nativo en dispositivos táctiles */
+  position: fixed; /* Previene el rebote en iOS */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+}
+
+.mi-landing__content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none; /* Previene interacciones durante el deslizamiento */
+}
+
+.mi-landing__content > * {
+  pointer-events: auto; /* Restaura las interacciones para el contenido interno */
+}
+
 .mi-landing-transition-inicio-enter {
-    opacity: 0;
-  }
-  .mi-landing-transition-inicio-enter-active {
-    opacity: 1;
-    transition: opacity 500ms;
-  }
-  .mi-landing-transition-inicio-exit {
-    opacity: 1;
-  }
-  .mi-landing-transition-inicio-exit-active {
-    opacity: 0;
-    transition: opacity 500ms;
-  }
-  
-  .mi-landing-transition-carousel-enter {
-    opacity: 0;
-  }
-  .mi-landing-transition-carousel-enter-active {
-    opacity: 1;
-    transition: opacity 500ms;
-  }
-  .mi-landing-transition-carousel-exit {
-    opacity: 1;
-  }
-  .mi-landing-transition-carousel-exit-active {
-    opacity: 0;
-    transition: opacity 500ms;
-  }
+  opacity: 0;
+}
+.mi-landing-transition-inicio-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.mi-landing-transition-inicio-exit {
+  opacity: 1;
+}
+.mi-landing-transition-inicio-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.mi-landing-transition-carousel-enter {
+  opacity: 0;
+}
+.mi-landing-transition-carousel-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.mi-landing-transition-carousel-exit {
+  opacity: 1;
+}
+.mi-landing-transition-carousel-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
