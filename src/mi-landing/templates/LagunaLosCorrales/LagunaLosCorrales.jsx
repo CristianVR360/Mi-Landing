@@ -37,8 +37,15 @@ import img26 from './assets/img26.jpg';
 import img27 from './assets/img27.jpg';
 import master1 from './assets/master1.jpg';
 import master2 from './assets/master2.jpg';
+import etapa1 from './assets/etapa1.jpg';
+import etapa2 from './assets/etapa2.jpg';
+import etapa3 from './assets/etapa3.jpg';
 
-;
+
+
+
+
+
 
 
 
@@ -74,11 +81,11 @@ const TemplateMiLanding = () => {
     carousels: {
       carousel01: [
         {
-          image: img18 ,
+          image: etapa1 ,
           videoUrl: "",
-          title: 'Laguna Los Corrales',
-          subtitle: '',
-          description: 'Laguna Los Corrales, donde lo especial se vuelve cotidiano. Ubicadas en la majestuosa selva Valdiviana, estas macroparcelas ofrecen un espacio único y privilegiado, rodeadas de algunos de los lagos más icónicos del sur de Chile. A tan solo 20 minutos del hermoso Lago Ranco, las parcelas están estratégicamente ubicadas en la Ruta T-567, con acceso rápido a todos los rincones de esta región privilegiada.',
+          title: 'Etapa 1',
+          subtitle: '100% vendida',
+          description: '',
           
           buttonConfig: {
             type: 'link',
@@ -87,11 +94,11 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img7 ,
+          image: etapa2 ,
           videoUrl: "",
-          title: 'CARACTERÍSTICAS',
-          subtitle: '',
-          description: 'Cada parcela tiene aproximadamente 21.000 metros cuadrados, con orientación norte, ideal para proyectos de generación fotovoltaica. Además, cuentan con tendido eléctrico colindante al lado sur del loteo. La mayoría de las parcelas son atravesadas por vertientes y arroyos, proporcionando agua natural durante todo el año. Y si no, la solución ideal es un pozo profundo, asegurando el suministro de agua en cualquier situación.',
+          title: 'Etapa 2',
+          subtitle: '100% vendida',
+          description: '',
           
           buttonConfig: {
             type: 'link',
@@ -100,11 +107,11 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img17 ,
+          image: etapa3 ,
           videoUrl: "",
-          title: 'ACCESIBILIDAD',
-          subtitle: '',
-          description: 'El acceso está garantizado para todo tipo de vehículos, con solo 4 kilómetros de camino de ripio. Este tramo está en proceso de licitación y pronto será pavimentado, facilitando la llegada al cercano Lago Meihue y al Volcán Cuya, ubicado justo al lado del loteo.',
+          title: 'Etapa 3',
+          subtitle: '100% vendida',
+          description: '',
           
           buttonConfig: {
             type: 'link',
@@ -112,19 +119,7 @@ const TemplateMiLanding = () => {
             buttonText: 'Más Información',
           },
         },
-        {
-          image: img27 ,
-          videoUrl: "",
-          title: 'PAISAJES Y TURISMO',
-          subtitle: '',
-          description: 'Laguna Los Corrales, donde vivir rodeado de la naturaleza es un lujo que puede formar parte de tu vida diaria. Disfruta de la cercanía al Lago Ranco, a la belleza del Lago Maihue, al imponente Río Nilahue y los Saltos del Nilahue, al sereno Río Bueno, y por supuesto, a la tranquilidad de la Laguna Los Corrales.',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/+56942403802?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
-            buttonText: 'Más Información',
-          },
-        },
+        
 
       ],
 
@@ -534,6 +529,58 @@ const TemplateMiLanding = () => {
 
       carousel02: [
         {
+          image: img18 ,
+          videoUrl: "",
+          title: 'Laguna Los Corrales',
+          subtitle: '',
+          description: 'Laguna Los Corrales, donde lo especial se vuelve cotidiano. Ubicadas en la majestuosa selva Valdiviana, estas macroparcelas ofrecen un espacio único y privilegiado, rodeadas de algunos de los lagos más icónicos del sur de Chile. A tan solo 20 minutos del hermoso Lago Ranco, las parcelas están estratégicamente ubicadas en la Ruta T-567, con acceso rápido a todos los rincones de esta región privilegiada.',
+          
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56942403802?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+            buttonText: 'Más Información',
+          },
+        },
+        {
+          image: img7 ,
+          videoUrl: "",
+          title: 'CARACTERÍSTICAS',
+          subtitle: '',
+          description: 'Cada parcela tiene aproximadamente 21.000 metros cuadrados, con orientación norte, ideal para proyectos de generación fotovoltaica. Además, cuentan con tendido eléctrico colindante al lado sur del loteo. La mayoría de las parcelas son atravesadas por vertientes y arroyos, proporcionando agua natural durante todo el año. Y si no, la solución ideal es un pozo profundo, asegurando el suministro de agua en cualquier situación.',
+          
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56942403802?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+            buttonText: 'Más Información',
+          },
+        },
+        {
+          image: img17 ,
+          videoUrl: "",
+          title: 'ACCESIBILIDAD',
+          subtitle: '',
+          description: 'El acceso está garantizado para todo tipo de vehículos, con solo 4 kilómetros de camino de ripio. Este tramo está en proceso de licitación y pronto será pavimentado, facilitando la llegada al cercano Lago Meihue y al Volcán Cuya, ubicado justo al lado del loteo.',
+          
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56942403802?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+            buttonText: 'Más Información',
+          },
+        },
+        {
+          image: img27 ,
+          videoUrl: "",
+          title: 'PAISAJES Y TURISMO',
+          subtitle: '',
+          description: 'Laguna Los Corrales, donde vivir rodeado de la naturaleza es un lujo que puede formar parte de tu vida diaria. Disfruta de la cercanía al Lago Ranco, a la belleza del Lago Maihue, al imponente Río Nilahue y los Saltos del Nilahue, al sereno Río Bueno, y por supuesto, a la tranquilidad de la Laguna Los Corrales.',
+          
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56942403802?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+            buttonText: 'Más Información',
+          },
+        },
+        {
           image: master1 ,
           videoUrl: "",
           title: 'Master Plan',
@@ -571,8 +618,8 @@ const TemplateMiLanding = () => {
 
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
-    { id: 'carousel01', texto: 'Brochure' },
-    { id: 'carousel02', texto: 'Master Plan' },
+    { id: 'carousel01', texto: 'Etapa 1, 2 y 3' },
+    { id: 'carousel02', texto: 'Etapa 4' },
     { id: 'carousel03', texto: 'Galería' },
     
     
