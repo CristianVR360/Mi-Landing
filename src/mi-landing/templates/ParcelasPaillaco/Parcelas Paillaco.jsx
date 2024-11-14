@@ -31,7 +31,10 @@ import img16 from './assets/img16.jpg';
 import img17 from './assets/img17.jpg';
 import valdi from './assets/valdivia.jpg';
 import img18 from './assets/img18.jpg';
-
+import img19 from './assets/img19.jpg';
+import img20 from './assets/img20.jpg';
+import img21 from './assets/img21.jpg';
+import img22 from './assets/img22.jpg';
 
 
 
@@ -236,6 +239,38 @@ const TemplateMiLanding = () => {
       },
       {
         image: img18,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img19,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img20,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img21,
+        videoUrl: "",
+        title: 'Parcelas Paillaco',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img22,
         videoUrl: "",
         title: 'Parcelas Paillaco',
         subtitle: "",
