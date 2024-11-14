@@ -36,7 +36,7 @@ import img25 from './assets/img25.jpg';
 import img26 from './assets/img26.jpg';
 import img27 from './assets/img27.jpg';
 import master1 from './assets/master1.jpg';
-import master2 from './assets/master2.jpg';
+//import master2 from './assets/master2.jpg';
 import etapa1 from './assets/etapa1.jpg';
 import etapa2 from './assets/etapa2.jpg';
 import etapa3 from './assets/etapa3.jpg';
@@ -584,7 +584,7 @@ const TemplateMiLanding = () => {
           image: master1 ,
           videoUrl: "",
           title: 'Master Plan',
-          subtitle: ' ',
+          subtitle: 'Revisa disponibilidad y explora de manera inmersiva nuestro poryecto ',
           description: '',
           
           buttonConfig: {
@@ -593,20 +593,7 @@ const TemplateMiLanding = () => {
             buttonText: 'Ver Master Plan',
           },
         },
-        {
-          image: master2 ,
-          videoUrl: "",
-          title: 'Master Plan',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://astra360.s3.sa-east-1.amazonaws.com/LagunaLosCorrales/E4-LagunaLosCorrales/index.html',
-            buttonText: 'Ver Master Plan',
-          },
-        },
-        
+    
 
       ],
      
