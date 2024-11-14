@@ -130,7 +130,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasPaillaco/index.html', //
+          iframeUrl: 'https://parcelaspaillaco.cl/masterplan.html', //
           buttonText: 'Ver Master Plan',
         },
       },
@@ -143,7 +143,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ParcelasPaillaco/index.html',
+          iframeUrl: 'https://parcelaspaillaco.cl/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },

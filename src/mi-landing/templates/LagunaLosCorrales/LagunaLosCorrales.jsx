@@ -529,7 +529,7 @@ const TemplateMiLanding = () => {
 
       carousel02: [
         {
-          image: img18 ,
+          image: img27 ,
           videoUrl: "",
           title: 'Laguna Los Corrales',
           subtitle: '',
