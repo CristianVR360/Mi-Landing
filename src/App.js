@@ -43,6 +43,7 @@ const LaCasitaDelChocolate = lazy(()=> import ('./mi-landing/templates/LaCasitaD
 const Bergland = lazy(()=> import ('./mi-landing/templates/Bergland/Bergland'));
 const SweetVegan = lazy(()=> import ('./mi-landing/templates/SweetVegan/SweetVegan'));
 const LagunaLosCorrales = lazy(()=> import ('./mi-landing/templates/LagunaLosCorrales/LagunaLosCorrales'));
+const ExpoChefAraucania = lazy(()=> import ('./mi-landing/templates//ExpoChefAraucania/ExpoChefAraucania'));
 
 
 
@@ -95,6 +96,7 @@ const App = () => {
           <Route path="/Bergland" element={<Bergland/>}/>
           <Route path="/SweetVegan" element={<SweetVegan/>}/>
           <Route path="/LagunaLosCorrales" element={<LagunaLosCorrales/>}/>
+          <Route path="/ExpoChefAraucania" element={<ExpoChefAraucania/>}/>
           
 
           
