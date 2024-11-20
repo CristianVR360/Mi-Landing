@@ -11,6 +11,7 @@ import img1 from './assets/img1.jpg';
 import img2 from './assets/img2.jpg';
 import img3 from './assets/img3.jpg';
 import img4 from './assets/img4.jpg';
+import chefs from './assets/chefs.jpg';
 ;
 
 
@@ -37,7 +38,7 @@ const TemplateMiLanding = () => {
     instagramLink: 'https://www.instagram.com/expochefaraucania?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
     facebookLink: '',
     linkedinLink: '',
-    gpsLink: '',
+    gpsLink: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
     footerAfterStyles: {
         background: "linear-gradient(to bottom, rgba(51, 200, 186, 0) 0%, rgba(51, 200, 186, 0.2) 5%, rgba(51, 200, 186, 0.4) 20%, rgba(51, 200, 186, 0.7) 50%, rgba(51, 200, 186, 0.9) 70%, rgba(51, 200, 186, 1) 100%)",
 
@@ -54,9 +55,9 @@ const TemplateMiLanding = () => {
           description: 'Vuelve a Temuco un festival gastronómico sin igual, esta vez bajo el nombre de Expo Chef Araucanía, edición Primera. Celebrando y promoviendo la cocina de la región de la Araucanía con un enfoque en la innovación, la cultura local y la sostenibilidad. La misión de la expo es conectar a chefs, productores, emprendedores y el público general en un espacio que destaca la riqueza de ingredientes autóctonos y las prácticas culinarias tradicionales. Su objetivo es también educar e inspirar a una audiencia diversa, desde amantes de la gastronomía hasta profesionales del sector.',
           
           buttonConfig: {
-            type: 'popup',
-            iframeUrl: '',
-            buttonText: 'Ver video',
+            type: 'link',
+            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
+            buttonText: 'Cómo llegar',
           },
         },
         {
@@ -67,9 +68,9 @@ const TemplateMiLanding = () => {
           description: 'La Expo Chef Araucanía 2024, abrirá sus puertas este 7 & 8 de diciembre en el Estadio Germán Becker, en Temuco.',
           
           buttonConfig: {
-            type: 'popup',
-            iframeUrl: '',
-            buttonText: 'Ver video',
+            type: 'link',
+            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
+            buttonText: 'Cómo llegar',
           },
         },
         {
@@ -80,22 +81,22 @@ const TemplateMiLanding = () => {
           description: 'Punto sustentable | Artesanía y agro elaborados | Gastronomía tradicional & Gourmet | Concursos y sorteos | Cooking Show | Juegos Infantiles y Familiares | Master Class Invitados especiales | Cocinerías y patio de comida | Música en vivo ',
           
           buttonConfig: {
-            type: 'popup',
-            iframeUrl: '',
-            buttonText: 'Ver video',
+            type: 'link',
+            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
+            buttonText: 'Cómo llegar',
           },
         },
         {
-          image: img1 ,
+          image: chefs ,
           videoUrl: "",
           title: 'Personalidades que asistirán',
           subtitle: '',
-          description: 'Este evento contará con la entrada totalmente gratuita y contaremos con la presencia de los chef: Yann Yvin, Diefo Bustos, Juan Quiñeman ',
+          description: 'Este evento contará con la entrada totalmente gratuita y contaremos con la presencia de los chef: Yann Yvin, Diego Bustos, Juan Quiñeman ',
           
           buttonConfig: {
-            type: 'popup',
-            iframeUrl: '',
-            buttonText: 'Ver video',
+            type: 'link',
+            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
+            buttonText: 'Cómo llegar',
           },
         },
        
