@@ -32,15 +32,15 @@ const TemplateMiLanding = () => {
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
-    ctaWhatsappButton: '¡Más Información!',
+    ctaWhatsappButton: '¡More information!',
     iframeBackground: '',
-    subtitles: ['Desde el sur de Chile a los hogares del mundo', 'Contamos con teconología de punta'],
+    subtitles: ['From the south of Chile to every table around the world', 'We work hand in hand with local farmers to ensure sustainable and high-quality frozen fruits.', `Chilean quality and freshness guaranteed, bringing nature's best to your table.`],
     telefono: '+56994333501',
-    message: "¡Hola! Quiero más información.",
+    message: "Hi! I want more information.",
     instagramLink: '',
     facebookLink: '',
-    footerText:'contacto@iceberggreen.com',
-    //gpsLink: 'https://maps.google.com/?q=Astra360',
+    footerText:'contact@iceberggreen.com',
+    gpsLink: 'https://maps.app.goo.gl/RW329mENcnR2HKJJ9',
     linkedinLink:"",
     footerAfterStyles: {
       background: "linear-gradient(to bottom, rgba(7, 31, 81, 0) 0%, rgba(7, 31, 81, 0.2) 5%, rgba(7, 31, 81, 0.4) 20%, rgba(7, 31, 81, 0.7) 50%, rgba(7, 31, 81, 0.9) 70%, rgba(7, 31, 81, 1) 100%)",
@@ -57,9 +57,9 @@ const TemplateMiLanding = () => {
         {
           image: quienes,
           videoUrl: "",
-          title: 'Quienes Somos',
+          title: 'Who we are',
           subtitle: "",
-          description: 'Nos especializamos en exportar productos congelados (IQF) de alta calidad, cosechados en los fértiles campos del sur de Chile mediante prácticas agrícolas sostenibles. ',
+          description: 'At Iceberg Green, we export high-quality frozen fruits (IQF), harvested from the fertile fields of southern Chile using sustainable farming practices. We work hand in hand with local farmers, utilizing advanced technology to ensure freshness, flavor, and nutritional value. ',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
@@ -69,9 +69,9 @@ const TemplateMiLanding = () => {
         {
           image: quienes2,
           videoUrl: "",
-          title: 'Quienes Somos',
+          title: 'Who we are',
           subtitle: "",
-          description: 'Procesamos en instalaciones propias con altos estándares de tecnología y calidad, para abastecer al mercado global en formatos retail y granel, ofreciendo productos nutritivos y saludables que aportan valor a la cadena alimenticia a nivel mundial.',
+          description: 'Our commitment is to bring the best of Chilean fruits to the world, promoting sustainability, supporting farming communities, and contributing to the well-being of our consumers.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
@@ -86,9 +86,9 @@ const TemplateMiLanding = () => {
         {
           image: calidad,
           videoUrl: "",
-          title: 'Enfoque en calidad y frescura',
+          title: 'Focus on Quality and Freshness',
           subtitle: "",
-          description: 'Cada producto que exportamos es seleccionado y procesado con tecnología de última generación, asegurando la máxima frescura y calidad. Así, llevamos desde el sur de Chile a todo el mundo productos saludables y nutritivos que conservan su valor natural y sabor original.',
+          description: 'Every product we export is carefully selected and processed with state-of-the-art technology. This ensures maximum freshness and quality, preserving nutrients and natural flavors. From southern Chile, we bring healthy and nutritious products to the world that reflect our passion for excellence.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
@@ -99,9 +99,9 @@ const TemplateMiLanding = () => {
         {
           image: comunidad,
           videoUrl: "",
-          title: 'Buscamos crear comunidad',
+          title: 'We Strive to Build Community',
           subtitle: "",
-          description: 'En Iceberg Green, creemos en el poder de la colaboración. Trabajamos junto a agricultores locales y profesionales del sector para construir una comunidad sólida que, mediante prácticas responsables, pueda aportar valor y crecimiento a todos sus integrantes.',
+          description: 'At Iceberg Green, we believe in the power of collaboration. We work hand in hand with local farmers and industry professionals to build a strong community. Through responsible practices, we create value and foster growth for all members, promoting collective and sustainable development.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
@@ -112,26 +112,26 @@ const TemplateMiLanding = () => {
         {
           image: sostenibilidad,
           videoUrl: "",
-          title: 'Compromiso con la sostenibilidad',
+          title: 'Commitment to Sustainability',
           subtitle: "",
-          description: 'Nos enorgullece cultivar en armonía con el entorno, adoptando prácticas agrícolas sostenibles para proteger nuestros campos y preservar la biodiversidad. Este compromiso se refleja en cada producto que entregamos, apostando por un futuro verde y responsable.',
+          description: 'We take pride in working in harmony with the environment, adopting sustainable agricultural practices that protect our fields and preserve biodiversity. This commitment is reflected in every one of our products, aiming for a greener, more responsible, and conscious future.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
-            buttonText: 'Más información',
+            buttonText: 'More information',
           },
           
         },
         {
           image: salud,
           videoUrl: "",
-          title: 'Preocupados de la salud de todos',
+          title: `Committed to Everyone's Health`,
           subtitle: "",
-          description: 'Sabemos que una buena alimentación es clave para una vida saludable. Por eso, nuestros productos congelados son una alternativa natural y nutritiva que contribuye al bienestar de quienes eligen una dieta balanceada y consciente.',
+          description: 'We know that good nutrition is key to a healthy life. The berries we offer are a rich source of antioxidants, vitamins, and essential minerals such as vitamin C and potassium. These superfoods help strengthen the immune system, improve cardiovascular health, and promote healthy skin.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
-            buttonText: 'Más información',
+            buttonText: 'More information',
           },
           
         },
@@ -139,13 +139,13 @@ const TemplateMiLanding = () => {
         {
           image: conexion,
           videoUrl: "",
-          title: 'Creemos en la conexión emocional',
+          title: 'We Believe in Emotional Connection',
           subtitle: "",
-          description: 'Más que productos, llevamos emociones a la mesa. Creemos en el poder de la conexión que genera la comida, desde el campo a la cocina, creando momentos que unen a las personas y se transforman en recuerdos duraderos.',
+          description: 'More than just products, we bring emotions to the table. We value the power of connection that food creates, from the fields to the kitchen. Every fruit we offer represents unique moments that bring people together, creating memories and experiences that last a lifetime.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
-            buttonText: 'Más información',
+            buttonText: 'More information',
           },
           
         },
@@ -154,28 +154,15 @@ const TemplateMiLanding = () => {
       ],
       
 
-    
-    
-    
-    
-
-    
-
-    
-    
-    
-    
-
-
 
     }
   
   };
 
   const opciones = [
-    { id: 'inicio', texto: 'Inicio' },
-    { id: 'carousel01', texto: 'Quienes somos' },
-    { id: 'carousel02', texto: 'Nuestra Visión' },
+    { id: 'inicio', texto: 'Home' },
+    { id: 'carousel01', texto: 'Who we are' },
+    { id: 'carousel02', texto: 'Our Vision' },
 
    
     

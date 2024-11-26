@@ -35,6 +35,24 @@ import dispersa from './assets/dispersa.jpg';
 import ebmregalos from './assets/ebmregalos.jpg';
 import ecolifesur from './assets/ecolifesur.jpg';
 import elartedeosco from './assets/elartedelosco.jpg';
+import elartesano from './assets/elartesano.jpg';
+import elipainemal from './assets/elipainemal.jpg';
+import fedusal from './assets/fedusal.jpg';
+import floriverso from './assets/floriverso.jpg';
+import gustosdelbosque from './assets/gustosdelbosque.jpg';
+import hippiejoyas from './assets/hippiejoyas.jpg';
+import joyasdecalu from './assets/joyasdecalu.jpg';
+import kokombucha from './assets/kokombucha.jpg';
+import kokoro from './assets/kokoro.jpg';
+import kumelawentun from './assets/kumelawentun.jpg';
+
+
+
+
+
+
+
+
 
 
 
@@ -298,6 +316,84 @@ const TemplateMiLanding = () => {
             buttonText: 'Instagram',
           },
         },
+        {
+          image: elartesano ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
+        {
+          image: elipainemal ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
+        {
+          image: floriverso ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
+        {
+          image: hippiejoyas ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
+        {
+          image: joyasdecalu ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
+        {
+          image: kumelawentun ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
        
 
       ],
@@ -393,12 +489,51 @@ const TemplateMiLanding = () => {
             buttonText: 'Instagram',
           },
         },
+        {
+          image: fedusal ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
+        {
+          image: gustosdelbosque ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
+        {
+          image: kokombucha ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+        },
        
 
       ],
       carousel04: [
         {
-          image: deltaix ,
+          image: kokoro ,
           videoUrl: "",
           title: '  ',
           subtitle: '',
