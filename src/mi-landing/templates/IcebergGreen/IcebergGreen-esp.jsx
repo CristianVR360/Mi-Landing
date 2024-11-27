@@ -16,6 +16,16 @@ import triptico1 from './assets/triptico1.jpg';
 import triptico2 from './assets/triptico2.jpg';
 import triptico3 from './assets/triptico3.jpg';
 import triptico4 from './assets/triptico4.jpg';
+import packag1 from './assets/packag1.jpg';
+import packag2 from './assets/packag2.jpg';
+import packag3 from './assets/packag3.jpg';
+import packag4 from './assets/packag4.jpg';
+import packag5 from './assets/packag5.jpg';
+import packag6 from './assets/packag6.jpg';
+
+
+
+
 
 
 
@@ -206,6 +216,87 @@ const TemplateMiLanding = () => {
         },
         
       ],
+      carousel04: [
+        {
+          image: packag1,
+          videoUrl: '',
+          title: 'Fruta Estándar',
+          subtitle: '',
+          description:
+            'El diseño de este empaque captura la esencia de los fértiles y prístinos campos del sur de Chile, un homenaje a las manos trabajadoras de los agricultores locales que cultivan estos productos con esmero. Las berries son cosechadas en las tierras más fértiles del sur de Chile, en campos donde se aplican prácticas agrícolas sostenibles, respetando el entorno natural y asegurando la calidad de cada fruto.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'Más información',
+          },
+        },
+        {
+          image: packag2,
+          videoUrl: '',
+          title: '',
+          subtitle: '',
+          description:
+            'La ilustración, protagonista del diseño, resalta los paisajes únicos del sur, donde las montañas, los valles y la flora local se integran armoniosamente.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'Más información',
+          },
+        },
+        {
+          image: packag3,
+          videoUrl: '',
+          title: '',
+          subtitle: '',
+          description:
+            'Con colores vivos y naturales, el empaque refleja la frescura y calidad de las frutas chilenas, destacando su origen puro y natural. El emblema chileno y la frase "Directo desde el sur de Chile" enmarcan el compromiso de la marca de ofrecer productos auténticos, cultivados en uno de los rincones más fértiles y puros del planeta.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'Más información',
+          },
+        },
+        {
+          image: packag4,
+          videoUrl: '',
+          title: 'Fruta Premium',
+          subtitle: '',
+          description:
+            'En esta propuesta, el diseño enfatiza la frescura y la calidad de las frutas chilenas, llevando la imagen de cada fruta al primer plano.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'Más información',
+          },
+        },
+        {
+          image: packag5,
+          videoUrl: '',
+          title: '',
+          subtitle: '',
+          description:
+            'Al maximizar su presencia visual, el empaque captura la atención y destaca la autenticidad de los productos en un mercado altamente competitivo. Cada fruta aparece en detalle, reflejando su textura y color vibrante, lo que comunica un mensaje de frescura y pureza. ',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'Más información',
+          },
+        },
+        {
+          image: packag6,
+          videoUrl: '',
+          title: '',
+          subtitle: '',
+          description:
+            'Con una tipografía moderna y una disposición clara de la información, el diseño mantiene el enfoque en el producto, mientras que la inclusión del emblema chileno y la frase "Directo desde el sur de Chile" refuerzan el origen premium y la conexión directa con los fértiles campos del sur de Chile',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'Más información',
+          },
+        },
+        
+      ],
     },
   };
 
@@ -214,6 +305,7 @@ const TemplateMiLanding = () => {
     { id: 'carousel01', texto: 'Quiénes somos' },
     { id: 'carousel02', texto: 'Nuestra visión' },
     { id: 'carousel03', texto: 'Presentación' },
+    { id: 'carousel04', texto: 'Packaging' },
   ];
 
   useEffect(() => {

@@ -18,6 +18,12 @@ import triptico1 from './assets/triptico1.jpg';
 import triptico2 from './assets/triptico2.jpg';
 import triptico3 from './assets/triptico3.jpg';
 import triptico4 from './assets/triptico4.jpg';
+import packag1 from './assets/packag1.jpg';
+import packag2 from './assets/packag2.jpg';
+import packag3 from './assets/packag3.jpg';
+import packag4 from './assets/packag4.jpg';
+import packag5 from './assets/packag5.jpg';
+import packag6 from './assets/packag6.jpg';
 
 
 
@@ -208,6 +214,87 @@ const TemplateMiLanding = () => {
             },
           },
         ],
+        carousel04: [
+          {
+            image: packag1,
+            videoUrl: '',
+            title: 'Standard Fruit',
+            subtitle: '',
+            description:
+              'The design of this packaging captures the essence of the fertile and pristine fields of southern Chile, a tribute to the hardworking hands of local farmers who cultivate these products with care. The berries are harvested in the most fertile lands of southern Chile, in fields where sustainable agricultural practices are applied, respecting the natural environment and ensuring the quality of each fruit.',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+          {
+            image: packag2,
+            videoUrl: '',
+            title: '',
+            subtitle: '',
+            description:
+              'The illustration, the main feature of the design, highlights the unique landscapes of the south, where mountains, valleys, and local flora harmoniously come together.',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+          {
+            image: packag3,
+            videoUrl: '',
+            title: '',
+            subtitle: '',
+            description:
+              'With vibrant and natural colors, the packaging reflects the freshness and quality of Chilean fruits, emphasizing their pure and natural origin. The Chilean emblem and the phrase "Directly from southern Chile" frame the brands commitment to offering authentic products grown in one of the most fertile and pristine corners of the planet.',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+          {
+            image: packag4,
+            videoUrl: '',
+            title: 'Premium Fruit',
+            subtitle: '',
+            description:
+              'In this proposal, the design emphasizes the freshness and quality of Chilean fruits, bringing the image of each fruit to the forefront.',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+          {
+            image: packag5,
+            videoUrl: '',
+            title: '',
+            subtitle: '',
+            description:
+              'By maximizing its visual presence, the packaging captures attention and highlights the authenticity of the products in a highly competitive market. Each fruit is featured in detail, reflecting its texture and vibrant color, which conveys a message of freshness and purity.',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+          {
+            image: packag6,
+            videoUrl: '',
+            title: '',
+            subtitle: '',
+            description:
+              'With modern typography and a clear layout of information, the design keeps the focus on the product, while the inclusion of the Chilean emblem and the phrase "Directly from southern Chile" reinforces the premium origin and direct connection to the fertile fields of southern Chile.',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+        ],
+        
 
     }
   
@@ -218,6 +305,7 @@ const TemplateMiLanding = () => {
     { id: 'carousel01', texto: 'Who we are' },
     { id: 'carousel02', texto: 'Our Vision' },
     { id: 'carousel03', texto: 'Presentation' },
+    { id: 'carousel04', texto: 'Packaging' },
 
    
     
