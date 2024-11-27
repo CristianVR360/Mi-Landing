@@ -43,6 +43,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡More information!',
     iframeBackground: '',
+    subtitlePosition: 'bottom',
     subtitles: ['From the south of Chile to every table around the world', 'We work hand in hand with local farmers to ensure sustainable and high-quality frozen fruits.', `Chilean quality and freshness guaranteed, bringing nature's best to your table.`],
     
     message: "Hi! I want more information.",
@@ -85,6 +86,56 @@ const TemplateMiLanding = () => {
             type: 'link',
             url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
             buttonText: 'Más información',
+          },
+        },
+        {
+          image: triptico1,
+          videoUrl: '',
+          title: 'From southern Chile',
+          subtitle: 'to homes around the world',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'More information',
+          },
+        },
+        {
+          image: triptico2,
+          videoUrl: '',
+          title: 'We use IQF technology',
+          subtitle: '',
+          description:
+            'allowing us to freeze the fruit quickly, preserving its flavor, shape, freshness, and nutritional value.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'More information',
+          },
+        },
+        {
+          image: triptico3,
+          videoUrl: '',
+          title: 'Chilean quality and freshness guaranteed.',
+          subtitle: 'From southern Chile to every table worldwide, with the freshness, quality, and expertise that define us.',
+          description:
+            'We specialize in processing and exporting high-quality frozen fruits (IQF), harvested from the fertile fields of southern Chile through sustainable farming practices.',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'More information',
+          },
+        },
+        {
+          image: triptico4,
+          videoUrl: '',
+          title: 'We work hand in hand with local farmers',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            buttonText: 'More information',
           },
         },
        
@@ -162,58 +213,7 @@ const TemplateMiLanding = () => {
         
       ],
       
-        carousel03: [
-          {
-            image: triptico1,
-            videoUrl: '',
-            title: 'From southern Chile',
-            subtitle: 'to homes around the world',
-            description: '',
-            buttonConfig: {
-              type: 'link',
-              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
-              buttonText: 'More information',
-            },
-          },
-          {
-            image: triptico2,
-            videoUrl: '',
-            title: 'We use IQF technology',
-            subtitle: '',
-            description:
-              'allowing us to freeze the fruit quickly, preserving its flavor, shape, freshness, and nutritional value.',
-            buttonConfig: {
-              type: 'link',
-              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
-              buttonText: 'More information',
-            },
-          },
-          {
-            image: triptico3,
-            videoUrl: '',
-            title: 'Chilean quality and freshness guaranteed.',
-            subtitle: 'From southern Chile to every table worldwide, with the freshness, quality, and expertise that define us.',
-            description:
-              'We specialize in processing and exporting high-quality frozen fruits (IQF), harvested from the fertile fields of southern Chile through sustainable farming practices.',
-            buttonConfig: {
-              type: 'link',
-              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
-              buttonText: 'More information',
-            },
-          },
-          {
-            image: triptico4,
-            videoUrl: '',
-            title: 'We work hand in hand with local farmers',
-            subtitle: '',
-            description: '',
-            buttonConfig: {
-              type: 'link',
-              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
-              buttonText: 'More information',
-            },
-          },
-        ],
+       
         carousel04: [
           {
             image: packag1,
@@ -304,7 +304,7 @@ const TemplateMiLanding = () => {
     { id: 'inicio', texto: 'Home' },
     { id: 'carousel01', texto: 'Who we are' },
     { id: 'carousel02', texto: 'Our Vision' },
-    { id: 'carousel03', texto: 'Presentation' },
+   
     { id: 'carousel04', texto: 'Packaging' },
 
    

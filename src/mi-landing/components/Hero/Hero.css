@@ -4,14 +4,15 @@
   display: flex;
   flex-direction: column;
   height: calc(var(--vh, 1vh) * 100);
-  overflow: hidden; /* Prevent overflows */
+  overflow: hidden;
+  position: relative;
 }
 
 .hero__logo {
-  display: block; /* Ensure the logo is a block element for proper centering */
-  max-width: 150px; /* Limit the logo width to maintain design */
-  margin: 0 auto 10px; /* Center the logo and add margin below */
-  height: auto; /* Maintain logo proportions */
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 10px;
+  height: auto;
 }
 
 .hero-element-fade-out {
@@ -40,7 +41,7 @@
   object-fit: cover;
   object-position: center;
   opacity: 0.9;
-  z-index: -2; /* La imagen está detrás del video */
+  z-index: -2;
 }
 
 .hero__video-background {
@@ -51,30 +52,9 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
-  opacity: 0; /* Inicialmente invisible */
-  z-index: -1; /* El video está encima de la imagen */
+  opacity: 0;
+  z-index: -1;
 }
-
-/* Optional: Add zoom effect to the background elements */
-/*
-.hero__background,
-.hero__iframe,
-.hero__video-background {
-  animation: zoomEffect 60s infinite alternate;
-}
-
-@keyframes zoomEffect {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-*/
 
 .hero__content {
   position: relative;
@@ -83,8 +63,8 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  overflow: hidden; /* Prevent overflows */
+  justify-content: center;
+  overflow: hidden;
 }
 
 .hero__main-content {
@@ -93,21 +73,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Prevent overflows */
+  overflow: hidden;
+  position: relative; /* Agregado */
+  height: 100%; /* Asegura que ocupe todo el alto disponible */
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: inherit;
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
-  z-index: -1;
+.hero__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero__title {
@@ -129,11 +103,34 @@
   font-weight: bold;
 }
 
+.hero__subtitles-container {
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+/* Nueva implementación para la posición bottom */
+.hero__subtitles-container--bottom {
+  position: fixed; /* Cambiado a fixed para posicionar respecto a la ventana */
+  bottom: 100px; /* Distancia desde el borde inferior */
+  left: 0;
+  right: 0;
+  z-index: 2; /* Asegura que esté por encima de otros elementos */
+}
+
 /* Specific styles for desktop */
 @media (min-width: 769px) {
   .hero__content {
     justify-content: center;
     align-items: center;
+  }
+
+  .hero__section {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .hero__subtitles-container--bottom {
+    bottom: 150px; /* Mayor distancia en desktop */
   }
 
   .hero__section:last-child {
@@ -145,31 +142,23 @@
     flex-direction: column;
     z-index: 9999;
   }
-
-  .hero__background,
-  .hero__iframe,
-  .hero__video-background {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
 }
 
 /* Specific styles for mobile */
 @media (max-width: 768px) {
-  .hero__section {
-    transform: translateY(-200px);
-  }
-
   .hero__title {
-    font-size: 24px; /* Adjust font size if necessary */
+    font-size: 24px;
   }
 
   .hero__description {
-    font-size: 14px; /* Adjust font size if necessary */
+    font-size: 14px;
   }
 
   .hero__subtitles {
-    font-size: 28px; /* Adjust font size if necessary */
+    font-size: 28px;
+  }
+
+  .hero__subtitles-container--bottom {
+    bottom: 150px; /* Menor distancia en mobile */
   }
 }
