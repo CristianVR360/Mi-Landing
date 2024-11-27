@@ -14,7 +14,10 @@ import comunidad from './assets/comunidad.jpg';
 import sostenibilidad from './assets/sostenibilidad.jpg';
 import salud from './assets/salud.jpg';
 import conexion from './assets/conexion-emocional.jpg';
-
+import triptico1 from './assets/triptico1.jpg';
+import triptico2 from './assets/triptico2.jpg';
+import triptico3 from './assets/triptico3.jpg';
+import triptico4 from './assets/triptico4.jpg';
 
 
 
@@ -153,7 +156,58 @@ const TemplateMiLanding = () => {
         
       ],
       
-
+        carousel03: [
+          {
+            image: triptico1,
+            videoUrl: '',
+            title: 'From southern Chile',
+            subtitle: 'to homes around the world',
+            description: '',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+          {
+            image: triptico2,
+            videoUrl: '',
+            title: 'We use IQF technology',
+            subtitle: '',
+            description:
+              'allowing us to freeze the fruit quickly, preserving its flavor, shape, freshness, and nutritional value.',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+          {
+            image: triptico3,
+            videoUrl: '',
+            title: 'Chilean quality and freshness guaranteed.',
+            subtitle: 'From southern Chile to every table worldwide, with the freshness, quality, and expertise that define us.',
+            description:
+              'We specialize in processing and exporting high-quality frozen fruits (IQF), harvested from the fertile fields of southern Chile through sustainable farming practices.',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+          {
+            image: triptico4,
+            videoUrl: '',
+            title: 'We work hand in hand with local farmers',
+            subtitle: '',
+            description: '',
+            buttonConfig: {
+              type: 'link',
+              url: 'https://wa.me/+56994333501?text=%C2%A1Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n.',
+              buttonText: 'More information',
+            },
+          },
+        ],
 
     }
   
@@ -163,6 +217,7 @@ const TemplateMiLanding = () => {
     { id: 'inicio', texto: 'Home' },
     { id: 'carousel01', texto: 'Who we are' },
     { id: 'carousel02', texto: 'Our Vision' },
+    { id: 'carousel03', texto: 'Presentation' },
 
    
     
