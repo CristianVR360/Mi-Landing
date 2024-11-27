@@ -23,7 +23,7 @@ import triptico4 from './assets/triptico4.jpg';
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logo, // Ruta del logo
-    colorPrimario: '#000dd2',
+    colorPrimario: 'rgba(0, 13, 210, 0.7)',
     colorSecundario: '#fff',
     colorPrimarioTransparente: 'rgba(5, 13, 76,0.8)',
     colorTerciario: '#1d3fce', // Botones del carrusel
@@ -40,7 +40,7 @@ const TemplateMiLanding = () => {
       'Trabajamos de la mano con agricultores locales para garantizar frutas congeladas sostenibles y de alta calidad.',
       'Calidad y frescura chilena garantizadas, llevando lo mejor de la naturaleza a tu mesa.',
     ],
-    telefono: '+56994333501',
+    
     message: "¡Hola! Quiero más información.",
     instagramLink: '',
     facebookLink: '',

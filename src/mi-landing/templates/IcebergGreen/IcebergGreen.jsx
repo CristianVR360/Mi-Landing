@@ -25,7 +25,7 @@ import triptico4 from './assets/triptico4.jpg';
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logo , // Agrega la ruta de tu logo aquí
-    colorPrimario: '#000dd2',
+    colorPrimario: 'rgba(0, 13, 210, 0.7)',
     colorSecundario: '#fff',
     colorPrimarioTransparente: 'rgba(5, 13, 76,0.8)',
     colorTerciario: '#1d3fce', //botones del carrusel
@@ -38,7 +38,7 @@ const TemplateMiLanding = () => {
     ctaWhatsappButton: '¡More information!',
     iframeBackground: '',
     subtitles: ['From the south of Chile to every table around the world', 'We work hand in hand with local farmers to ensure sustainable and high-quality frozen fruits.', `Chilean quality and freshness guaranteed, bringing nature's best to your table.`],
-    telefono: '+56994333501',
+    
     message: "Hi! I want more information.",
     instagramLink: '',
     facebookLink: '',
