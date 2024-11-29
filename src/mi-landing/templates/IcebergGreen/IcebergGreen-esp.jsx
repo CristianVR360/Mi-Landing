@@ -33,6 +33,7 @@ import packag6 from './assets/packag6.jpg';
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logo, // Ruta del logo
+    logoPosition:"top",
     colorPrimario: 'rgba(0, 13, 210, 0.7)',
     colorSecundario: '#fff',
     colorPrimarioTransparente: 'rgba(5, 13, 76,0.8)',
