@@ -17,6 +17,7 @@ const Hero = ({
   colorPrimario,
   colorSecundario,
   subtitlePosition,
+  logoPosition,
   subtitles,
   instagramLink,
   facebookLink,
@@ -35,11 +36,9 @@ const Hero = ({
       document.documentElement.style.setProperty('--vh', `${vh}px`);
     };
 
-    // Inicializa el valor de --vh en el load y resize
     updateHeroHeight();
     window.addEventListener('resize', updateHeroHeight);
 
-    // Limpia el event listener al desmontar el componente
     return () => {
       window.removeEventListener('resize', updateHeroHeight);
     };
@@ -47,6 +46,9 @@ const Hero = ({
 
   return (
     <div className={`hero ${isExiting ? 'hero-element-fade-out' : ''}`}>
+      {logoPosition === 'top' && (
+        <img src={logo} alt="Logo" className={`hero__logo hero__logo--top ${isExiting ? 'hero-element-fade-out' : ''}`}/>
+      )}
       <div className="hero__main-content">
         {videoBkgHero ? (
           <>
@@ -76,7 +78,9 @@ const Hero = ({
         )}
         <div className={`hero__content ${subtitlePosition === 'bottom' ? 'hero__content--bottom' : ''}`}>
           <div className="hero__section">
-            <img src={logo} alt="Logo" className={`hero__logo ${isExiting ? 'hero-element-fade-out' : ''}`}/>
+            {(!logoPosition || logoPosition !== 'top') && (
+              <img src={logo} alt="Logo" className={`hero__logo ${isExiting ? 'hero-element-fade-out' : ''}`}/>
+            )}
             <h1 className={`hero__title ${isExiting ? 'hero-element-fade-out' : ''}`} style={{ color: colorSecundario }}>
               {title}
             </h1>
@@ -131,6 +135,7 @@ Hero.propTypes = {
   colorPrimario: PropTypes.string,
   colorSecundario: PropTypes.string,
   subtitlePosition: PropTypes.oneOf(['center', 'bottom']),
+  logoPosition: PropTypes.oneOf(['center', 'top']),
   subtitles: PropTypes.arrayOf(PropTypes.string),
   instagramLink: PropTypes.string,
   facebookLink: PropTypes.string,
