@@ -143,6 +143,15 @@
     z-index: 9999;
   }
 }
+.hero__logo--top {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  max-width: 150px;
+  height: auto;
+}
 
 /* Specific styles for mobile */
 @media (max-width: 768px) {
@@ -160,5 +169,19 @@
 
   .hero__subtitles-container--bottom {
     bottom: 150px; /* Menor distancia en mobile */
+  }
+}
+
+@media (min-width: 769px) {
+  .hero__logo--top {
+    max-width: 180px;
+    top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__logo--top {
+    max-width: 120px;
+    top: 45px;
   }
 }

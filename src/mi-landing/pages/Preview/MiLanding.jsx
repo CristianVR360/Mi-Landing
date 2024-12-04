@@ -103,6 +103,7 @@ function MiLanding({ landingPageData, opciones }) {
           bookDescription={landingPageData.bookDescription}
           consultationButtonText={landingPageData.consultationButtonText}
           subtitlePosition={landingPageData.subtitlePosition}
+          logoPosition={landingPageData.logoPosition}
           subtitle={landingPageData.ctaWhatsappButton}
           colorPrimario={landingPageData.colorPrimario}
           colorPrimarioTransparente={landingPageData.colorPrimarioTransparente}
