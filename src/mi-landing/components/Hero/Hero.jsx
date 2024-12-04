@@ -16,6 +16,7 @@ const Hero = ({
   telefono,
   colorPrimario,
   colorSecundario,
+  subtitlePosition,
   subtitles,
   instagramLink,
   facebookLink,
@@ -73,7 +74,7 @@ const Hero = ({
         ) : (
           <img src={backgroundImage} alt="Imagen de fondo" className="hero__background" />
         )}
-        <div className="hero__content">
+        <div className={`hero__content ${subtitlePosition === 'bottom' ? 'hero__content--bottom' : ''}`}>
           <div className="hero__section">
             <img src={logo} alt="Logo" className={`hero__logo ${isExiting ? 'hero-element-fade-out' : ''}`}/>
             <h1 className={`hero__title ${isExiting ? 'hero-element-fade-out' : ''}`} style={{ color: colorSecundario }}>
@@ -85,7 +86,7 @@ const Hero = ({
             >
               {description}
             </p>
-            <div className={`hero__subtitles-container ${isExiting ? 'hero-element-fade-out' : ''}`}>
+            <div className={`hero__subtitles-container ${isExiting ? 'hero-element-fade-out' : ''} ${subtitlePosition === 'bottom' ? 'hero__subtitles-container--bottom' : ''}`}>
               <Subtitle01 
                 subtitles={subtitles}  
                 colorPrimario={colorPrimario} 
@@ -129,6 +130,7 @@ Hero.propTypes = {
   telefono: PropTypes.string,
   colorPrimario: PropTypes.string,
   colorSecundario: PropTypes.string,
+  subtitlePosition: PropTypes.oneOf(['center', 'bottom']),
   subtitles: PropTypes.arrayOf(PropTypes.string),
   instagramLink: PropTypes.string,
   facebookLink: PropTypes.string,

@@ -102,6 +102,7 @@ function MiLanding({ landingPageData, opciones }) {
           bookButtonText={landingPageData.bookButtonText}
           bookDescription={landingPageData.bookDescription}
           consultationButtonText={landingPageData.consultationButtonText}
+          subtitlePosition={landingPageData.subtitlePosition}
           subtitle={landingPageData.ctaWhatsappButton}
           colorPrimario={landingPageData.colorPrimario}
           colorPrimarioTransparente={landingPageData.colorPrimarioTransparente}
@@ -118,6 +119,7 @@ function MiLanding({ landingPageData, opciones }) {
           logo={landingPageData.logo}
           footerText={landingPageData.footerText}
           message={landingPageData.message}
+
         />
       );
     }

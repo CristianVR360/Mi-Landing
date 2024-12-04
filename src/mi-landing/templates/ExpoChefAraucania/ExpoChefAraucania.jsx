@@ -14,40 +14,14 @@ import img4 from './assets/img4.jpg';
 import chefs from './assets/chefs.jpg';
 import estadio from './assets/estadio.jpg';
 import inicio from './assets/inicio.jpg';
-import kimey from './assets/kimey.jpg';
-import abuelitairma from './assets/abuelita-irma.jpg';
-import aquajoyas from './assets/aquajoyas.jpg';
-import araucaniamilenaria from './assets/araucaniamilenaria.jpg';
-import jopas from './assets/jopas.jpg';
-import bakepop from './assets/bakepop.jpg';
-import bellapiel from './assets/bellapiel.jpg';
-import brillantine from './assets/brillantine.jpg';
-import bucle from './assets/bucle.jpg';
-import cafealegra from './assets/cafealegra.jpg';
-import chakra from './assets/chacra.jpg';
-import chocolatekl from './assets/chocolatekl.jpg';
-import claudiashome from './assets/claudiashome.jpg';
-import comidaenfrasco from './assets/comidaenfrasco.jpg';
-import cora from './assets/cora.jpg';
-import decoranativa from './assets/decoranativa.jpg';
-import deltaix from './assets/deltaix.jpg';
-import dispersa from './assets/dispersa.jpg';
-import ebmregalos from './assets/ebmregalos.jpg';
-import ecolifesur from './assets/ecolifesur.jpg';
-import elartedeosco from './assets/elartedelosco.jpg';
-import elartesano from './assets/elartesano.jpg';
-import elipainemal from './assets/elipainemal.jpg';
-import fedusal from './assets/fedusal.jpg';
-import floriverso from './assets/floriverso.jpg';
-import gustosdelbosque from './assets/gustosdelbosque.jpg';
-import hippiejoyas from './assets/hippiejoyas.jpg';
-import joyasdecalu from './assets/joyasdecalu.jpg';
-import kokombucha from './assets/kokombucha.jpg';
-import kokoro from './assets/kokoro.jpg';
-import kumelawentun from './assets/kumelawentun.jpg';
-
-
-
+import agro1 from './assets/1agroelaborados.jpg';
+import agro2 from './assets/2agroelaborados.jpg';
+import agro3 from './assets/3agroelaborados.jpg';
+import arte1 from './assets/artesanos1.jpg';
+import arte2 from './assets/artesanos2.jpg';
+import organiza from './assets/auspicio-y-patrocinio+.jpg';
+import layout2 from './assets/layout2.jpg';
+import layout1 from './assets/layout1.jpg';
 
 
 
@@ -148,7 +122,20 @@ const TemplateMiLanding = () => {
       ],
       carousel02: [
         {
-          image: aquajoyas ,
+          image: layout1 ,
+          videoUrl: "",
+          title: '',
+          subtitle: 'Conoce el Layout del festival gastronómico más esperado de Temuco',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/ExpochefLayout/output/index.html',
+            buttonText: 'Layout 360',
+          },
+        },
+        {
+          image: layout2 ,
           videoUrl: "",
           title: '  ',
           subtitle: '',
@@ -156,250 +143,20 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'link',
-            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
-            buttonText: 'Cómo llegar',
-          },
-        },
-        {
-          image: araucaniamilenaria ,
-          videoUrl: "",
-          title: '  ',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
-            buttonText: 'Cómo llegar',
-          },
-        },
-        {
-          image: jopas ,
-          videoUrl: "",
-          title: '  ',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
-            buttonText: 'Cómo llegar',
-          },
-        },
-        {
-          image: bellapiel ,
-          videoUrl: "",
-          title: 'Personalidades que asistirán',
-          subtitle: '',
-          description: 'Este evento contará con la entrada totalmente gratuita y contaremos con la presencia de los chef: Ale Tolosa, Alvaro Morales, Diego Bustos y Juan Quiñeman ',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
-            buttonText: 'Cómo llegar',
-          },
-        },
-        {
-          image: brillantine ,
-          videoUrl: "",
-          title: 'Personalidades que asistirán',
-          subtitle: '',
-          description: 'Este evento contará con la entrada totalmente gratuita y contaremos con la presencia de los chef: Ale Tolosa, Alvaro Morales, Diego Bustos y Juan Quiñeman ',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
-            buttonText: 'Cómo llegar',
-          },
-        },
-        {
-          image: bucle ,
-          videoUrl: "",
-          title: 'Personalidades que asistirán',
-          subtitle: '',
-          description: 'Este evento contará con la entrada totalmente gratuita y contaremos con la presencia de los chef: Ale Tolosa, Alvaro Morales, Diego Bustos y Juan Quiñeman ',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
-            buttonText: 'Cómo llegar',
-          },
-        },
-        {
-          image: claudiashome ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
             url: '',
-            buttonText: 'Instagram',
+            buttonText: 'Instagram ',
           },
-        },
-        {
-          image: cora ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
+          className: 'photoGallery',
           
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
         },
-        {
-          image: decoranativa ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: dispersa ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: ebmregalos ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: ecolifesur ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: elartedeosco ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: elartesano ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: elipainemal ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: floriverso ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: hippiejoyas ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: joyasdecalu ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: kumelawentun ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
+        
+        
        
 
       ],
       carousel03: [
         {
-          image: kimey ,
+          image: arte1 ,
           videoUrl: "",
           title: '  ',
           subtitle: '',
@@ -407,12 +164,13 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'link',
-            url: '',
-            buttonText: 'Instagram',
+            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
+            buttonText: 'Cómo llegar',
           },
+          className: 'photoGallery',
         },
         {
-          image: abuelitairma ,
+          image: arte2 ,
           videoUrl: "",
           title: '  ',
           subtitle: '',
@@ -420,161 +178,99 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'link',
-            url: '',
-            buttonText: 'Instagram ',
+            url: 'https://maps.app.goo.gl/nkmHJitwTpWVZggk9',
+            buttonText: 'Cómo llegar',
           },
-        },
-        {
-          image: bakepop ,
-          videoUrl: "",
-          title: '  ',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram ',
-          },
-        },
-        {
-          image: cafealegra ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram ',
-          },
-        },
-        {
-          image: chakra ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram ',
-          },
-        },
-        {
-          image: chocolatekl ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: comidaenfrasco ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: fedusal ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: gustosdelbosque ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: kokombucha ,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-       
-
-      ],
-      carousel04: [
-        {
-          image: kokoro ,
-          videoUrl: "",
-          title: '  ',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
-        },
-        {
-          image: deltaix ,
-          videoUrl: "",
-          title: '  ',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram ',
-          },
-        },
-        {
-          image: deltaix ,
-          videoUrl: "",
-          title: '  ',
-          subtitle: '',
-          description: '',
-          
-          buttonConfig: {
-            type: 'link',
-            url: '',
-            buttonText: 'Instagram',
-          },
+          className: 'photoGallery',
         },
         
        
 
       ],
+      carousel04: [
+        {
+          image: agro1 ,
+          videoUrl: "",
+          title: '  ',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+          className: 'photoGallery',
+        },
+        {
+          image: agro2 ,
+          videoUrl: "",
+          title: '  ',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram ',
+          },
+          className: 'photoGallery',
+        },
+        {
+          image: agro3 ,
+          videoUrl: "",
+          title: '  ',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram ',
+          },
+          className: 'photoGallery',
+        },
+        
+        
+       
+
+      ],
+      carousel05: [
+        {
+          image: organiza ,
+          videoUrl: "",
+          title: '  ',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+          className: 'photoGallery',
+        },
+        {
+          image: organiza ,
+          videoUrl: "",
+          title: '  ',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'link',
+            url: '',
+            buttonText: 'Instagram',
+          },
+          className: 'photoGallery',
+        },
+        
+        
+        
+       
+
+      ],
+      
       
      
     },
@@ -586,11 +282,10 @@ const TemplateMiLanding = () => {
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
     { id: 'carousel01', texto: 'Expo Chef Araucanía' },
-    { id: 'carousel02', texto: 'Artesanos' },
-    { id: 'carousel03', texto: 'Agro elaborados' },
-    { id: 'carousel04', texto: 'Foodtrucks' },
-    { id: 'carousel05', texto: 'Cervecerías artesanales' },
-    { id: 'carousel06', texto: 'Auspicio y patrocinio' },
+    { id: 'carousel02', texto: 'Layout' },
+    { id: 'carousel03', texto: 'Artesanos' },
+    { id: 'carousel04', texto: 'Agro elaborados' },
+    { id: 'carousel05', texto: 'Auspicio y patrocinio' },
     
     
 
