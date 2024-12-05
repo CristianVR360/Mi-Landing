@@ -5,7 +5,7 @@ import MiLanding from '../../pages/Preview/MiLanding';
 //importacion de recursos
 
 //import videoBkg from './assets/bkg.mp4';
-import logo from './assets/logo.png';
+//import logo from './assets/logo.png';
 import favIcon from './assets/favicon.png';
 import vidbkg from './assets/Baclground Landing Santa Rosa.mp4';
 import img1 from './assets/img1.jpg';
@@ -25,7 +25,7 @@ import masterplan2 from './assets/masterplan2.jpg';
 
 const TemplateMiLanding = () => {
   const landingPageData = {
-    logo: logo , // Agrega la ruta de tu logo aquí
+    logo: "" , // Agrega la ruta de tu logo aquí
     colorPrimario: '#138ae5',
     videoBkgHero: vidbkg,
     colorSecundario:'#fff',
