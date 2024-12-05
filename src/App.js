@@ -45,6 +45,7 @@ const Bergland = lazy(()=> import ('./mi-landing/templates/Bergland/Bergland'));
 const SweetVegan = lazy(()=> import ('./mi-landing/templates/SweetVegan/SweetVegan'));
 const LagunaLosCorrales = lazy(()=> import ('./mi-landing/templates/LagunaLosCorrales/LagunaLosCorrales'));
 const ExpoChefAraucania = lazy(()=> import ('./mi-landing/templates//ExpoChefAraucania/ExpoChefAraucania'));
+const HumedalSantaRosa = lazy(()=> import ('./mi-landing/templates/HumedalSantaRosa/HumedalSantaRosa'));
 
 
 
@@ -99,6 +100,7 @@ const App = () => {
           <Route path="/SweetVegan" element={<SweetVegan/>}/>
           <Route path="/LagunaLosCorrales" element={<LagunaLosCorrales/>}/>
           <Route path="/ExpoChefAraucania" element={<ExpoChefAraucania/>}/>
+          <Route path="/HumedalSantaRosa" element={<HumedalSantaRosa/>}/>
           
 
           
