@@ -40,11 +40,11 @@ const TemplateMiLanding = () => {
     ctaWhatsappButton: '¡Más Información!',
     iframeBackground: '',
     subtitles: ['Parcelas de 5000 m², a solo 15 minutos de Temuco.', 'Vive en un entorno natural y tranquilo, cerca de todo lo que necesitas.', 'Tu espacio perfecto: naturaleza, privacidad y comodidad en un solo lugar.',],
-    telefono: '+56982584355',
+    telefono: '+56976488200',
     message:'¡Hola!, quiero más información.',
     instagramLink: '',
     facebookLink: '',
-    footerText:'Santa Rosa, Región de la Araucanía',
+    footerText:'STp.sbugmann@gmail.com',
     gpsLink: 'https://maps.app.goo.gl/XjWJU5f82tw7DRuQA?g_st=iw',
     linkedinLink:"",
     footerAfterStyles: {
@@ -89,7 +89,7 @@ const TemplateMiLanding = () => {
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus rutrum ligula at viverra. Sed efficitur non quam at vulputate. Aliquam pellentesque a orci vitae consequat. Maecenas vestibulum ullamcorper felis, at dictum justo luctus in. Etiam magna leo, venenatis vel euismod eget, vehicula eu velit. Mauris laoreet odio dui,',
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/+56982584355?text=%C2%A1Hola!%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            url: 'https://wa.me/+56976488200?text=%C2%A1Hola!%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n.',
             buttonText: 'Más información',
           },
         },
@@ -102,7 +102,7 @@ const TemplateMiLanding = () => {
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus rutrum ligula at viverra. Sed efficitur non quam at vulputate. Aliquam pellentesque a orci vitae consequat. Maecenas vestibulum ullamcorper felis, at dictum justo luctus in. Etiam magna leo, venenatis vel euismod eget, vehicula eu velit. Mauris laoreet odio dui,',
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/+56982584355?text=%C2%A1Hola!%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n.',
+            url: 'https://wa.me/+56976488200?text=%C2%A1Hola!%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n.',
             buttonText: 'Más información',
           },
         },
