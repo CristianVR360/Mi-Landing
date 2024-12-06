@@ -76,7 +76,7 @@
   
   @media (max-width: 768px) {
     .whatsapp-button-container {
-      bottom: 250px;
+      bottom: 180px;
       left: 50%;
       transform: translateX(-50%);
     }
