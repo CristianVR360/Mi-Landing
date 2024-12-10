@@ -8,7 +8,17 @@ import MiLanding from '../../pages/Preview/MiLanding';
 import FavIcon from './assets/FavIcon.png';
 import inicio from './assets/inicio.jpg';
 import logo from './assets/logo.png';
-import img1 from './assets/img1.jpg';
+import pizzas01 from './assets/pizzas-01.jpg';
+import pizzas02 from './assets/pizzas-02.jpg';
+import pizzas03 from './assets/pizzas-03.jpg';
+import lasana from './assets/Lasanas-01.jpg';
+import ensalada from './assets/ensaladas-01.jpg';
+import combo from './assets/combo.jpg';
+import salsa from './assets/salsas.jpg';
+import postres1 from './assets/postres-01.jpg';
+import postres2 from './assets/postres-02.jpg';
+
+
 
 
 ;
@@ -47,7 +57,7 @@ const TemplateMiLanding = () => {
     carousels: {
       carousel01: [
         {
-          image: img1 ,
+          image: pizzas01 ,
           videoUrl: "",
           title: '',
           subtitle: '',
@@ -61,7 +71,120 @@ const TemplateMiLanding = () => {
           className: 'photoGallery',
         },
         {
-          image: img1 ,
+          image: pizzas02 ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver video',
+          },
+          className: 'photoGallery',
+        },
+        {
+          image: pizzas03 ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver video',
+          },
+          className: 'photoGallery',
+        },
+        
+       
+
+      ],
+      carousel02: [
+        {
+          image: lasana ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver video',      
+          },
+          className: 'photoGallery',
+        },
+        {
+          image: ensalada ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver video',
+          },
+          className: 'photoGallery',
+        },
+        
+       
+
+      ],
+      carousel03: [
+        {
+          image: combo ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver video',      
+          },
+          className: 'photoGallery',
+        },
+        {
+          image: salsa ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver video',
+          },
+          className: 'photoGallery',
+        },
+        
+       
+
+      ],
+      carousel04: [
+        {
+          image: postres1 ,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver video',      
+          },
+          className: 'photoGallery',
+        },
+        {
+          image: postres2 ,
           videoUrl: "",
           title: '',
           subtitle: '',
@@ -84,6 +207,7 @@ const TemplateMiLanding = () => {
      
      
     },
+    
 
     
    
@@ -91,7 +215,10 @@ const TemplateMiLanding = () => {
 
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
-    { id: 'carousel01', texto: 'Galería' },
+    { id: 'carousel01', texto: 'Pizzas' },
+    { id: 'carousel02', texto: 'Lasañas & ensaladas' },
+    { id: 'carousel03', texto: 'Combos' },
+    { id: 'carousel04', texto: 'Postres' },
    
  
     
