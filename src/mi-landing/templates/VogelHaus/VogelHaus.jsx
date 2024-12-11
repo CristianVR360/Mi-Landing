@@ -6,10 +6,10 @@ import MiLanding from '../../pages/Preview/MiLanding';
 
 //import videoBkg from './assets/bkg.mp4';
 import logo from './assets/vogelhauslogoblanco.png';
-import img1 from './assets/img1.jpg';
-import img2 from './assets/img2.jpg';
-import img3 from './assets/img3.jpg';
-import img4 from './assets/img4.jpg';
+//import img1 from './assets/img1.jpg';
+//import img2 from './assets/img2.jpg';
+//import img3 from './assets/img3.jpg';
+//import img4 from './assets/img4.jpg';
 import favIcon from './assets/favicon.png';
 import ubica from './assets/ubicación.jpg';
 import img5 from './assets/img5.jpg';
@@ -18,6 +18,20 @@ import img7 from './assets/img7.jpg';
 import img8 from './assets/img8.jpg';
 import img9 from './assets/img9.jpg';
 import portada from './assets/portada.jpg';
+import nueva1 from './assets/nueva1.jpg';
+import nueva2 from './assets/nueva2.jpg';
+import nueva3 from './assets/nueva3.jpg';
+import nueva4 from './assets/nueva4.jpg';
+import nueva5 from './assets/nueva5.jpg';
+import nueva6 from './assets/nueva6.jpg';
+import nueva7 from './assets/nueva7.jpg';
+import nueva8 from './assets/nueva8.jpg';
+import nueva9 from './assets/nueva9.jpg';
+import nueva10 from './assets/nueva10.jpg';
+import nueva11 from './assets/nueva11.jpg';
+import nueva12 from './assets/nueva12.jpg';
+
+
 
 
 
@@ -140,7 +154,7 @@ const TemplateMiLanding = () => {
       //este carrusel corresponde a la galeria de imagenes
       {
 
-        image: img1, 
+        image: nueva1, 
         videoUrl: "",
         title: 'Parcelas VogelHaus',
         subtitle: "",
@@ -148,7 +162,7 @@ const TemplateMiLanding = () => {
         className: 'photoGallery',
       },
       {
-        image: img2,
+        image: nueva2,
         videoUrl: "",
         title: 'Parcelas VogelHaus',
         subtitle: "",
@@ -156,7 +170,7 @@ const TemplateMiLanding = () => {
         className: 'photoGallery',
       },
       {
-        image: img3,
+        image: nueva3,
         videoUrl: "",
         title: 'Parcelas VogelHaus',
         subtitle: "",
@@ -164,7 +178,7 @@ const TemplateMiLanding = () => {
         className: 'photoGallery',
       },
       {
-        image: img4,
+        image: nueva4,
         videoUrl: "",
         title: 'Parcelas VogelHaus',
         subtitle: "",
@@ -172,7 +186,7 @@ const TemplateMiLanding = () => {
         className: 'photoGallery',
       },
       {
-        image: img5,
+        image: nueva5,
         videoUrl: "",
         title: 'Parcelas VogelHaus',
         subtitle: "",
@@ -180,13 +194,62 @@ const TemplateMiLanding = () => {
         className: 'photoGallery',
       },
       {
-        image: img1,
+        image: nueva6,
         videoUrl: "",
         title: 'Parcelas VogelHaus',
         subtitle: "",
         description: '',
         className: 'photoGallery',
       },
+      {
+        image: nueva7,
+        videoUrl: "",
+        title: 'Parcelas VogelHaus',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: nueva8,
+        videoUrl: "",
+        title: 'Parcelas VogelHaus',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: nueva9,
+        videoUrl: "",
+        title: 'Parcelas VogelHaus',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: nueva10,
+        videoUrl: "",
+        title: 'Parcelas VogelHaus',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: nueva11,
+        videoUrl: "",
+        title: 'Parcelas VogelHaus',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: nueva12,
+        videoUrl: "",
+        title: 'Parcelas VogelHaus',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      
     ],
   
     }
