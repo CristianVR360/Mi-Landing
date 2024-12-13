@@ -5,9 +5,10 @@ import MiLanding from '../../pages/Preview/MiLanding';
 //importacion de recursos
 
 //import videoBkg from './assets/bkg.mp4';
-//import logo from './assets/logo.png';
+import logo from './assets/logo.png';
 import favIcon from './assets/favicon.png';
-import vidbkg from './assets/Baclground Landing Santa Rosa.mp4';
+//import vidbkg from './assets/Baclground Landing Santa Rosa.mp4';
+import vidbkg2 from './assets/SantaRosa.mp4';
 import img1 from './assets/img1.jpg';
 import img2 from './assets/img2.jpg';
 import img3 from './assets/img3.jpg';
@@ -17,6 +18,17 @@ import img6 from './assets/img6.jpg';
 import img7 from './assets/img7.jpg';
 import masterplan from './assets/masterplan.jpg';
 import masterplan2 from './assets/masterplan2.jpg';
+import img8 from './assets/img8.jpg';
+import img9 from './assets/img9.jpg';
+import img10 from './assets/img10.jpg';
+import img11 from './assets/img11.jpg';
+import img12 from './assets/img12.jpg';
+import img13 from './assets/img13.jpg';
+import img14 from './assets/img14.jpg';
+import img15 from './assets/img15.jpg';
+import img16 from './assets/img16.jpg';
+import img17 from './assets/img17.jpg';
+import img18 from './assets/img18.jpg';
 
 
 
@@ -25,11 +37,11 @@ import masterplan2 from './assets/masterplan2.jpg';
 
 const TemplateMiLanding = () => {
   const landingPageData = {
-    logo: "" , // Agrega la ruta de tu logo aquí
-    colorPrimario: '#138ae5',
-    videoBkgHero: vidbkg,
+    logo: logo , // Agrega la ruta de tu logo aquí
+    colorPrimario: '#c3ad45',
+    videoBkgHero: vidbkg2,
     colorSecundario:'#fff',
-    colorPrimarioTransparente: 'rgba(0, 126, 92, 0.8)',
+    colorPrimarioTransparente: 'rgba(177, 149, 18, 0.8)',
     colorTerciario: '#f08013',
     colorCuaternario: '#34495e', 
     backgroundImage: img1 ,
@@ -48,7 +60,7 @@ const TemplateMiLanding = () => {
     gpsLink: 'https://maps.app.goo.gl/XjWJU5f82tw7DRuQA?g_st=iw',
     linkedinLink:"",
     footerAfterStyles: {
-      background: "linear-gradient(to bottom, rgba(0, 126, 92, 0) 0%, rgba(0, 126, 92, 0.2) 5%, rgba(0, 126, 92, 0.4) 20%, rgba(0, 126, 92, 0.7) 50%, rgba(0, 126, 92, 0.9) 70%, rgba(0, 126, 92, 1) 100%)",
+      background: "linear-gradient(to bottom, rgba(149, 138, 86, 0) 0%, rgba(149, 138, 86, 0.2) 5%, rgba(149, 138, 86, 0.4) 20%, rgba(149, 138, 86, 0.7) 50%, rgba(149, 138, 86, 0.9) 70%, rgba(149, 138, 86, 1) 100%)",
 
       textColor: '#fff'
     },
@@ -171,7 +183,89 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      
+      {
+        image: img8,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },{
+        image: img9,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img10,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },{
+        image: img11,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img12,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },{
+        image: img13,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img14,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },{
+        image: img15,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img16,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },{
+        image: img17,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img18,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
     ],
   
     }
