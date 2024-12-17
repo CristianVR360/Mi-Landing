@@ -39,6 +39,7 @@ const TemplateMiLanding = () => {
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Más Información!',
+    message:'Necesito más información sobre el proyecto',
     iframeBackground: '',
     subtitles: ['Parcelas cerca de Araucanía Costera', 'Ideal para pesca deportiva', 'Espacio y naturaleza asegurados', "Oportunidad única para invertir"],
     telefono: '+56950937296',

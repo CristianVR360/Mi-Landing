@@ -66,26 +66,25 @@ const TemplateMiLanding = () => {
     },
     carousels: {
       
-      carousel01:[
+      carousel01: [
         { 
-          image: img1 , 
+          image: img1, 
           videoUrl: "",
           title: 'Características',
           subtitle: "",
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus rutrum ligula at viverra. Sed efficitur non quam at vulputate. Aliquam pellentesque a orci vitae consequat. Maecenas vestibulum ullamcorper felis, at dictum justo luctus in. Etiam magna leo, venenatis vel euismod eget, vehicula eu velit. Mauris laoreet odio dui,',
+          description: 'Parcelas de 5.000 m² ubicadas en plena Ruta S-61, que conecta Padre Las Casas con Cunco. Cuentan con línea eléctrica por todo el predio, excelente accesibilidad y un entorno natural único. A solo 10 minutos de Padre Las Casas y 20 minutos de Temuco, son ideales para quienes buscan tranquilidad sin alejarse de la ciudad.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: '', //
+            iframeUrl: '', 
             buttonText: 'Ver Video',
           },
         },
         {
-      
-          image:img2 ,
+          image: img2,
           videoUrl: "",
           title: 'Ubicación',
-          subtitle: "Santa Rosa, Región de la Araucanía",
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus rutrum ligula at viverra. Sed efficitur non quam at vulputate. Aliquam pellentesque a orci vitae consequat. Maecenas vestibulum ullamcorper felis, at dictum justo luctus in. Etiam magna leo, venenatis vel euismod eget, vehicula eu velit. Mauris laoreet odio dui,',
+          subtitle: "Camino a Cunco, Región de la Araucanía",
+          description: 'Estas parcelas están estratégicamente ubicadas en el corazón de la Araucanía, en el Camino a Cunco. La Ruta S-61 facilita el acceso a importantes destinos turísticos como el Parque Nacional Villarrica (70 km), el Parque Nacional Conguillío (80 km) y el paso fronterizo Icalma (90 km). Disfruta de la cordillera, lagos y un entorno privilegiado, todo a tu alcance.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/XjWJU5f82tw7DRuQA?g_st=iw',
@@ -93,12 +92,11 @@ const TemplateMiLanding = () => {
           },
         },
         {
-      
-          image:img3 ,
+          image: img3,
           videoUrl: "",
           title: 'Financiamiento',
           subtitle: "",
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus rutrum ligula at viverra. Sed efficitur non quam at vulputate. Aliquam pellentesque a orci vitae consequat. Maecenas vestibulum ullamcorper felis, at dictum justo luctus in. Etiam magna leo, venenatis vel euismod eget, vehicula eu velit. Mauris laoreet odio dui,',
+          description: 'Contamos con opciones de pago flexibles y adaptadas a tus necesidades. Nuestro objetivo es facilitarte la adquisición de tu parcela soñada en este entorno privilegiado. Contáctanos para conocer más sobre las alternativas disponibles.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56976488200?text=%C2%A1Hola!%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n.',
@@ -106,12 +104,11 @@ const TemplateMiLanding = () => {
           },
         },
         {
-      
-          image:img4 ,
+          image: img4,
           videoUrl: "",
           title: 'Entorno, Turismo y Naturaleza',
           subtitle: "",
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus rutrum ligula at viverra. Sed efficitur non quam at vulputate. Aliquam pellentesque a orci vitae consequat. Maecenas vestibulum ullamcorper felis, at dictum justo luctus in. Etiam magna leo, venenatis vel euismod eget, vehicula eu velit. Mauris laoreet odio dui,',
+          description: 'Ubicadas en un entorno natural único, estas parcelas te acercan a la cordillera y a atractivos turísticos como el Lago Colico (40 km), el Lago Caburgua (65 km) y los baños termales de Huife (70 km). Vive rodeado de naturaleza, con la comodidad de estar cerca de servicios y la ciudad.',
           buttonConfig: {
             type: 'link',
             url: 'https://wa.me/+56976488200?text=%C2%A1Hola!%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n.',
@@ -119,6 +116,7 @@ const TemplateMiLanding = () => {
           },
         },
       ],
+      
 
     carousel02:[
       { 
