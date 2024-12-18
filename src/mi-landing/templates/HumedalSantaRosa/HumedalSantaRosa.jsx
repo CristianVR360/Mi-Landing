@@ -33,7 +33,7 @@ import img18 from './assets/img18.jpg';
 
 
 
-//https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingParcelasVillarrica//index.html     BACKGROUND
+
 
 const TemplateMiLanding = () => {
   const landingPageData = {
@@ -45,7 +45,7 @@ const TemplateMiLanding = () => {
     colorTerciario: '#f08013',
     colorCuaternario: '#34495e', 
     backgroundImage: img1 ,
-    title: 'Humedal Santa Rosa',
+    title: 'Parcelas Agrícolas',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
@@ -127,7 +127,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'humedalsantarosa-production.up.railway.app', 
+          iframeUrl: 'humedalsantarosa-production.up.railway.app/masterplan.html', 
           buttonText: 'Ver Master Plan',
         },
       },
@@ -136,10 +136,10 @@ const TemplateMiLanding = () => {
         videoUrl: "",
         title: '',
         subtitle: "",
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus rutrum ligula at viverra. Sed efficitur non quam at vulputate. Aliquam pellentesque a orci vitae consequat. Maecenas vestibulum ullamcorper felis, at dictum justo luctus in. Etiam magna leo, venenatis vel euismod eget, vehicula eu velit. Mauris laoreet odio dui,',
+        description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'humedalsantarosa-production.up.railway.app', 
+          iframeUrl: 'humedalsantarosa-production.up.railway.app/masterplan.html', 
           buttonText: 'Ver Master Plan',
         },
       },
