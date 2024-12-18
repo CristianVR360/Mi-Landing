@@ -29,7 +29,16 @@ import img15 from './assets/img15.jpg';
 import img16 from './assets/img16.jpg';
 import img17 from './assets/img17.jpg';
 import img18 from './assets/img18.jpg';
-
+import financia from './assets/financiamiento.jpg';
+import lagocolico from './assets/lagocolico.jpg';
+import img19 from './assets/img19.jpg';
+import img20 from './assets/img20.jpg';
+import img21 from './assets/img21.jpg';
+import img22 from './assets/img22.jpg';
+import img23 from './assets/img23.jpg';
+import img24 from './assets/img24.jpg';
+import img25 from './assets/img25.jpg';
+import img26 from './assets/img26.jpg';
 
 
 
@@ -92,7 +101,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img3,
+          image: financia,
           videoUrl: "",
           title: 'Financiamiento',
           subtitle: "",
@@ -104,7 +113,7 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: img4,
+          image: lagocolico,
           videoUrl: "",
           title: 'Entorno, Turismo y Naturaleza',
           subtitle: "",
@@ -258,6 +267,86 @@ const TemplateMiLanding = () => {
       },
       {
         image: img18,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img19,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img20,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img21,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img22,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img23,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img24,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img25,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img26,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img3,
+        videoUrl: "",
+        title: '',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img4,
         videoUrl: "",
         title: '',
         subtitle: "",
