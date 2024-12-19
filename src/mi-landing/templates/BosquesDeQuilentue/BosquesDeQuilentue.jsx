@@ -56,6 +56,16 @@ import img46 from './assets/img46.jpg';
 import img47 from './assets/img47.jpg';
 import img48 from './assets/img48.jpg';
 import img49 from './assets/img49.jpg';
+import img50 from './assets/img50.jpg';
+import img51 from './assets/img51.jpg';
+import img52 from './assets/img52.jpg';
+import img53 from './assets/img53.jpg';
+import img54 from './assets/img54.jpg';
+import img55 from './assets/img55.jpg';
+import img56 from './assets/img56.jpg';
+import img57 from './assets/img57.jpg';
+import img58 from './assets/img58.jpg';
+import img59 from './assets/img59.jpg';
 
 
 
@@ -197,6 +207,87 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
+      {
+        image: img50,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img51,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img52,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img53,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img54,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img55,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img56,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img57,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img58,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: img59,
+        videoUrl: "",
+        title: 'Bosques de Quilentue',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      
       {
         image: img24,
         videoUrl: "",
