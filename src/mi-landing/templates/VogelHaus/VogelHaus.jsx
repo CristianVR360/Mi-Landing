@@ -12,9 +12,9 @@ import logo from './assets/vogelhauslogoblanco.png';
 //import img4 from './assets/img4.jpg';
 import favIcon from './assets/favicon.png';
 import ubica from './assets/ubicación.jpg';
-import img5 from './assets/img5.jpg';
+//port img5 from './assets/img5.jpg';
 import img6 from './assets/img6.jpg';
-import img7 from './assets/img7.jpg';
+//port img7 from './assets/img7.jpg';
 import img8 from './assets/img8.jpg';
 import img9 from './assets/img9.jpg';
 import portada from './assets/portada.jpg';
@@ -30,6 +30,8 @@ import nueva9 from './assets/nueva9.jpg';
 import nueva10 from './assets/nueva10.jpg';
 import nueva11 from './assets/nueva11.jpg';
 import nueva12 from './assets/nueva12.jpg';
+import nueva13 from './assets/nueva13.jpg';
+import nueva14 from './assets/nueva14.jpg';
 
 
 
@@ -70,7 +72,7 @@ const TemplateMiLanding = () => {
       
       carousel01:[
         { 
-          image: img5 , 
+          image: nueva6 ,
           videoUrl: "",
           title: 'Vogelhaus',
           subtitle: "Hermoso proyecto para Inversionistas y familias.",
@@ -109,7 +111,7 @@ const TemplateMiLanding = () => {
         },
         {
       
-          image:img7 ,
+          image:nueva4,
           videoUrl: "",
           title: 'Parcelación Estratégica en un Entorno Natural Único',
           subtitle: "Conectividad, Seguridad y Comodidad en un Proyecto que Combina lo Mejor del Campo y la Ciudad",
@@ -193,14 +195,7 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: nueva6,
-        videoUrl: "",
-        title: 'Parcelas VogelHaus',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
       {
         image: nueva7,
         videoUrl: "",
@@ -249,7 +244,22 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      
+      {
+        image: nueva13,
+        videoUrl: "",
+        title: 'Parcelas VogelHaus',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
+      {
+        image: nueva14,
+        videoUrl: "",
+        title: 'Parcelas VogelHaus',
+        subtitle: "",
+        description: '',
+        className: 'photoGallery',
+      },
     ],
   
     }

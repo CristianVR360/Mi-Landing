@@ -10,17 +10,17 @@ import fav from './assets/favicon.png';
 import logo from './assets/Logo Bosques de Quilentue-02.png';
 import img02 from './assets/img02.jpg';
 //import img03 from './assets/img03.jpg';
-import img04 from './assets/img04.jpg';
-import img05 from './assets/img05.jpg';
+//import img04 from './assets/img04.jpg';
+//import img05 from './assets/img05.jpg';
 import img06 from './assets/img06.jpg';
 //import img07 from './assets/img07.jpg';
-import img08 from './assets/img08.jpg';
-import img09 from './assets/img09.jpg';
+//import img08 from './assets/img08.jpg';
+//import img09 from './assets/img09.jpg';
 //import img10 from './assets/img10.jpg';
-import img11 from './assets/img11.jpg';
-import img12 from './assets/img12.jpg';
+//import img11 from './assets/img11.jpg';
+//import img12 from './assets/img12.jpg';
 //import img13 from './assets/img13.jpg';
-import img14 from './assets/img14.jpg';
+//import img14 from './assets/img14.jpg';
 import img15 from './assets/img15.jpg';
 //import img16 from './assets/img16.jpg';
 //import img17 from './assets/img17.jpg';
@@ -28,14 +28,13 @@ import img15 from './assets/img15.jpg';
 //import img19 from './assets/img19.jpg';
 //import img20 from './assets/img20.jpg';
 //import img21 from './assets/img21.jpg';
-import img22 from './assets/img22.jpg';
-import img23 from './assets/img23.jpg';
-import img24 from './assets/img24.jpg';
+//import img22 from './assets/img22.jpg';
+//import img23 from './assets/img23.jpg';
+//import img24 from './assets/img24.jpg';
 //import img25 from './assets/img25.jpg';
-import img26 from './assets/img26.jpg';
 //import img27 from './assets/img27.jpg';
-import img28 from './assets/img28.jpg';
-import img29 from './assets/img29.jpg';
+//import img28 from './assets/img28.jpg';
+//import img29 from './assets/img29.jpg';
 //import img30 from './assets/img30.jpg';
 //import img31 from './assets/img31.jpg';
 import img32 from './assets/img32.jpg';
@@ -49,12 +48,12 @@ import img39 from './assets/img39.jpg';
 import img40 from './assets/img40.jpg';
 import img41 from './assets/img41.jpg';
 import img42 from './assets/img42.jpg';
-import img43 from './assets/img43.jpg';
+//import img43 from './assets/img43.jpg';
 import img44 from './assets/img44.jpg';
-import img45 from './assets/img45.jpg';
-import img46 from './assets/img46.jpg';
+//import img45 from './assets/img45.jpg';
+
+
 import img47 from './assets/img47.jpg';
-import img48 from './assets/img48.jpg';
 import img49 from './assets/img49.jpg';
 import img50 from './assets/img50.jpg';
 import img51 from './assets/img51.jpg';
@@ -101,7 +100,7 @@ const TemplateMiLanding = () => {
     carousels: {
       carousel01: [
         {
-          image: img04,
+          image: img50,
           videoUrl: "",
           title: 'BOSQUES DE QUILENTUE',
           subtitle: "En Molco, a solo 20 minutos de Pucón",
@@ -138,7 +137,7 @@ const TemplateMiLanding = () => {
         },
         
         {
-  image: img45,
+  image: img53,
   videoUrl: "",
   title: "ZONA DE CONSERVACIÓN",
   subtitle: "Senderos y ciclovías en medio de la naturaleza",
@@ -191,22 +190,8 @@ const TemplateMiLanding = () => {
     carousel03: [
   
 
-      {
-        image: img22,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img23,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
+      
       {
         image: img50,
         videoUrl: "",
@@ -289,40 +274,6 @@ const TemplateMiLanding = () => {
       },
       
       {
-        image: img24,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-
-      {
-        image: img26,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img28,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img29,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-     
-      {
         image: img32,
         videoUrl: "",
         title: 'Bosques de Quilentue',
@@ -387,14 +338,7 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: img43,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
       {
         image: img44,
         videoUrl: "",
@@ -403,22 +347,8 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: img45,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img46,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
+      
       {
         image: img47,
         videoUrl: "",
@@ -435,22 +365,8 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: img04,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img05,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
+      
       {
         image: img06,
         videoUrl: "",
@@ -459,46 +375,10 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: img08,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img09,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img11,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img12,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
-      {
-        image: img14,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
+    
+      
+      
       {
         image: img15,
         videoUrl: "",
@@ -507,14 +387,7 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      {
-        image: img48,
-        videoUrl: "",
-        title: 'Bosques de Quilentue',
-        subtitle: "",
-        description: '',
-        className: 'photoGallery',
-      },
+      
       {
         image: img49,
         videoUrl: "",

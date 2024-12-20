@@ -48,6 +48,7 @@ const ExpoChefAraucania = lazy(()=> import ('./mi-landing/templates//ExpoChefAra
 const HumedalSantaRosa = lazy(()=> import ('./mi-landing/templates/HumedalSantaRosa/HumedalSantaRosa'));
 const DesarmaduriaImpacto = lazy(()=> import ('./mi-landing/templates/DesarmaduriaImpacto/DesarmaduriaImpacto'));
 const TranquesChile = lazy(()=> import ('./mi-landing/templates/TranquesChile/TranquesChile'));
+const EmporioKelluwun = lazy(()=> import ('./mi-landing/templates/EmporioKelluwun/EmporioKelluwun'));
 
 
 
@@ -107,6 +108,7 @@ const App = () => {
           <Route path="/HumedalSantaRosa" element={<HumedalSantaRosa/>}/>
           <Route path="/DesarmaduriaImpacto" element={<DesarmaduriaImpacto/>}/>
           <Route path="/TranquesChile" element={<TranquesChile/>}/>
+          <Route path="/EmporioKelluwun" element={<EmporioKelluwun/>}/>
 
           
           {/* Agrega más rutas para otros clientes */}
