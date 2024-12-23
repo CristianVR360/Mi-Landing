@@ -107,7 +107,7 @@ const TemplateMiLanding = () => {
           description: 'Bosques de Quilentue es un refugio natural en Molco, ubicado en la región de la Araucanía, a solo 20 minutos de Pucón. Este exclusivo proyecto destaca por la abundante presencia de bosque nativo, un tesoro de biodiversidad que envuelve cada parcela, ofreciendo un ambiente lleno de serenidad y conexión con la naturaleza.',
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://www.youtube.com/embed/uUvtbMmkrYQ?si=BMHTaF-_0n75IuI3',
+            iframeUrl: 'https://www.youtube.com/embed/t2TWRsohUlw',
             buttonText: 'Ver video',
           },
         },
@@ -135,15 +135,20 @@ const TemplateMiLanding = () => {
             buttonText: 'Ver MasterPlan',
           },
         },
-        
         {
-  image: img53,
-  videoUrl: "",
-  title: "ZONA DE CONSERVACIÓN",
-  subtitle: "Senderos y ciclovías en medio de la naturaleza",
-  description: "Bosques de Quilentue cuenta con una exclusiva zona de conservación. El proyecto está diseñado con el propósito de preservar la biodiversidad y la belleza natural de Molco. Este espacio protegido incluye una red de senderos y ciclovías que te permitirán explorar y disfrutar del entorno de manera sostenible ya sea caminando o pedaleando inmerso en la riqueza del bosque nativo. Disfrutarás de paisajes únicos, de la paz y tranquilidad de la naturaleza en su máxima expresión. La conexión con el entorno será parte fundamental de la vida diaria.",
-  
-},
+          image: img53,
+          videoUrl: "",
+          title: "ZONA DE CONSERVACIÓN",
+          subtitle: "Senderos y ciclovías en medio de la naturaleza",
+          description: "Bosques de Quilentue cuenta con una exclusiva zona de conservación. El proyecto está diseñado con el propósito de preservar la biodiversidad y la belleza natural de Molco. Este espacio protegido incluye una red de senderos y ciclovías que te permitirán explorar y disfrutar del entorno de manera sostenible ya sea caminando o pedaleando inmerso en la riqueza del bosque nativo. Disfrutarás de paisajes únicos, de la paz y tranquilidad de la naturaleza en su máxima expresión. La conexión con el entorno será parte fundamental de la vida diaria.",
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/56971368049?text=Hola%2C%20Quiero%20mas%20informaci%C3%B3n',
+            buttonText: 'Más información',
+          },
+        },
+        
+        
 
         {
           image: img40,
@@ -375,9 +380,6 @@ const TemplateMiLanding = () => {
         description: '',
         className: 'photoGallery',
       },
-      
-    
-      
       
       {
         image: img15,
