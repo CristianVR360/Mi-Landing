@@ -49,6 +49,7 @@ const HumedalSantaRosa = lazy(()=> import ('./mi-landing/templates/HumedalSantaR
 const DesarmaduriaImpacto = lazy(()=> import ('./mi-landing/templates/DesarmaduriaImpacto/DesarmaduriaImpacto'));
 const TranquesChile = lazy(()=> import ('./mi-landing/templates/TranquesChile/TranquesChile'));
 const EmporioKelluwun = lazy(()=> import ('./mi-landing/templates/EmporioKelluwun/EmporioKelluwun'));
+const Peumahue = lazy(()=> import ('./mi-landing/templates/Peumahue/Peumahue'));
 
 
 
@@ -109,6 +110,7 @@ const App = () => {
           <Route path="/DesarmaduriaImpacto" element={<DesarmaduriaImpacto/>}/>
           <Route path="/TranquesChile" element={<TranquesChile/>}/>
           <Route path="/EmporioKelluwun" element={<EmporioKelluwun/>}/>
+          <Route path="Peumahue" element={<Peumahue/>}/>
 
           
           {/* Agrega más rutas para otros clientes */}
