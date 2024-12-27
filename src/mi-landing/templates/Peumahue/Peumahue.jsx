@@ -86,62 +86,59 @@ const TemplateMiLanding = () => {
     },
     
     carousels: {
-      carousel01: [
-        {
-          image: img10 ,
-          videoUrl: "",
-          title: 'Características',
-          subtitle: '',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis, nibh quis cursus malesuada, neque orci euismod justo, eu posuere elit libero et nisi. Quisque a arcu tortor. Morbi ut tempus nulla. Vestibulum euismod mi enim, sit amet dignissim tortor gravida eu. Donec mattis tellus vitae posuere euismod. Cras congue lectus nisl, ut sollicitudin nunc rhoncus nec. Duis id ante ac sem dignissim maximus ac et felis. Nullam tristique aliquet tellus sed sollicitudin.',
-          
-          buttonConfig: {
-            type: 'popup',
-            iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
-            buttonText: 'Ver video',
-          },
-        },
-        {
-          image: img18 ,
-          videoUrl: "",
-          title: 'Ubicación',
-          subtitle: '',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis, nibh quis cursus malesuada, neque orci euismod justo, eu posuere elit libero et nisi. Quisque a arcu tortor. Morbi ut tempus nulla. Vestibulum euismod mi enim, sit amet dignissim tortor gravida eu. Donec mattis tellus vitae posuere euismod. Cras congue lectus nisl, ut sollicitudin nunc rhoncus nec. Duis id ante ac sem dignissim maximus ac et felis. Nullam tristique aliquet tellus sed sollicitudin.',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
-            buttonText: 'Más información',
-          },
-        },
-        {
-          image: financiamiento ,
-          videoUrl: "",
-          title: 'Financiamiento',
-          subtitle: '',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis, nibh quis cursus malesuada, neque orci euismod justo, eu posuere elit libero et nisi. Quisque a arcu tortor. Morbi ut tempus nulla. Vestibulum euismod mi enim, sit amet dignissim tortor gravida eu. Donec mattis tellus vitae posuere euismod. Cras congue lectus nisl, ut sollicitudin nunc rhoncus nec. Duis id ante ac sem dignissim maximus ac et felis. Nullam tristique aliquet tellus sed sollicitudin.',
-          
-          buttonConfig: {
-            type: 'link',
-            url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
-            buttonText: 'Más información',
-          },
-        },
-        {
-          image: img9 ,
-          videoUrl: "",
-          title: 'Entorno, Turismo y Naturaleza',
-          subtitle: '',
-          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis, nibh quis cursus malesuada, neque orci euismod justo, eu posuere elit libero et nisi. Quisque a arcu tortor. Morbi ut tempus nulla. Vestibulum euismod mi enim, sit amet dignissim tortor gravida eu. Donec mattis tellus vitae posuere euismod. Cras congue lectus nisl, ut sollicitudin nunc rhoncus nec. Duis id ante ac sem dignissim maximus ac et felis. Nullam tristique aliquet tellus sed sollicitudin.',
-          
-          buttonConfig: {
-            type: 'popup',
-            iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
-            buttonText: 'Ver video',
-          },
-        },
-       
 
-      ],
+
+    
+  carousel01: [
+    {
+      image: img10,
+      videoUrl: "",
+      title: 'Características',
+      subtitle: '',
+      description: 'Parcelas exclusivas de 5.000 m² ubicadas en el sector Molco, la zona de mayor plusvalía en la Ruta Villarrica-Pucón. Cuentan con luz, agua soterrada, fibra óptica también soterrada y acceso directo a la playa a través de un paso bajo nivel, garantizando seguridad y comodidad. A solo 15 minutos de Villarrica y Pucón, ofrecen una ubicación privilegiada para quienes buscan exclusividad y tranquilidad.',
+      buttonConfig: {
+        type: 'popup',
+        iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
+        buttonText: 'Ver video',
+      },
+    },
+    {
+      image: img18,
+      videoUrl: "",
+      title: 'Ubicación',
+      subtitle: 'Sector Molco, Ruta Villarrica-Pucón',
+      description: 'Estas parcelas están estratégicamente ubicadas entre Villarrica y Pucón, a solo 15 minutos de ambas ciudades. En el corazón de la zona de mayor plusvalía de la región, ofrecen acceso a servicios como supermercados, farmacias y colegios, sin necesidad de entrar a la ciudad. Su cercanía a la playa y el embarcadero las convierte en una opción única para los amantes de la navegación y las actividades acuáticas.',
+      buttonConfig: {
+        type: 'link',
+        url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+        buttonText: 'Más información',
+      },
+    },
+    {
+      image: financiamiento,
+      videoUrl: "",
+      title: 'Financiamiento',
+      subtitle: '',
+      description: 'Parcelas desde 3.900 UF con opciones de financiamiento flexibles y adaptadas a tus necesidades. Nuestro objetivo es facilitarte la adquisición de tu parcela en este exclusivo entorno. Contáctanos para conocer más sobre las alternativas disponibles y asegurar tu inversión en la zona de mayor plusvalía de la región.',
+      buttonConfig: {
+        type: 'link',
+        url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+        buttonText: 'Más información',
+      },
+    },
+    {
+      image: img9,
+      videoUrl: "",
+      title: 'Entorno, Turismo y Naturaleza',
+      subtitle: '',
+      description: 'Ubicadas en un entorno privilegiado, estas parcelas ofrecen acceso directo a la playa, un embarcadero exclusivo para lanchas y vehículos acuáticos, y cercanía a servicios esenciales. Disfruta de la naturaleza y la tranquilidad de la zona sin alejarte de supermercados, farmacias y colegios. Todo esto en el sector más exclusivo de la Ruta Villarrica-Pucón.',
+      buttonConfig: {
+        type: 'popup',
+        iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
+        buttonText: 'Ver video',
+      },
+    },
+  ],
 
       carousel02: [
         {
