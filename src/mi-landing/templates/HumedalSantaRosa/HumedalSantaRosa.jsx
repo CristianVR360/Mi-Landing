@@ -65,7 +65,7 @@ const TemplateMiLanding = () => {
     message:'¡Hola!, quiero más información.',
     instagramLink: '',
     facebookLink: '',
-    footerText:'stp.sbugmann@gmail.com',
+    footerText:'tp.sbugmann@gmail.com',
     gpsLink: 'https://maps.app.goo.gl/XjWJU5f82tw7DRuQA?g_st=iw',
     linkedinLink:"",
     footerAfterStyles: {
