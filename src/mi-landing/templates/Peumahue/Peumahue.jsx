@@ -96,7 +96,7 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: '',
+            iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
             buttonText: 'Ver video',
           },
         },
@@ -108,9 +108,9 @@ const TemplateMiLanding = () => {
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis, nibh quis cursus malesuada, neque orci euismod justo, eu posuere elit libero et nisi. Quisque a arcu tortor. Morbi ut tempus nulla. Vestibulum euismod mi enim, sit amet dignissim tortor gravida eu. Donec mattis tellus vitae posuere euismod. Cras congue lectus nisl, ut sollicitudin nunc rhoncus nec. Duis id ante ac sem dignissim maximus ac et felis. Nullam tristique aliquet tellus sed sollicitudin.',
           
           buttonConfig: {
-            type: 'popup',
-            iframeUrl: '',
-            buttonText: 'Ver video',
+            type: 'link',
+            url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+            buttonText: 'Más información',
           },
         },
         {
@@ -121,9 +121,9 @@ const TemplateMiLanding = () => {
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis, nibh quis cursus malesuada, neque orci euismod justo, eu posuere elit libero et nisi. Quisque a arcu tortor. Morbi ut tempus nulla. Vestibulum euismod mi enim, sit amet dignissim tortor gravida eu. Donec mattis tellus vitae posuere euismod. Cras congue lectus nisl, ut sollicitudin nunc rhoncus nec. Duis id ante ac sem dignissim maximus ac et felis. Nullam tristique aliquet tellus sed sollicitudin.',
           
           buttonConfig: {
-            type: 'popup',
-            iframeUrl: '',
-            buttonText: 'Ver video',
+            type: 'link',
+            url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+            buttonText: 'Más información',
           },
         },
         {
@@ -135,7 +135,7 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: '',
+            iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
             buttonText: 'Ver video',
           },
         },
