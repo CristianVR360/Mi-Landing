@@ -44,7 +44,7 @@ import img33 from './assets/img33.jpg';
 import img34 from './assets/img34.jpg';
 import img35 from './assets/img35.jpg';
 import img36 from './assets/img36.jpg';
-import img37 from './assets/img37.jpg';
+//import img37 from './assets/img37.jpg';
 import img38 from './assets/img38.jpg';
 import img39 from './assets/img39.jpg';
 import img40 from './assets/img40.jpg';
@@ -461,14 +461,7 @@ const TemplateMiLanding = () => {
           description: "",
           className: "photoGallery",
         },
-        {
-          image: img37,
-          videoUrl: "",
-          title: "",
-          subtitle: "",
-          description: "",
-          className: "photoGallery",
-        },
+       
         {
           image: img38,
           videoUrl: "",
