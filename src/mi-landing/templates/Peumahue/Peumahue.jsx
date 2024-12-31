@@ -71,7 +71,7 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Agenda tu visita!',
     iframeBackground: '',
-    subtitles: ['En el corazón del turismo',  ],
+    subtitles: ['Parcelas exclusivas a 15 min de Pucón', 'Acceso directo a la playa con embarcadero', "Supermercados, farmacias, colegios, a pasos de tu parcela"  ],
     telefono: '+56984063243',
     message:'Necesito más información sobre el proyecto',
     footerText:"Molco, Región de la Araucanía",
@@ -131,7 +131,7 @@ const TemplateMiLanding = () => {
   image: img9,
   videoUrl: "",
   title: 'Entorno, Turismo y Naturaleza',
-  subtitle: '',
+  subtitle: 'Pucón, Capital del Turismo',
   description: 'Ubicadas en el corazón de la Araucanía lacustre, estas parcelas te sitúan en un entorno natural incomparable. A pocos minutos del imponente Volcán Villarrica, con su centro de esquí que ofrece actividades todo el año, y rodeadas de una red de lagos como el Villarrica, Colico y Caburgua, ideales para deportes acuáticos y relajación. Explora una amplia variedad de senderos, parques naturales como el Parque Nacional Villarrica y el Parque Huerquehue, y maravillas geológicas como las cavernas volcánicas. Fácil acceso a una infinidad de actividades turísticas, culturales y recreativas.',
   buttonConfig: {
     type: 'popup',
