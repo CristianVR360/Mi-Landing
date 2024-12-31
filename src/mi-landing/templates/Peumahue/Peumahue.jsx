@@ -64,7 +64,7 @@ const TemplateMiLanding = () => {
     colorPrimarioTransparente: 'rgba(4, 66, 188, 0.8)',
     colorTerciario: '#1e1e1e',
     colorCuaternario: '#34495e',
-    backgroundImage: img1,
+    backgroundImage: img2,
     title: 'Donde la naturaleza y la comodidad se encuentran',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
@@ -95,7 +95,7 @@ const TemplateMiLanding = () => {
       videoUrl: "",
       title: 'Características',
       subtitle: '',
-      description: 'Parcelas exclusivas de 5.000 m² ubicadas en el sector Molco, la zona de mayor plusvalía en la Ruta Villarrica-Pucón. Cuentan con luz, agua soterrada, fibra óptica también soterrada y acceso directo a la playa a través de un paso bajo nivel, garantizando seguridad y comodidad. A solo 15 minutos de Villarrica y Pucón, ofrecen una ubicación privilegiada para quienes buscan exclusividad y tranquilidad.',
+      description: 'Parcelas exclusivas de 5.000 m² ubicadas en el sector Molco, una de las zonas de alta plusvalía en la Ruta Villarrica-Pucón. Cuentan con luz, agua soterrada, fibra óptica también soterrada y acceso directo a la playa a través de un paso bajo nivel, garantizando seguridad y comodidad. A solo 15 minutos de Villarrica y Pucón, ofrecen una ubicación privilegiada para quienes buscan exclusividad y tranquilidad.',
       buttonConfig: {
         type: 'popup',
         iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
@@ -107,25 +107,14 @@ const TemplateMiLanding = () => {
       videoUrl: "",
       title: 'Ubicación',
       subtitle: 'Sector Molco, Ruta Villarrica-Pucón',
-      description: 'Estas parcelas están estratégicamente ubicadas entre Villarrica y Pucón, a solo 15 minutos de ambas ciudades. En el corazón de la zona de mayor plusvalía de la región, ofrecen acceso a servicios como supermercados, farmacias y colegios, sin necesidad de entrar a la ciudad. Su cercanía a la playa y el embarcadero las convierte en una opción única para los amantes de la navegación y las actividades acuáticas.',
+      description: 'Estas parcelas están estratégicamente ubicadas entre Villarrica y Pucón, a solo 15 minutos de ambas ciudades. Ofrecen acceso a servicios como supermercados, farmacias y colegios, sin necesidad de entrar a la ciudad. Su cercanía a la playa y el embarcadero las convierte en una opción única para los amantes de la navegación y las actividades acuáticas.',
       buttonConfig: {
         type: 'link',
         url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
         buttonText: 'Más información',
       },
     },
-    {
-      image: financiamiento,
-      videoUrl: "",
-      title: 'Financiamiento',
-      subtitle: '',
-      description: 'Parcelas desde 3.900 UF con opciones de financiamiento flexibles y adaptadas a tus necesidades. Nuestro objetivo es facilitarte la adquisición de tu parcela en este exclusivo entorno. Contáctanos para conocer más sobre las alternativas disponibles y asegurar tu inversión en la zona de mayor plusvalía de la región.',
-      buttonConfig: {
-        type: 'link',
-        url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
-        buttonText: 'Más información',
-      },
-    },
+  
    
 {
   image: img9,
@@ -174,7 +163,7 @@ const TemplateMiLanding = () => {
 
       carousel03: [
         {
-          image: img1,
+          image: img40,
           videoUrl: "",
           title: "",
           subtitle: "",
@@ -479,7 +468,7 @@ const TemplateMiLanding = () => {
           className: "photoGallery",
         },
         {
-          image: img40,
+          image: img1,
           videoUrl: "",
           title: "",
           subtitle: "",
