@@ -48,7 +48,7 @@ import img36 from './assets/img36.jpg';
 import img38 from './assets/img38.jpg';
 import img39 from './assets/img39.jpg';
 import img40 from './assets/img40.jpg';
-import financiamiento from './assets/financiamiento.jpg';
+//import financiamiento from './assets/financiamiento.jpg';
 import master2 from './assets/master2.jpg';
 
 
