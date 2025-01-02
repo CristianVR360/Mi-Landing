@@ -6,8 +6,8 @@ import MiLanding from '../../pages/Preview/MiLanding';
 
 //importacion de recursos
 import FavIcon from './assets/FavIcon.png';
-import logoblanco from './assets/logoblanco.png';
-import portada from './assets/portada.jpg';
+import logo from './assets/logo.png';
+//import portada from './assets/portada.jpg';
 //import img1 from './assets/img1.jpg';
 //import img2 from './assets/img2.jpg';
 //import img3 from './assets/img3.jpg';
@@ -27,7 +27,24 @@ import img17 from './assets/img17.jpg';
 import img18 from './assets/img18.jpg';
 import img19 from './assets/img19.jpg';
 import img20 from './assets/img20.jpg';
-
+import inicio1 from './assets/inicio1.jpg';
+import img21 from './assets/img21.jpg';
+import img22 from './assets/img22.jpg';
+import img23 from './assets/img23.jpg';
+import img24 from './assets/img24.jpg';
+import img25 from './assets/img25.jpg';
+import img26 from './assets/img26.jpg';
+import img27 from './assets/img27.jpg';
+import img28 from './assets/img28.jpg';
+import img29 from './assets/img29.jpg';
+import img30 from './assets/img30.jpg';
+import img31 from './assets/img31.jpg';
+import img32 from './assets/img32.jpg';
+import img33 from './assets/img33.jpg';
+import img34 from './assets/img34.jpg';
+import serv1 from './assets/serv1.jpg';
+import serv2 from './assets/serv2.jpg';
+import serv3 from './assets/serv3.jpg';
 
 
 
@@ -39,18 +56,18 @@ import img20 from './assets/img20.jpg';
 
 const TemplateMiLanding = () => {
   const landingPageData = {
-    logo: logoblanco,
+    logo: logo,
     colorPrimario: '#5b5d62',
     colorSecundario: '#fff',
     colorPrimarioTransparente: 'rgba(13, 145, 230, 0.8)',
     colorTerciario: '#1a1819',
     colorCuaternario: '#34495e',
-    backgroundImage: portada,
-    title: 'Desamaduria repuestos nuevos y usados consultas',
+    backgroundImage: inicio1,
+    title: 'Desamaduria repuestos nuevos y usados',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
-    ctaWhatsappButton: '¡Contpactanos!',
+    ctaWhatsappButton: '¡Contáctanos!',
     iframeBackground: '',
     subtitles: ['¡Contáctanos y recibe una oferta hoy mismo!', ],
     telefono: '+56974777149',
@@ -69,9 +86,9 @@ const TemplateMiLanding = () => {
     carousels: {
       carousel01: [
         {
-          image: portada ,
+          image: serv1 ,
           videoUrl: "",
-          title: '',
+          title: 'Compra de vehículos chocados y en mal estado.',
           subtitle: '',
           description: '',
           
@@ -82,9 +99,22 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: portada ,
+          image: serv2 ,
           videoUrl: "",
-          title: '',
+          title: 'Venta de repuestos.',
+          subtitle: '',
+          description: '',
+          
+          buttonConfig: {
+            type: 'popup',
+            iframeUrl: '',
+            buttonText: 'Ver video',
+          },
+        },
+        {
+          image: serv3 ,
+          videoUrl: "",
+          title: 'Desarme de vehículos.',
           subtitle: '',
           description: '',
           
@@ -267,7 +297,176 @@ const TemplateMiLanding = () => {
             url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
             buttonText: 'Consultar',
           },
+          
 
+        },
+        {
+          image: img21,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img22,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img23,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img24,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img25,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img26,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img27,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img28,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img29,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img30,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img31,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img32,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img33,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
+        },
+        {
+          image: img34,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          buttonConfig: {
+            type: 'link',
+            url: 'https://wa.me/+56974777149?text=Necesito%20m%C3%A1s%20informaci%C3%B3n',
+            buttonText: 'Consultar',
+          },
         },
         
 
@@ -283,7 +482,7 @@ const TemplateMiLanding = () => {
 
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
-    { id: 'carousel01', texto: 'Brochure' },
+    { id: 'carousel01', texto: 'Servicios' },
     { id: 'carousel02', texto: 'Galería' },
   
  
