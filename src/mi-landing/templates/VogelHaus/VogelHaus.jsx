@@ -145,7 +145,7 @@ const TemplateMiLanding = () => {
         description: 'Descubre nuestro Tour Virtual interactivo y explora la ubicación estratégica del proyecto, así como su hermoso entorno natural y su gran plusvalía.',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://parcelasvillarricamasterplan-production.up.railway.app/', //
+          iframeUrl: 'https://parcelasvillarrica.cl/masterplan.html', //https://parcelasvillarricamasterplan-production.up.railway.app/
           buttonText: 'Ver Master Plan',
         },
       },
