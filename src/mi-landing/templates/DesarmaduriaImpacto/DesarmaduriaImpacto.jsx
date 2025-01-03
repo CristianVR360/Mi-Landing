@@ -27,7 +27,7 @@ import img17 from './assets/img17.jpg';
 import img18 from './assets/img18.jpg';
 import img19 from './assets/img19.jpg';
 import img20 from './assets/img20.jpg';
-import inicio1 from './assets/inicio1.jpg';
+import inicio1 from './assets/inicio2.jpg';
 import img21 from './assets/img21.jpg';
 import img22 from './assets/img22.jpg';
 import img23 from './assets/img23.jpg';
