@@ -91,11 +91,11 @@ const TemplateMiLanding = () => {
     
   carousel01: [
     {
-      image: img10,
+      image: img16,
       videoUrl: "",
-      title: 'Características',
-      subtitle: '',
-      description: 'Parcelas exclusivas de 5.000 m² ubicadas a solo pasos de Molco, una de las zonas de alta plusvalía en la Ruta Villarrica-Pucón. Cuentan con luz, agua soterrada, fibra óptica también soterrada y acceso directo a la playa a través de acceso subterráneo, garantizando seguridad y comodidad. A solo 15 minutos de Villarrica y Pucón, ofrecen una ubicación privilegiada para quienes buscan exclusividad y tranquilidad.',
+      title: 'Parcelas Peumahue: Exclusividad, Naturaleza y Conexión en Cada Espacio',
+      subtitle: 'Vive la tranquilidad a pasos de Molco, en un entorno de alta plusvalía',
+      description: 'Parcelas Peumahue te invita a descubrir un estilo de vida único, ofreciendo terrenos exclusivos de 5.000 m² ubicados estratégicamente en la Ruta Villarrica-Pucón. Disfruta de servicios básicos de rápido acceso, como luz y agua con instalaciones subterráneas, factibilidad de fibra óptica para mantenerte siempre conectado y acceso directo a la playa, pensado para garantizar comodidad y seguridad. Además, cuenta con un portón de acceso controlado, que asegura privacidad y tranquilidad en todo momento.',
       buttonConfig: {
         type: 'popup',
         iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
@@ -105,9 +105,9 @@ const TemplateMiLanding = () => {
     {
       image: img18,
       videoUrl: "",
-      title: 'Ubicación',
-      subtitle: 'Sector Molco, Ruta Villarrica-Pucón',
-      description: 'Estas parcelas están estratégicamente ubicadas entre Villarrica y Pucón, a solo 15 minutos de ambas ciudades. Ofrecen acceso a servicios como supermercados, farmacias y colegios, sin necesidad de entrar a la ciudad. Su cercanía a la playa y el embarcadero las convierte en una opción única para los amantes de la navegación y las actividades acuáticas.',
+      title: 'Ubicación Privilegiada en el Corazón de la Ruta Villarrica-Pucón',
+      subtitle: 'Exclusividad a pasos de los mejores destinos de la zona lacustre',
+      description: 'Parcelas Peumahue, ubicado en Molco a solo 15 minutos de Villarrica y Pucón, combina la tranquilidad de la naturaleza con la cercanía a servicios esenciales. Con acceso directo al embarcadero y la playa mediante un paso bajo nivel, ofrece una conexión única al lago Villarrica, ideal para actividades acuáticas. Además, su ubicación estratégica asegura acceso a servicios básicos como luz, agua y factibilidad de fibra óptica, así como a supermercados, farmacias, colegios y otros comercios, brindando comodidad y tranquilidad en un entorno privilegiado.',
       buttonConfig: {
         type: 'link',
         url: 'https://wa.me/+56984063243?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
@@ -119,15 +119,30 @@ const TemplateMiLanding = () => {
 {
   image: img9,
   videoUrl: "",
-  title: 'Entorno, Turismo y Naturaleza',
-  subtitle: 'Pucón, Capital del Turismo',
-  description: 'Ubicadas en el corazón de la Araucanía lacustre, estas parcelas te sitúan en un entorno natural incomparable. A pocos minutos del imponente Volcán Villarrica, con su centro de esquí que ofrece actividades todo el año, y rodeadas de una red de lagos como el Villarrica, Colico y Caburgua, ideales para deportes acuáticos y relajación. Explora una amplia variedad de senderos, parques naturales como el Parque Nacional Villarrica y el Parque Huerquehue, y maravillas geológicas como las cavernas volcánicas. Fácil acceso a una infinidad de actividades turísticas, culturales y recreativas.',
+  title: 'Naturaleza y Cercanía en un Entorno Único',
+  subtitle: 'Conecta con los paisajes y actividades que hacen especial a Pucón y sus alrededores',
+  description: 'Parcelas Peumahue te conecta con lo mejor de la Araucanía lacustre, a pocos minutos de Pucón, conocida por su amplia oferta turística. Desde el imponente Volcán Villarrica hasta los lagos Villarrica, Colico y Caburgua, este entorno ofrece acceso a playas, reservas naturales y actividades culturales. Vivir aquí combina la tranquilidad de la naturaleza con la comodidad de estar cerca de una ciudad vibrante, ideal para disfrutar en familia o realizar una inversión estratégica.',
   buttonConfig: {
     type: 'popup',
     iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
     buttonText: 'Ver video',
   },
 },
+
+{
+  image: img10,
+  videoUrl: "",
+  title: '¿Por qué Elegir Parcelas Peumahue?',
+  subtitle: 'Exclusividad, conectividad y naturaleza en perfecta armonía',
+  description: 'Su ubicación estratégica a pasos de Molco te conecta fácilmente con los destinos más icónicos del sur de Chile, como Villarrica y Pucón, además de ofrecer acceso directo a la playa y el embarcadero a través de un paso bajo nivel. A pocos minutos de supermercados, colegios y servicios esenciales, Parcelas Peumahue combina la tranquilidad de un entorno natural con la comodidad de una ubicación privilegiada. Este es el lugar donde la calidad de vida y la inversión se encuentran.',
+  buttonConfig: {
+    type: 'popup',
+    iframeUrl: 'https://www.youtube.com/embed/K8ZmSh2FIYs',
+    buttonText: 'Ver video',
+  },
+},
+
+
   ],
 
       carousel02: [
