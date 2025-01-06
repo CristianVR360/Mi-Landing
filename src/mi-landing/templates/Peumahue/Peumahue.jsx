@@ -155,7 +155,7 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Peumahue/index.html',
+            iframeUrl: 'https://www.parcelaspeumahue.cl/masterplan.html',
             buttonText: 'Ver Proyecto',
           },
         },
@@ -168,7 +168,7 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/Peumahue/index.html',
+            iframeUrl: 'https://www.parcelaspeumahue.cl/masterplan.html',
             buttonText: 'Ver Proyecto',
           },
         },
