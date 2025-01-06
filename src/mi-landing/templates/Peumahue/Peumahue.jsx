@@ -12,7 +12,7 @@ import img1 from './assets/img1.jpg';
 import img2 from './assets/img2.jpg';
 import img3 from './assets/img3.jpg';
 import img4 from './assets/img4.jpg';
-import img5 from './assets/img5.jpg';
+//import img5 from './assets/img5.jpg';
 import img6 from './assets/img6.jpg';
 import img7 from './assets/img7.jpg';
 import img8 from './assets/img8.jpg';
@@ -42,7 +42,7 @@ import img31 from './assets/img31.jpg';
 import img32 from './assets/img32.jpg';
 import img33 from './assets/img33.jpg';
 import img34 from './assets/img34.jpg';
-import img35 from './assets/img35.jpg';
+//import img35 from './assets/img35.jpg';
 import img36 from './assets/img36.jpg';
 //import img37 from './assets/img37.jpg';
 import img38 from './assets/img38.jpg';
@@ -71,14 +71,14 @@ const TemplateMiLanding = () => {
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Agenda tu visita!',
     iframeBackground: '',
-    subtitles: ['Parcelas exclusivas a 15 min de Pucón', 'Acceso directo a la playa con embarcadero', "Supermercados, farmacias, colegios, a pasos de tu parcela"  ],
+    subtitles: ['Parcelas exclusivas a 15 min de Pucón', 'Acceso peatonal por paso bajo nivel a la playa y embarcadero', "Supermercados, farmacias, colegios, a pasos de tu parcela"  ],
     telefono: '+56984063243',
     message:'Necesito más información sobre el proyecto',
-    footerText:"Molco, Región de la Araucanía",
+    footerText:"Camino Villarrica Pucón, Región de la Araucanía",
     instagramLink: 'https://www.instagram.com/parcelas_peumahue/',
-    facebookLink: '',
+    facebookLink: 'https://web.facebook.com/people/Parcelas-Peumahue/61571776942688/',
     linkedinLink: '',
-    gpsLink: 'https://maps.app.goo.gl/xYZiYDso7kRNw4Bi7',
+    gpsLink: 'https://maps.app.goo.gl/7jppUcjq8pfhvykx5',
     footerAfterStyles: {
         background: "linear-gradient(to bottom, rgba(4, 66, 188, 0) 0%, rgba(4, 66, 188, 0.2) 5%, rgba(4, 66, 188, 0.4) 20%, rgba(4, 66, 188, 0.7) 50%, rgba(4, 66, 188, 0.9) 70%, rgba(4, 66, 188, 1) 100%)",
 
@@ -205,6 +205,7 @@ const TemplateMiLanding = () => {
           subtitle: "",
           description: "",
         },
+        /*
         {
           image: img5,
           videoUrl: "",
@@ -212,6 +213,7 @@ const TemplateMiLanding = () => {
           subtitle: "",
           description: "",
         },
+        */
         {
           image: img6,
           videoUrl: "",
@@ -415,6 +417,7 @@ const TemplateMiLanding = () => {
           subtitle: "",
           description: "",
         },
+        /*
         {
           image: img35,
           videoUrl: "",
@@ -422,6 +425,7 @@ const TemplateMiLanding = () => {
           subtitle: "",
           description: "",
         },
+        */
         {
           image: img36,
           videoUrl: "",
