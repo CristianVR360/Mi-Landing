@@ -136,10 +136,11 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'humedalsantarosa-production.up.railway.app/masterplan.html', 
+          iframeUrl: 'https://humedalsantarosa-production.up.railway.app/masterplan.html', 
           buttonText: 'Ver Master Plan',
         },
       },
+
       { 
         image: masterplan2 , 
         videoUrl: "",
@@ -148,8 +149,8 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'humedalsantarosa-production.up.railway.app/masterplan.html', 
-          buttonText: 'Ver Master Plan',
+            iframeUrl: 'https://humedalsantarosa-production.up.railway.app/masterplan.html',
+            buttonText: 'Ver Master Plan',
         },
       },
       
