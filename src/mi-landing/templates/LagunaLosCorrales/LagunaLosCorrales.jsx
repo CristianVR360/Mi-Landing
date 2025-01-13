@@ -35,12 +35,13 @@ import img24 from './assets/img24.jpg';
 import img25 from './assets/img25.jpg';
 import img26 from './assets/img26.jpg';
 import img27 from './assets/img27.jpg';
-import master1 from './assets/master1.jpg';
+//import master1 from './assets/master1.jpg';
 //import master2 from './assets/master2.jpg';
 import etapa1 from './assets/etapa1.jpg';
 import etapa2 from './assets/etapa2.jpg';
 import etapa3 from './assets/etapa3.jpg';
 import masterE5 from './assets/masterE5jpg.jpg'
+import e4 from './assets/E4.jpg';
 
 
 
@@ -581,9 +582,9 @@ const TemplateMiLanding = () => {
           },
         },
         {
-          image: master1 ,
+          image: e4 ,
           videoUrl: "",
-          title: 'Master Plan',
+          title: 'Etapa 4: ¡Últimas unidades disponibles!',
           subtitle: 'Revisa disponibilidad y explora de manera inmersiva nuestro poryecto ',
           description: '',
           
@@ -593,12 +594,6 @@ const TemplateMiLanding = () => {
             buttonText: 'Ver Master Plan',
           },
         },
-    
-
-      ],
-      carousel03: [
-        
-        
         {
           image: masterE5 ,
           videoUrl: "",
@@ -615,6 +610,7 @@ const TemplateMiLanding = () => {
     
 
       ],
+      
      
     },
 
@@ -625,9 +621,8 @@ const TemplateMiLanding = () => {
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
     { id: 'carousel01', texto: 'Etapa 1, 2 y 3' },
-    { id: 'carousel02', texto: 'Etapa 4' },
-    { id: 'carousel03', texto: 'Etapa 5' },
-    { id: 'carousel04', texto: 'Galería' },
+    { id: 'carousel02', texto: 'Etapas 4 y 5' },
+    { id: 'carousel03', texto: 'Galería' },
     
     
  
