@@ -547,7 +547,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'CARACTERÍSTICAS',
           subtitle: '',
-          description: 'Cada parcela tiene aproximadamente 21.000 metros cuadrados, con orientación norte, ideal para proyectos de generación fotovoltaica. Además, cuentan con tendido eléctrico colindante al lado sur del loteo. La mayoría de las parcelas son atravesadas por vertientes y arroyos, proporcionando agua natural durante todo el año. Y si no, la solución ideal es un pozo profundo, asegurando el suministro de agua en cualquier situación.',
+          description: 'Cada parcela va desde los 5.000 mts hasta 2 ha, con orientación norte, ideal para proyectos de generación fotovoltaica. Además, cuentan con tendido eléctrico colindante al lado sur del loteo. La mayoría de las parcelas son atravesadas por vertientes y arroyos, proporcionando agua natural durante todo el año. Y si no, la solución ideal es un pozo profundo, asegurando el suministro de agua en cualquier situación.',
           
           buttonConfig: {
             type: 'link',
