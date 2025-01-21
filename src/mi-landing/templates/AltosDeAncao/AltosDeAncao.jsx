@@ -27,19 +27,19 @@ import aseso from './assets/judi2.jpg';
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logoblanco,
-    colorPrimario: '#279F85',
+    colorPrimario: '#103447',
     colorSecundario: '#fff',
     colorPrimarioTransparente: 'rgba(27, 44, 44, 0.8)',
     colorTerciario: '#1e1e1e',
     colorCuaternario: '#34495e',
     backgroundImage: inicio,
-    title: '',
+    title: 'Parcelas con vista a los mejores paisajes del sur de Chile',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Agenda tu visita!',
     iframeBackground: '',
-    subtitles: ['', ],
+    subtitles: ['¡Tu sueño comienza aquí!',' Mejores paisajes del sur de Chile' ],
     telefono: '',
     message:'Necesito más información sobre el proyecto',
     footerText:"",
@@ -48,7 +48,7 @@ const TemplateMiLanding = () => {
     linkedinLink: '',
     gpsLink: '',
     footerAfterStyles: {
-        background: "linear-gradient(to bottom, rgba(27, 44, 44, 0) 0%, rgba(27, 44, 44, 0.2) 5%, rgba(27, 44, 44, 0.4) 20%, rgba(27, 44, 44, 0.7) 50%, rgba(27, 44, 44, 0.9) 70%, rgba(27, 44, 44, 1) 100%)",
+        background: "linear-gradient(to bottom, rgba(89, 179, 252, 0) 0%, rgba(89, 179, 252, 0.2) 5%, rgba(89, 179, 252, 0.4) 20%, rgba(89, 179, 252, 0.7) 50%, rgba(89, 179, 252, 0.9) 70%, rgba(89, 179, 252, 1) 100%)",
 
       textColor: '#f1f1f1'
     },
@@ -169,7 +169,7 @@ const TemplateMiLanding = () => {
     { id: 'inicio', texto: 'Inicio' },
     { id: 'carousel01', texto: 'Brochure' },
     { id: 'carousel02', texto: 'MasterPlan' },
-    { id: 'carousel03', texto: 'Servicio3' },
+    { id: 'carousel03', texto: 'Galería' },
  
     
   ];
