@@ -603,7 +603,7 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/LagunaLosCorrales/index.html',
+            iframeUrl: 'https://lagunaloscorrales-1-production.up.railway.app/adminForm.html',
             buttonText: 'Ver Master Plan',
           },
         },
