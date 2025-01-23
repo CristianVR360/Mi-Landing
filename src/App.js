@@ -113,8 +113,8 @@ const App = () => {
           <Route path="/TranquesChile" element={<TranquesChile/>}/>
           <Route path="/EmporioKelluwun" element={<EmporioKelluwun/>}/>
           <Route path="Peumahue" element={<Peumahue/>}/>
-          <Route path="AltosDeAncao" element={<AltosDeAncao/>}/>
-          <Route path="VistaVolcanes" element={<VistaVolcanes/>}/>
+          <Route path="/AltosDeAncao" element={<AltosDeAncao/>}/>
+          <Route path="/VistaVolcanes" element={<VistaVolcanes/>}/>
 
 
           
