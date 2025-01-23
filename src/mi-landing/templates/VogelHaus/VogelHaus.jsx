@@ -56,7 +56,7 @@ const TemplateMiLanding = () => {
     ctaWhatsappButton: '¡Más Información!',
     iframeBackground: '',
     subtitles: ['Mercado de Calidad de Vida', 'Cerca de la ciudad y con fácil acceso', 'Tu nueva vida en el sur de Chile', "Oportunidad única para invertir"],
-    telefono: '+56976858145',
+    telefono: '+56939480709',
     message:'¡Hola!, quiero más información.',
     instagramLink: 'https://www.instagram.com/parcelas.vogelhaus/',
     facebookLink: 'https://www.facebook.com/share/TD2p4uCR6vPUHknC/?mibextid=qi2Omg',
@@ -118,7 +118,7 @@ const TemplateMiLanding = () => {
           description: 'En tierras ideales para agricultura y ganadería, fuera de riesgo volcánico, combina turismo y tranquilidad campestre. Con escrituración inmediata, ofrece cercos perimetrales, caminos amplios de 8 m, pozo registrado, conexión de agua, grifos de incendio, buena señal celular e internet. También cuenta con empalme eléctrico subterráneo, caminos ripiados y portón automático.',
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/56976858145',
+            url: 'https://wa.me/+56939480709',
             buttonText: 'Más información',
           },
         },
