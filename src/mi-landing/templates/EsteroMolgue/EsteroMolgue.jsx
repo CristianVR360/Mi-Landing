@@ -6,9 +6,7 @@ import MiLanding from '../../pages/Preview/MiLanding';
 
 //importacion de recursos
 import FavIcon from './assets/FavIcon.png';
-//import logo from './assets/logo.png';
-import inicio from './assets/inicio.jpg';
-import logoblanco from './assets/vertlogoblancocompleto.png';
+import logoblanco from './assets/logoblanco.png';
 import img1 from './assets/img1.jpg';
 import img2 from './assets/img2.jpg';
 import img3 from './assets/img3.jpg';
@@ -35,23 +33,13 @@ import img23 from './assets/img23.jpg';
 import img24 from './assets/img24.jpg';
 import img25 from './assets/img25.jpg';
 import img26 from './assets/img26.jpg';
-import img27 from './assets/img27.jpg';
-import img28 from './assets/img28.jpg';
-import img29 from './assets/img29.jpg';
-import img30 from './assets/img30.jpg';
-import img31 from './assets/img31.jpg';
-import img32 from './assets/img32.jpg';
-import img33 from './assets/img33.jpg';
-import img34 from './assets/img34.jpg';
-import img35 from './assets/img35.jpg';
-import img36 from './assets/img36.jpg';
-import img37 from './assets/img37.jpg';
-import img38 from './assets/img38.jpg';
-import img39 from './assets/img39.jpg';
-import img40 from './assets/img40.jpg';
-import masterplan from './assets/master.jpg';
-import pqfutangue from './assets/pqfutangue.jpg';
+import riobueno from './assets/riobueno.jpg';
+import lagoranco from './assets/lagoranco.jpg';
 import financiamiento from './assets/financiamiento.jpg';
+import master from './assets/master.jpg';
+
+
+
 ;
 
 
@@ -59,28 +47,28 @@ import financiamiento from './assets/financiamiento.jpg';
 const TemplateMiLanding = () => {
   const landingPageData = {
     logo: logoblanco,
-    colorPrimario: '#103447',
+    colorPrimario: '#1a1819',
     colorSecundario: '#fff',
-    colorPrimarioTransparente: 'rgba(27, 44, 44, 0.8)',
+    colorPrimarioTransparente: 'rgba(30, 30, 30, 0.8)',
     colorTerciario: '#1e1e1e',
     colorCuaternario: '#34495e',
-    backgroundImage: inicio,
-    title: 'Parcelas con vista a los mejores paisajes del sur de Chile',
+    backgroundImage: img1,
+    title: 'Tu Refugio en la Naturaleza del Sur de Chile',
     bookButtonText: 'Book Now',
     bookDescription: 'Schedule a consultation with us today.',
     consultationButtonText: 'Get Consultation',
     ctaWhatsappButton: '¡Agenda tu visita!',
-    iframeBackground: '',
-    subtitles: ['¡Tu sueño comienza aquí!',' Mejores paisajes del sur de Chile' ],
-    telefono: '+56986815678',
+    iframeBackground: 'https://astra360.s3.sa-east-1.amazonaws.com/Backgrounds/MiLandingEsteroMolgue/index.html',
+    subtitles: ['Tu nuevo hogar en el sur de Chile', ],
+    telefono: '',
     message:'Necesito más información sobre el proyecto',
     footerText:"",
     instagramLink: '',
     facebookLink: '',
     linkedinLink: '',
-    gpsLink: 'https://maps.google.com/?q=-40.326443,-72.402512',
+    gpsLink: 'https://goo.gl/maps/gki6rf3MVxwWLwA37',
     footerAfterStyles: {
-        background: "linear-gradient(to bottom, rgba(89, 179, 252, 0) 0%, rgba(89, 179, 252, 0.2) 5%, rgba(89, 179, 252, 0.4) 20%, rgba(89, 179, 252, 0.7) 50%, rgba(89, 179, 252, 0.9) 70%, rgba(89, 179, 252, 1) 100%)",
+        background: "linear-gradient(to bottom, rgba(252, 228, 126, 0) 0%, rgba(252, 228, 126, 0.2) 5%, rgba(252, 228, 126, 0.4) 20%, rgba(252, 228, 126, 0.7) 50%, rgba(252, 228, 126, 0.9) 70%, rgba(252, 228, 126, 1) 100%)",
 
       textColor: '#f1f1f1'
     },
@@ -88,37 +76,37 @@ const TemplateMiLanding = () => {
     carousels: {
       carousel01: [
         {
-          image: img32 ,
+          image: img4 ,
           videoUrl: "",
           title: 'Características',
           subtitle: '',
-          description: '',
+          description: 'Este exclusivo proyecto está diseñado para quienes buscan escapar del ruido de la ciudad y conectarse con la naturaleza en su estado más puro. Las parcelas, ubicadas en un entorno de paisajes prístinos, son ideales para actividades como la pesca con mosca y para quienes desean vivir rodeados de tranquilidad y belleza natural.',
           
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/+56986815678?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
+            url: '',
             buttonText: 'Más información',
           },
         },
         {
-          image: img4 ,
+          image: riobueno ,
           videoUrl: "",
           title: 'Ubicación',
           subtitle: '',
-          description: '',
+          description: 'Ubicado en la región de Los Ríos, entre los afluentes del río Bueno y los esteros Molgue y Traiguén, el proyecto cuenta con una ubicación estratégica. A solo 3 kilómetros de un aeródromo local, permite llegar desde la capital en minutos. Además, los aeropuertos de Osorno y Valdivia se encuentran a una cómoda distancia, garantizando fácil acceso desde cualquier parte del país o del mundo.',
           
           buttonConfig: {
             type: 'link',
-            url: 'https://maps.google.com/?q=-40.326443,-72.402512',
-            buttonText: 'Ver mapa',
+            url: 'https://goo.gl/maps/gki6rf3MVxwWLwA37',
+            buttonText: 'Ver Mapa',
           },
         },
         {
-          image: pqfutangue ,
+          image: lagoranco ,
           videoUrl: "",
-          title: 'Entorno Turístico y Naturaleza',
+          title: 'Turismo y Naturaleza',
           subtitle: '',
-          description: '',
+          description: 'Rodeado de paisajes naturales y sin intervención humana, este lugar es un paraíso para los amantes de la pesca con mosca y de la vida al aire libre. La tranquilidad, la exclusividad y la conexión con la naturaleza hacen de este destino el refugio perfecto para quienes buscan calidad de vida y un entorno único en el sur de Chile.',
           
           buttonConfig: {
             type: 'popup',
@@ -135,8 +123,8 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'link',
-            url: 'https://wa.me/+56986815678?text=Necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20proyecto',
-            buttonText: 'Más información',
+            url: '',
+            buttonText: 'Obtener mas información',
           },
         },
        
@@ -145,7 +133,7 @@ const TemplateMiLanding = () => {
 
       carousel02: [
         {
-          image: masterplan ,
+          image: master ,
           videoUrl: "",
           title: 'MasterPlan',
           subtitle: '',
@@ -153,11 +141,10 @@ const TemplateMiLanding = () => {
           
           buttonConfig: {
             type: 'popup',
-            iframeUrl: '',
+            iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/AlbaAustral/EsteroMolgue/output/index.html',
             buttonText: 'Ver Proyecto',
           },
         },
-        
         
 
       ],
@@ -324,141 +311,6 @@ const TemplateMiLanding = () => {
           className: 'photoGallery',
         },
         {
-          image: img25,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img26,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img27,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img28,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img29,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img30,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img31,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img32,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img33,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img34,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img35,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img36,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img37,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img38,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img39,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img40,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },
-        {
-          image: img1,
-          videoUrl: "",
-          title: '',
-          subtitle: '',
-          description: '',
-          className: 'photoGallery',
-        },{
           image: img3,
           videoUrl: "",
           title: '',
@@ -467,6 +319,20 @@ const TemplateMiLanding = () => {
           className: 'photoGallery',
         },{
           image: img12,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          className: 'photoGallery',
+        },{
+          image: img25,
+          videoUrl: "",
+          title: '',
+          subtitle: '',
+          description: '',
+          className: 'photoGallery',
+        },{
+          image: img26,
           videoUrl: "",
           title: '',
           subtitle: '',
@@ -485,14 +351,14 @@ const TemplateMiLanding = () => {
   const opciones = [
     { id: 'inicio', texto: 'Inicio' },
     { id: 'carousel01', texto: 'Brochure' },
-    { id: 'carousel02', texto: 'MasterPlan' },
+    { id: 'carousel02', texto: 'MasterPlan 360' },
     { id: 'carousel03', texto: 'Galería' },
  
     
   ];
 
   useEffect(() => {
-    document.title = 'Altos de Ancao';
+    document.title = 'Estero Molgue';
     const favicon = document.querySelector('link[rel="icon"]');
     favicon.href = FavIcon;
 
