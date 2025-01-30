@@ -16,7 +16,7 @@ import ubica from './assets/ubicación.jpg';
 import img6 from './assets/img6.jpg';
 //port img7 from './assets/img7.jpg';
 import img8 from './assets/img8.jpg';
-import img9 from './assets/img9.jpg';
+//import img9 from './assets/img9.jpg';
 import portada from './assets/portada.jpg';
 import nueva1 from './assets/nueva1.jpg';
 import nueva2 from './assets/nueva2.jpg';
@@ -105,7 +105,7 @@ const TemplateMiLanding = () => {
           description: 'Estamos a 59 km del Aeropuerto de Temuco, 20 km de Villarrica y 49 km de Pucón. Valdivia está a 118 km y la Reserva Huilo Huilo a 117 km. Cerca, Ñancul (12 km) y Huiscapi (11 km) ofrecen servicios básicos. La Posta Manhue está a 1,5 km, y el Colegio Inglés Oxford School a 16 km.',
           buttonConfig: {
             type: 'link',
-            url: 'https://maps.app.goo.gl/KfSDRnxhvNQZF9A29?g_st=iwb',
+            url: 'https://maps.app.goo.gl/kR2d4gWTq7YbMVhd6',
             buttonText: 'Ver en el Mapa',
           },
         },
@@ -137,18 +137,7 @@ const TemplateMiLanding = () => {
           buttonText: 'Ver Master Plan',
         },
       },
-      { 
-        image: img9 , 
-        videoUrl: "",
-        title: 'Explora Nuestro Tour Virtual Interactivo',
-        subtitle: "Conoce la Ubicación Estratégica, las Ventajas de Inversión y la Belleza del Entorno Natural del Proyecto",
-        description: 'Descubre nuestro Tour Virtual interactivo y explora la ubicación estratégica del proyecto, así como su hermoso entorno natural y su gran plusvalía.',
-        buttonConfig: {
-          type: 'popup',
-          iframeUrl: 'https://parcelasvillarrica.cl/masterplan.html', //https://parcelasvillarricamasterplan-production.up.railway.app/
-          buttonText: 'Ver Master Plan',
-        },
-      },
+      
       
     ],
 
