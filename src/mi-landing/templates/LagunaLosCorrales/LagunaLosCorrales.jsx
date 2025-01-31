@@ -124,7 +124,7 @@ const TemplateMiLanding = () => {
 
       ],
 
-      carousel04: [
+      carousel03: [
         {
           image: img1 ,
           videoUrl: "",
