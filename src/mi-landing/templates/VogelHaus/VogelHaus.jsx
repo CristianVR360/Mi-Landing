@@ -102,7 +102,7 @@ const TemplateMiLanding = () => {
           videoUrl: "",
           title: 'Distancias a Puntos de Interés',
           subtitle: "",
-          description: 'Estamos a 59 km del Aeropuerto de Temuco, 20 km de Villarrica y 49 km de Pucón. Valdivia está a 118 km y la Reserva Huilo Huilo a 117 km. Cerca, Ñancul (12 km) y Huiscapi (11 km) ofrecen servicios básicos. La Posta Manhue está a 1,5 km, y el Colegio Inglés Oxford School a 16 km.',
+          description: 'Estamos a 40 km del Aeropuerto de Temuco, 20 km de Villarrica y 49 km de Pucón. Valdivia está a 118 km y la Reserva Huilo Huilo a 117 km. Cerca, Ñancul (12 km) y Huiscapi (11 km) ofrecen servicios básicos. La Posta Manhue está a 1,5 km, y el Colegio Inglés Oxford School a 16 km.',
           buttonConfig: {
             type: 'link',
             url: 'https://maps.app.goo.gl/kR2d4gWTq7YbMVhd6',
