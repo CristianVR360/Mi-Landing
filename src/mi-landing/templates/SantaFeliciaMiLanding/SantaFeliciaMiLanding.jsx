@@ -128,7 +128,7 @@ const TemplateMiLanding = () => {
         description: '',
         buttonConfig: {
           type: 'popup',
-          iframeUrl: 'https://astra360.s3.sa-east-1.amazonaws.com/MasterPlan/Santa-Felicia/output/index.html',
+          iframeUrl: 'https://parcelassantafelicia.cl/masterplan.html',
           buttonText: 'Ver Master Plan',
         },
       },
