@@ -54,6 +54,7 @@ const AltosDeAncao = lazy(()=> import ('./mi-landing/templates/AltosDeAncao/Alto
 const VistaVolcanes = lazy(()=> import ('./mi-landing/templates/VistaVolcanes/VistaVolcanes'));
 const EsteroMolgue = lazy(()=> import ('./mi-landing/templates/EsteroMolgue/EsteroMolgue'));
 const LagunaBonita = lazy(()=> import ('./mi-landing/templates/LagunaBonita/LagunaBonita'));
+const AguasDulces = lazy(()=> import ('./mi-landing/templates/AguasDulces/AguasDulces'));
 
 
 
@@ -122,6 +123,9 @@ const App = () => {
           <Route path="/VistaVolcanes" element={<VistaVolcanes/>}/>
           <Route path="/EsteroMolgue" element={<EsteroMolgue/>}/>
           <Route path="/LagunaBonita" element={<LagunaBonita/>}/>
+          <Route path="/AguasDulces" element={<AguasDulces/>}/>
+
+          
 
 
           
